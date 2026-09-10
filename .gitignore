@@ -1,0 +1,14 @@
+# Documents
+*.pdf
+*.docx
+*.doc
+
+# Office and temp files
+~$*
+~*
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
