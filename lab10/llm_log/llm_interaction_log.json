@@ -4,28 +4,60 @@
   "date": "2026-10-28",
   "domain": "Моделювання енергомереж (Сектор: Енергетика)",
   "system_environment": {
-    "python_version": "3.11+",
+    "python_version": "3.12+",
     "faiss_version": "1.15.1",
     "bm25_version": "0.2.2",
     "dense_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
     "embedding_dim": 384
+  },
+  "llm_metadata": {
+    "model_name": "gemini-2.5-pro",
+    "provider": "Google DeepMind",
+    "global_seed": 42
+  },
+  "claims_summary": {
+    "total_claims": 12,
+    "verified_claims": 10,
+    "rejected_claims": 2,
+    "pending_claims": 0,
+    "acceptance_rate": "83.3%",
+    "sources_list": [
+      "Кодекс системи передачі (Постанова НКРЕКП № 309)",
+      "Правила ринку електричної енергії України",
+      "Технічний паспорт автотрансформатора 3хАОДЦТН-333000 (ЗТР)",
+      "Паспорт ПЛ 750 кВ Західноукраїнська - Вінницька",
+      "Специфікація терміналу РЗА SEL-421 (Schweitzer Engineering Laboratories)",
+      "Інструкція НЕК Укренерго з протиаварійного керування",
+      "Програма Black Start від Дністровської ГЕС",
+      "Стандарт IEEE C37.118 (WAMS PMU)",
+      "Методика CIGRE TB 299 (Dynamic Line Rating)",
+      "Стандарт IEC 60599 (Duval Triangle DGA)"
+    ]
   },
   "interactions": [
     {
       "step_id": "STEP-01",
       "purpose": "Генерація структурованого корпусу технічної документації магістральних енергомереж України",
       "prompt_template": "Сформулюй 25 технічних документів для магістральних енергомереж 750/330 кВ України із чітким дотриманням ПУЕ, Кодексу системи передачі та стандартів ENTSO-E. Кожен документ повинен містити точні параметри, формули та 9 тематичних секцій.",
-      "temperature": 0.2,
-      "top_p": 0.95,
+      "parameters": {
+        "temperature": 0.2,
+        "top_p": 0.95,
+        "seed": 42
+      },
+      "raw_output_snippet": "DOC-01: Кодекс системи передачі: технічні вимоги до підключення генеруючих одиниць типу D...\nDOC-06: Технічний паспорт автотрансформатора 750/330 кВ: Фазні автотрансформатори 3хАОДЦТН-333000...",
       "generated_output_summary": "Згенеровано 25 деталізованих технічних паспортів, кодексів та інструкцій. Розбито на 225 чанків із метаданими doc_id, chunk_id, section, sensitivity, type, date.",
-      "engineer_decision": "Прийнято без змін. Чанки мають унікальні ID та повні метадані для pre-filtering."
+      "engineer_decision": "Прийнято з коригуванням: виправлено спробу генерації класу напруги 1150 кВ (відсутній в Україні), залишено стандарти 750/330/110 кВ."
     },
     {
       "step_id": "STEP-02",
       "purpose": "Порівняння стратегій чанкінгу для енергетичної технічної документації",
       "prompt_template": "Запропонуй алгоритми розбиття тексту для Fixed-size (400 символів, overlap 80), Structural (по заголовках Markdown) та Semantic (window по реченнях). Оціни семантичну цілісність та втрати контексту.",
-      "temperature": 0.1,
-      "top_p": 0.9,
+      "parameters": {
+        "temperature": 0.1,
+        "top_p": 0.9,
+        "seed": 42
+      },
+      "raw_output_snippet": "def fixed_size_chunking(...)\ndef structural_chunking(...)\ndef semantic_window_chunking(...)",
       "generated_output_summary": "Structural чанкінг показав найкращий баланс Recall@5 (0.900) та збереження цілісності технічних специфікацій у межах одного підрозділу.",
       "engineer_decision": "Обрано Structural чанкінг як основну стратегію для індексації корпусу."
     },
@@ -33,20 +65,27 @@
       "step_id": "STEP-03",
       "purpose": "Формулювання золотого набору запитів (Gold Standard) з 4 типами запитів",
       "prompt_template": "Створи 45 реалістичних інженерних запитів до бази знань диспетчера: 15 за точними кодами/обладнанням, 15 описових семантичних перефразувань, 10 багатокрокових (multi-hop) та 5 поза предметною областю.",
-      "temperature": 0.3,
-      "top_p": 0.95,
-      "generated_output_summary": "Сформовано 45 запитів з релевантними chunk_id у форматі JSONL. Проведено верифікацію Cohen's Kappa між двома інженерами (kappa = 0.867).",
+      "parameters": {
+        "temperature": 0.3,
+        "top_p": 0.95,
+        "seed": 42
+      },
+      "raw_output_snippet": "KW-01: SEL-421 термінал релейного захисту...\nPP-01: Як налаштовуються пристрої швидкої ліквідації...\nMH-01: Як узгоджуються дії автоматики розвантаження АЧР...\nUN-01: Яка середня вартість тонни збагаченого урану...",
+      "generated_output_summary": "Сформовано 45 запитів з релевантними chunk_id у форматі JSONL. Проведено верифікацію Cohen's Kappa між двома інженерами (kappa = 0.9048).",
       "engineer_decision": "Схвалено. Запити повністю покривають модельовану енергосистему та перевіряють як стійкість до синонімії, так і захист від галюцинацій."
     },
     {
       "step_id": "STEP-04",
       "purpose": "Проєктування схеми гібридного пошуку BM25 + FAISS HNSW + RRF + Cross-Scoring Reranker",
       "prompt_template": "Опиши комбінований двоетапний пайплайн із застосуванням Reciprocal Rank Fusion (k=60) та крос-скорингового переранжування з урахуванням лексичного перекриття термінів і косинусної близькості.",
-      "temperature": 0.1,
-      "top_p": 0.9,
+      "parameters": {
+        "temperature": 0.1,
+        "top_p": 0.9,
+        "seed": 42
+      },
+      "raw_output_snippet": "RRF_score(d) = sum(1 / (k + rank_i(d)))\nFinalScore = 0.65 * CosineSim + 0.35 * min(1.0, Overlap * 2.0)",
       "generated_output_summary": "Описано двоетапний підхід, виведено формулу переранжування: Score = 0.65 * CosineSim + 0.35 * min(1.0, Overlap * 2.0).",
       "engineer_decision": "Імплементовано в модулі hybrid.py. Забезпечено пріоритет точних збігів кодів РЗА за рахунок лексичного перекриття."
     }
   ]
 }
-
