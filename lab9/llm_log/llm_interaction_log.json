@@ -1,0 +1,44 @@
+[
+  {
+    "id": "log-001",
+    "timestamp": "2026-10-25T10:20:00Z",
+    "model": "Gemini 3.8 Flash (High)",
+    "parameters": {
+      "temperature": 0.2,
+      "seed": 42
+    },
+    "prompt_version": "v1.0-graph-schema-design",
+    "purpose": "Проєктування Property Graph схеми енергомережі під компетентнісні питання (CQ1-CQ8)",
+    "raw_prompt": "Запропонуй схему вузлів та зв'язків Neo4j для моделі енергомережі України (ОЕС) з урахуванням ПС 750 кВ, ліній, РЗА, вимикачів та подій.",
+    "raw_output": "Вузли: :PowerPlant, :Substation, :TransmissionLine, :Transformer, :CircuitBreaker, :RelayProtection, :SCADA_System, :ConsumerNode, :GridEvent, :Operator. Зв'язки: SUPPLIES_POWER_TO, CONNECTS_TO, CONTAINS_EQUIPMENT, PROTECTS, TRIPS_BREAKER, MONITORED_BY, FEEDS_CONSUMER, TRIGGERS_EVENT, MANAGED_BY. Властивості ребер: source, confidence, validFrom.",
+    "human_decision": "Прийнято повністю без змін: схема строго відповідає вимогам C1-C4 та специфікації предметної області."
+  },
+  {
+    "id": "log-002",
+    "timestamp": "2026-10-25T10:35:00Z",
+    "model": "Gemini 3.8 Flash (High)",
+    "parameters": {
+      "temperature": 0.1,
+      "seed": 105
+    },
+    "prompt_version": "v1.2-cypher-queries",
+    "purpose": "Формування аналітичних Cypher-запитів на аналіз впливу відмови ПС 750 кВ та каскадного розвитку аварії",
+    "raw_prompt": "Напиши два запити Cypher для аналізу впливу (Impact Analysis) глибиною від 3 хопів: перший для відмови підстанції, другий для ланцюга подій TRIGGERS_EVENT.",
+    "raw_output": "Q7: MATCH path = (root:Substation {id: 'SS_Zakhidna'})-[:CONNECTS_TO|FEEDS_CONSUMER*1..4]-(downstream) ... Q8: MATCH path = (origin:GridEvent {id: 'EV_ShortCircuit_Line750_ZK'})-[:TRIGGERS_EVENT*1..5]->(cascade:GridEvent) ...",
+    "human_decision": "Прийнято з додаванням фільтрації кореневого вузла downstream <> root та агрегації найкоротшої глибини ураження."
+  },
+  {
+    "id": "log-003",
+    "timestamp": "2026-10-25T11:00:00Z",
+    "model": "Gemini 3.8 Flash (High)",
+    "parameters": {
+      "temperature": 0.0,
+      "seed": 999
+    },
+    "prompt_version": "v2.0-text-to-cypher",
+    "purpose": "Трансляція природномовних запитань у безпечний Cypher з Read-Only захистом",
+    "raw_prompt": "Згенеруй Cypher для 10 інженерних питань зі схемою бази та валідатором заборони мутацій.",
+    "raw_output": "Згенеровано 10 валідних MATCH-запитів з обов'язковим LIMIT та відхиленням запитів із DELETE/CREATE.",
+    "human_decision": "Верифіковано на 12 тестових сценаріях, точність 100% на валідних питаннях, спроби мутацій успішно заблоковано."
+  }
+]

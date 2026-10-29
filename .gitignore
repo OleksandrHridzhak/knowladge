@@ -1,14 +1,20 @@
-# Documents
-*.pdf
-*.docx
-*.doc
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
 
-# Office and temp files
-~$*
-~*
+# C extensions
+*.so
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Temporary files
 *.tmp
-
-# OS files
 .DS_Store
 Thumbs.db
 desktop.ini

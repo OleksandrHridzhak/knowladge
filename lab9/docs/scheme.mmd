@@ -1,0 +1,25 @@
+graph TD
+    Operator[":Operator<br/>(НЕК Укренерго)"]
+    Plant[":PowerPlant<br/>(ГЕС, АЕС, ТЕС)"]
+    Substation[":Substation<br/>(750 кВ, 330 кВ, 110 кВ)"]
+    Line[":TransmissionLine<br/>(ПЛ, КЛ)"]
+    Transformer[":Transformer<br/>(АТ-1, АТ-2, Т)"]
+    Breaker[":CircuitBreaker<br/>(Q1, Q2, Q3)"]
+    Relay[":RelayProtection<br/>(SEL-421, ABB REL670)"]
+    SCADA[":SCADA_System<br/>(Центральна, Регіональна)"]
+    Consumer[":ConsumerNode<br/>(Львів, Київ, Промисловість)"]
+    Event[":GridEvent<br/>(КЗ, Перевантаження, Ризик)"]
+
+    Plant -->|SUPPLIES_POWER_TO| Substation
+    Line -->|CONNECTS_TO| Substation
+    Substation -->|CONTAINS_EQUIPMENT| Transformer
+    Substation -->|CONTAINS_EQUIPMENT| Breaker
+    Relay -->|PROTECTS| Line
+    Relay -->|PROTECTS| Transformer
+    Relay -->|TRIPS_BREAKER| Breaker
+    Substation -->|FEEDS_CONSUMER| Consumer
+    Event -->|TRIGGERS_EVENT| Event
+    Substation -->|MONITORED_BY| SCADA
+    Line -->|MONITORED_BY| SCADA
+    Plant -->|MANAGED_BY| Operator
+    Substation -->|MANAGED_BY| Operator
