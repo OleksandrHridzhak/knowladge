@@ -1,0 +1,72 @@
+erDiagram
+    dim_time ||--o{ fact_outage_balance : "time_key"
+    dim_grid_node ||--o{ fact_outage_balance : "node_key"
+    dim_equipment_taxonomy ||--o{ fact_outage_balance : "equipment_key"
+    dim_outage_cause ||--o{ fact_outage_balance : "cause_key"
+    dim_consumer_category ||--o{ fact_outage_balance : "consumer_key"
+
+    fact_outage_balance {
+        INTEGER incident_id PK
+        INTEGER time_key FK
+        INTEGER node_key FK
+        INTEGER equipment_key FK
+        INTEGER cause_key FK
+        INTEGER consumer_key FK
+        DOUBLE ens_unsupplied_mwh "Additive"
+        DOUBLE restoration_duration_min "Additive"
+        INTEGER affected_consumers_cnt "Additive"
+        DOUBLE compensation_cost_uah "Additive"
+        DOUBLE disconnected_load_mw "Semi-additive"
+        DOUBLE spinning_reserve_mw "Semi-additive"
+        DOUBLE voltage_deviation_pct "Non-additive"
+        DOUBLE frequency_nadir_hz "Non-additive"
+    }
+
+    dim_equipment_taxonomy {
+        INTEGER equipment_key PK
+        VARCHAR natural_code
+        VARCHAR apparatus_model
+        VARCHAR class_l1
+        VARCHAR subclass_l2
+        VARCHAR ontology_iri
+        DOUBLE rated_power_mva
+        DATE valid_from
+        DATE valid_to
+        BOOLEAN is_current
+    }
+
+    dim_grid_node {
+        INTEGER node_key PK
+        VARCHAR feeder_code
+        VARCHAR substation_name
+        VARCHAR oblast
+        VARCHAR region_cluster
+        INTEGER voltage_kv
+    }
+
+    dim_time {
+        INTEGER time_key PK
+        DATE full_date
+        INTEGER year
+        VARCHAR quarter
+        INTEGER month
+        VARCHAR season
+        VARCHAR peak_period
+    }
+
+    dim_outage_cause {
+        INTEGER cause_key PK
+        VARCHAR cause_code
+        VARCHAR cause_group
+        VARCHAR cause_detail
+        VARCHAR protection_stage
+    }
+
+    dim_consumer_category {
+        INTEGER consumer_key PK
+        VARCHAR tier_code
+        VARCHAR reliability_tier
+        VARCHAR sector_name
+        VARCHAR tariff_group
+        DOUBLE penalty_rate_uah_per_mwh
+    }

@@ -1,0 +1,78 @@
+erDiagram
+    dim_date ||--o{ fact_grid_telemetry : "date_key"
+    dim_taxonomy_equipment ||--o{ fact_grid_telemetry : "taxonomy_key"
+    dim_substation ||--o{ fact_grid_telemetry : "substation_key"
+    dim_event_type ||--o{ fact_grid_telemetry : "event_type_key"
+    dim_weather ||--o{ fact_grid_telemetry : "weather_key"
+
+    fact_grid_telemetry {
+        INTEGER telemetry_id PK
+        INTEGER date_key FK
+        INTEGER taxonomy_key FK
+        INTEGER substation_key FK
+        INTEGER event_type_key FK
+        INTEGER weather_key FK
+        DOUBLE energy_transmitted_mwh "Additive"
+        DOUBLE tech_losses_mwh "Additive"
+        DOUBLE outage_duration_min "Additive"
+        INTEGER protection_trips_count "Additive"
+        DOUBLE active_load_mw "Semi-additive"
+        DOUBLE available_reserve_mw "Semi-additive"
+        DOUBLE load_factor_pct "Non-additive"
+        DOUBLE voltage_level_kv "Non-additive"
+        DOUBLE risk_score "Non-additive"
+    }
+
+    dim_taxonomy_equipment {
+        INTEGER taxonomy_key PK
+        VARCHAR equipment_code
+        VARCHAR equipment_name
+        VARCHAR taxonomy_iri
+        VARCHAR parent_iri
+        VARCHAR class_level1_name
+        VARCHAR subclass_level2_name
+        DOUBLE nominal_voltage_kv
+        DOUBLE rated_capacity_mw
+        DATE effective_from
+        DATE effective_to
+        BOOLEAN is_current
+    }
+
+    dim_substation {
+        INTEGER substation_key PK
+        VARCHAR substation_code
+        VARCHAR substation_name
+        VARCHAR region_cluster
+        VARCHAR oblast
+        INTEGER voltage_class_kv
+        BOOLEAN n1_compliant
+    }
+
+    dim_date {
+        INTEGER date_key PK
+        DATE full_date
+        INTEGER year
+        VARCHAR quarter
+        INTEGER month
+        INTEGER hour
+        VARCHAR season
+        BOOLEAN is_peak_hour
+    }
+
+    dim_event_type {
+        INTEGER event_type_key PK
+        VARCHAR event_code
+        VARCHAR event_category
+        VARCHAR event_subclass
+        VARCHAR event_iri
+        INTEGER severity_level
+    }
+
+    dim_weather {
+        INTEGER weather_key PK
+        VARCHAR condition_code
+        VARCHAR condition_name
+        VARCHAR wind_speed_group
+        VARCHAR icing_risk_level
+        DOUBLE ambient_temp_c
+    }

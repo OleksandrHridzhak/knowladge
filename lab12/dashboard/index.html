@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>OLAP Аналітична панель ОЕС України (ЛР 12)</title>
+  <style>
+    body { font-family: 'Times New Roman', serif; margin: 24px; background: #f8fafc; color: #1e293b; }
+    h1 { margin-bottom: 4px; }
+    .subtitle { color: #475569; margin-bottom: 18px; }
+    .panel-img { max-width: 100%; border: 1px solid #cbd5e1; background: #fff; padding: 8px; }
+    .cards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin-top: 16px; }
+    .card { background: #fff; border: 1px solid #cbd5e1; padding: 12px; }
+  </style>
+</head>
+<body>
+  <h1>Аналітична панель OLAP-куба енергомережі на основі таксономії (ЛР 12)</h1>
+  <div class="subtitle">Студент: Гріджак Олександр (ФЕІ-43) | СУБД: DuckDB + Семантичний шар metrics.yml</div>
+  <img class="panel-img" src="analytics_panel.png" alt="OLAP Analytics Panel">
+  <div class="cards">
+    <div class="card"><b>Візуалізація 1 (Транзит і втрати):</b> Центральний (438.0 ГВт·год) та Дніпровський (262.5 ГВт·год) райони забезпечують основний обсяг передачі, а найвища питома частка втрат (2.60%) спостерігається у Південному районі.</div>
+    <div class="card"><b>Візуалізація 2 (Drill-down таксономії):</b> Найвищий питомий простій SAIDI припадає на силові трансформатори (PowerTransformer - 578.0 хв/об'єкт) та повітряні лінії (OverheadLine - 488.8 хв/об'єкт).</div>
+    <div class="card"><b>Візуалізація 3 (Віконне згладжування):</b> Тримісячне ковзне середнє MA(3) у Західному районі фіксує зимовий пік технологічних втрат у січні-лютому та грудні.</div>
+    <div class="card"><b>Візуалізація 4 (Матриця ризику N-1):</b> За критичного рівня ожеледі середній індекс ризику в аварійних режимах перетинає граничний поріг 0.75, досягаючи 0.86.</div>
+  </div>
+</body>
+</html>

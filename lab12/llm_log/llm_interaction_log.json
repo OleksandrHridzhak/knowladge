@@ -1,0 +1,50 @@
+[
+  {
+    "interaction_id": "LLM-LOG-12-01",
+    "timestamp": "2026-11-01T11:15:00+02:00",
+    "model": "Gemini 2.5 Pro",
+    "parameters": {
+      "temperature": 0.1,
+      "seed": 42,
+      "max_tokens": 1500
+    },
+    "prompt_version": "star_schema_v1",
+    "prompt_summary": "Запропонуй зіркову схему DuckDB для моніторингу телеметрії енергомереж із використанням таксономії обладнання з IRI та політикою SCD.",
+    "raw_output_summary": "Модель запропонувала таблицю фактів fact_grid_telemetry та 5 вимірів, проте використала природний код обладнання як PK та не розділила міри на адитивні й напівадитивні.",
+    "human_verification": "V2 (перевірка DDL та ключів у DuckDB)",
+    "human_decision": "modified_and_accepted",
+    "modification_notes": "Додано сурогатні ключі INTEGER, колонки SCD Type 2 (effective_from, effective_to, is_current), глобальні IRI з ЛР5/ЛР6 та явний поділ мір на адитивні, напівадитивні та неадитивні."
+  },
+  {
+    "interaction_id": "LLM-LOG-12-02",
+    "timestamp": "2026-11-01T11:45:00+02:00",
+    "model": "Gemini 2.5 Pro",
+    "parameters": {
+      "temperature": 0.0,
+      "seed": 42,
+      "max_tokens": 1800
+    },
+    "prompt_version": "olap_queries_v1",
+    "prompt_summary": "Сформулюй 8 OLAP-запитів у DuckDB (ROLLUP, CUBE, Slice, Dice, PIVOT, Window cumulative/rank, Taxonomy drill-down).",
+    "raw_output_summary": "Модель згенерувала чернетки 8 SQL-запитів із використанням GROUP BY ROLLUP, CUBE, PIVOT та віконних функцій.",
+    "human_verification": "V4 (виконання в DuckDB та незалежна звірка з pandas на Parquet-файлах)",
+    "human_decision": "accepted_after_verification",
+    "modification_notes": "Додано фільтр WHERE t.is_current = TRUE у запитах з таксономією та перевірено збіг результатів Q1 і Q8 із розрахунками pandas (розбіжність 0.000000)."
+  },
+  {
+    "interaction_id": "LLM-LOG-12-03",
+    "timestamp": "2026-11-01T12:20:00+02:00",
+    "model": "Gemini 2.5 Pro",
+    "parameters": {
+      "temperature": 0.0,
+      "seed": 42,
+      "max_tokens": 1200
+    },
+    "prompt_version": "t2sql_eval_v1",
+    "prompt_summary": "Згенеруй SQL-запити для 10 бізнес-питань диспетчера енергомережі без використання семантичного словника та з ним.",
+    "raw_output_summary": "Без семантичного словника модель припустилася 3 помилок: усереднила відсотки втрат через AVG(losses/energy), забула фільтр is_current = TRUE для SCD2 та згенерувала неіснуюче поле event_name.",
+    "human_verification": "V2 (AST sqlglot + EXPLAIN) та V4 (порівняння з еталонними запитами)",
+    "human_decision": "rejected_raw_accepted_semantic",
+    "modification_notes": "Помилкові сирі варіанти задокументовано в tests/t2sql.jsonl (T2SQL-08..10) як відхилені гіпотези CLM-06 та CLM-07; у промисловому конвеєрі застосовано канонічну підстановку з semantic/metrics.yml та AST-блокування ін'єкцій."
+  }
+]

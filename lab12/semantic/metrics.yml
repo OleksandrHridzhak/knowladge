@@ -1,0 +1,131 @@
+version: "1.0.0"
+domain: "Моделювання енергомереж (ОЕС України)"
+last_updated: "2026-11-01"
+
+dimension_joins:
+  region_cluster:
+    table: "dim_substation s"
+    join_on: "f.substation_key = s.substation_key"
+    column: "s.region_cluster"
+  voltage_class_kv:
+    table: "dim_substation s"
+    join_on: "f.substation_key = s.substation_key"
+    column: "s.voltage_class_kv"
+  substation_name:
+    table: "dim_substation s"
+    join_on: "f.substation_key = s.substation_key"
+    column: "s.substation_name"
+  class_level1_name:
+    table: "dim_taxonomy_equipment t"
+    join_on: "f.taxonomy_key = t.taxonomy_key AND t.is_current = TRUE"
+    column: "t.class_level1_name"
+  subclass_level2_name:
+    table: "dim_taxonomy_equipment t"
+    join_on: "f.taxonomy_key = t.taxonomy_key AND t.is_current = TRUE"
+    column: "t.subclass_level2_name"
+  season:
+    table: "dim_date d"
+    join_on: "f.date_key = d.date_key"
+    column: "d.season"
+  quarter:
+    table: "dim_date d"
+    join_on: "f.date_key = d.date_key"
+    column: "d.quarter"
+  event_category:
+    table: "dim_event_type e"
+    join_on: "f.event_type_key = e.event_type_key"
+    column: "e.event_category"
+  icing_risk_level:
+    table: "dim_weather w"
+    join_on: "f.weather_key = w.weather_key"
+    column: "w.icing_risk_level"
+
+metrics:
+  - name: "total_energy_mwh"
+    title: "Сумарний обсяг переданої електроенергії"
+    definition: "Загальний обсяг активної електроенергії, переданої через елементи магістральної мережі за розрахунковий період."
+    formula: "ROUND(SUM(f.energy_transmitted_mwh), 2)"
+    unit: "МВт·год"
+    additivity: "additive"
+    owner: "Центральна диспетчерська служба НЕК Укренерго (Аналітичний відділ)"
+    sources:
+      - "fact_grid_telemetry.energy_transmitted_mwh"
+      - "SCADA/EMS телеметрія лічильників АСКОЕ"
+    constraints: "Враховуються лише верифіковані погодинні інтервали з невід'ємним перетоком (energy_transmitted_mwh >= 0)."
+    allowed_dimensions: ["region_cluster", "voltage_class_kv", "class_level1_name", "subclass_level2_name", "season", "quarter"]
+    review_date: "2026-11-01"
+    status: "verified"
+
+  - name: "loss_rate_pct"
+    title: "Питомий коефіцієнт технологічних втрат"
+    definition: "Відношення сумарних технологічних втрат електроенергії в лініях і трансформаторах до сумарного обсягу переданої електроенергії у відсотках."
+    formula: "ROUND(SUM(f.tech_losses_mwh) * 100.0 / NULLIF(SUM(f.energy_transmitted_mwh), 0), 3)"
+    unit: "%"
+    additivity: "non-additive"
+    owner: "Служба режимів та балансів потужності (Група нормативних втрат)"
+    sources:
+      - "fact_grid_telemetry.tech_losses_mwh"
+      - "fact_grid_telemetry.energy_transmitted_mwh"
+    constraints: "Категорично заборонено обчислювати як AVG(tech_losses_mwh / energy_transmitted_mwh); використовується виключно відношення сум SUM(losses)/SUM(energy)."
+    allowed_dimensions: ["region_cluster", "voltage_class_kv", "class_level1_name", "subclass_level2_name", "season", "quarter"]
+    review_date: "2026-11-01"
+    status: "verified"
+
+  - name: "avg_load_factor_pct"
+    title: "Середній коефіцієнт завантаження обладнання"
+    definition: "Середнє відношення фактичного активного навантаження елемента мережі до його номінальної паспортної потужності."
+    formula: "ROUND(AVG(f.load_factor_pct), 2)"
+    unit: "%"
+    additivity: "non-additive"
+    owner: "Відділ експлуатації підстанцій та ліній 330-750 кВ"
+    sources:
+      - "fact_grid_telemetry.load_factor_pct"
+      - "dim_taxonomy_equipment.rated_capacity_mw"
+    constraints: "При агрегації за таксономією обов'язково застосовується фільтр актуальної версії SCD Type 2 (is_current = TRUE)."
+    allowed_dimensions: ["region_cluster", "substation_name", "class_level1_name", "subclass_level2_name", "season"]
+    review_date: "2026-11-01"
+    status: "verified"
+
+  - name: "protection_trip_frequency"
+    title: "Частота спрацювань релейного захисту (РЗА)"
+    definition: "Сумарна кількість селективних та аварійних спрацювань терміналів релейного захисту і вимикачів за обраний зріз."
+    formula: "SUM(f.protection_trips_count)"
+    unit: "спрацювань"
+    additivity: "additive"
+    owner: "Служба релейного захисту та протиаварійної автоматики (СРЗА)"
+    sources:
+      - "fact_grid_telemetry.protection_trips_count"
+      - "Журнал осцилограм IEC 61850 / SCADA"
+    constraints: "Включає як успішні цикли АПВ, так і остаточні вимкнення приєднань."
+    allowed_dimensions: ["region_cluster", "class_level1_name", "subclass_level2_name", "event_category", "icing_risk_level"]
+    review_date: "2026-11-01"
+    status: "verified"
+
+  - name: "saidi_outage_min_per_unit"
+    title: "Питома тривалість аварійного простою на одиницю обладнання"
+    definition: "Середня сумарна тривалість аварійного знеструмлення або виведення з роботи у хвилинах у розрахунку на одну унікальну одиницю обладнання."
+    formula: "ROUND(SUM(f.outage_duration_min) * 1.0 / NULLIF(COUNT(DISTINCT f.taxonomy_key), 0), 2)"
+    unit: "хв/об'єкт"
+    additivity: "non-additive"
+    owner: "Інспекція надійності та технологічного нагляду ОЕС"
+    sources:
+      - "fact_grid_telemetry.outage_duration_min"
+      - "dim_taxonomy_equipment.taxonomy_key"
+    constraints: "Знаменник обчислюється через COUNT(DISTINCT taxonomy_key) для уникнення викривлення через різну кількість спостережень."
+    allowed_dimensions: ["region_cluster", "class_level1_name", "subclass_level2_name", "event_category", "season"]
+    review_date: "2026-11-01"
+    status: "verified"
+
+  - name: "critical_risk_rate_pct"
+    title: "Частка критичних режимів за індексом каскадного ризику"
+    definition: "Відсоток погодинних інтервалів спостереження, у яких інтегральний індекс ризику каскадної аварії перевищує поріг 0.75."
+    formula: "ROUND(SUM(CASE WHEN f.risk_score >= 0.75 THEN 1 ELSE 0 END) * 100.0 / NULLIF(COUNT(*), 0), 2)"
+    unit: "%"
+    additivity: "non-additive"
+    owner: "Група аналізу стійкості енергосистеми та критерію N-1"
+    sources:
+      - "fact_grid_telemetry.risk_score"
+    constraints: "Поріг критичності фіксований на рівні risk_score >= 0.75 згідно з регламентом моніторингу N-1."
+    allowed_dimensions: ["region_cluster", "voltage_class_kv", "class_level1_name", "season", "icing_risk_level"]
+    review_date: "2026-11-01"
+    status: "verified"
