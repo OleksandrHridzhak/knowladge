@@ -7,3 +7,4 @@ WHERE {
   ?pathNode (grid:connectsTo|^grid:connectsTo)* grid:SS_750_ZAK .
 }
 LIMIT 10
+

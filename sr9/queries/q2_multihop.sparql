@@ -11,3 +11,4 @@ WHERE {
      grid:name ?substationName .
 }
 LIMIT 25
+

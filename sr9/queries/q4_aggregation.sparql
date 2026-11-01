@@ -9,3 +9,4 @@ WHERE {
 }
 GROUP BY ?genType
 ORDER BY DESC(?totalCapacityMW)
+

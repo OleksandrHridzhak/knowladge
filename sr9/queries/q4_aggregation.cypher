@@ -5,3 +5,4 @@ RETURN p.type AS GenerationType,
        sum(p.capacityMW) AS TotalCapacityMW,
        round(avg(p.capacityMW), 1) AS AvgCapacityMW
 ORDER BY TotalCapacityMW DESC;
+

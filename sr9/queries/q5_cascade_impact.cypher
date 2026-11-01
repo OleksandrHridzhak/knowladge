@@ -7,3 +7,4 @@ RETURN rp.name AS ProtectionRelay,
        collect(tl.name) AS DeEnergizedLines
 ORDER BY ss.name ASC
 LIMIT 10;
+

@@ -10,3 +10,4 @@ WHERE {
   FILTER (?voltage >= 330)
 }
 ORDER BY DESC(?voltage) ?substation
+

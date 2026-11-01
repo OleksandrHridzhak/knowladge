@@ -17,3 +17,4 @@ WHERE {
 }
 GROUP BY ?relayName ?breakerName ?substationName
 LIMIT 10
+
