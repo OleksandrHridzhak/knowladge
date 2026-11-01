@@ -108,4 +108,8 @@ python scripts/run_lab10.py --all
 ### 4.2. Верифікація роботи конвеєра в терміналі
 ![Виконання тестів у терміналі](docs/terminal_eval_proof.png)
 
+### 4.3. Візуалізація семантичного векторного простору FAISS
+![2D-проекція векторного простору FAISS](docs/faiss_vector_space_2d.png)
+
+
 
