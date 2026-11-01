@@ -1,0 +1,3755 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix grid: <http://energy.ua/grid#> .
+
+grid:PP_NUC_01 a grid:PowerPlant ;
+    grid:name "Рівненська АЕС" ;
+    grid:type "Nuclear" ;
+    grid:capacityMW "2835"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:PP_NUC_02 a grid:PowerPlant ;
+    grid:name "Хмельницька АЕС" ;
+    grid:type "Nuclear" ;
+    grid:capacityMW "2000"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:PP_NUC_03 a grid:PowerPlant ;
+    grid:name "Південноукраїнська АЕС" ;
+    grid:type "Nuclear" ;
+    grid:capacityMW "3000"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:PP_THE_01 a grid:PowerPlant ;
+    grid:name "Бурштинська ТЕС" ;
+    grid:type "Thermal" ;
+    grid:capacityMW "2400"^^xsd:integer ;
+    grid:voltageKV "400"^^xsd:integer .
+grid:PP_THE_02 a grid:PowerPlant ;
+    grid:name "Добротвірська ТЕС" ;
+    grid:type "Thermal" ;
+    grid:capacityMW "600"^^xsd:integer ;
+    grid:voltageKV "220"^^xsd:integer .
+grid:PP_THE_03 a grid:PowerPlant ;
+    grid:name "Трипільська ТЕС" ;
+    grid:type "Thermal" ;
+    grid:capacityMW "1800"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:PP_THE_04 a grid:PowerPlant ;
+    grid:name "Ладижинська ТЕС" ;
+    grid:type "Thermal" ;
+    grid:capacityMW "1800"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:PP_THE_05 a grid:PowerPlant ;
+    grid:name "Придніпровська ТЕС" ;
+    grid:type "Thermal" ;
+    grid:capacityMW "1765"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:PP_THE_06 a grid:PowerPlant ;
+    grid:name "Криворізька ТЕС" ;
+    grid:type "Thermal" ;
+    grid:capacityMW "2820"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:PP_HYD_01 a grid:PowerPlant ;
+    grid:name "Дніпровська ГЕС" ;
+    grid:type "Hydro" ;
+    grid:capacityMW "1569"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:PP_HYD_02 a grid:PowerPlant ;
+    grid:name "Дністровська ГАЕС" ;
+    grid:type "Hydro" ;
+    grid:capacityMW "1296"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:PP_HYD_03 a grid:PowerPlant ;
+    grid:name "Кременчуцька ГЕС" ;
+    grid:type "Hydro" ;
+    grid:capacityMW "700"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:PP_RES_13 a grid:PowerPlant ;
+    grid:name "ВЕС/СЕС Поділля 13" ;
+    grid:type "Solar" ;
+    grid:capacityMW "62"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:PP_RES_14 a grid:PowerPlant ;
+    grid:name "ВЕС/СЕС Поділля 14" ;
+    grid:type "Wind" ;
+    grid:capacityMW "164"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:PP_RES_15 a grid:PowerPlant ;
+    grid:name "ВЕС/СЕС Поділля 15" ;
+    grid:type "Solar" ;
+    grid:capacityMW "396"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:PP_RES_16 a grid:PowerPlant ;
+    grid:name "ВЕС/СЕС Поділля 16" ;
+    grid:type "Hydro" ;
+    grid:capacityMW "66"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:PP_RES_17 a grid:PowerPlant ;
+    grid:name "ВЕС/СЕС Поділля 17" ;
+    grid:type "Solar" ;
+    grid:capacityMW "161"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:PP_RES_18 a grid:PowerPlant ;
+    grid:name "ВЕС/СЕС Поділля 18" ;
+    grid:type "Solar" ;
+    grid:capacityMW "337"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:PP_RES_19 a grid:PowerPlant ;
+    grid:name "ВЕС/СЕС Поділля 19" ;
+    grid:type "Hydro" ;
+    grid:capacityMW "162"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:PP_RES_20 a grid:PowerPlant ;
+    grid:name "ВЕС/СЕС Поділля 20" ;
+    grid:type "Thermal" ;
+    grid:capacityMW "53"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:PP_RES_21 a grid:PowerPlant ;
+    grid:name "ВЕС/СЕС Поділля 21" ;
+    grid:type "Hydro" ;
+    grid:capacityMW "224"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:PP_RES_22 a grid:PowerPlant ;
+    grid:name "ВЕС/СЕС Поділля 22" ;
+    grid:type "Wind" ;
+    grid:capacityMW "160"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:PP_RES_23 a grid:PowerPlant ;
+    grid:name "ВЕС/СЕС Поділля 23" ;
+    grid:type "Solar" ;
+    grid:capacityMW "97"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:PP_RES_24 a grid:PowerPlant ;
+    grid:name "ВЕС/СЕС Поділля 24" ;
+    grid:type "Solar" ;
+    grid:capacityMW "233"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:PP_RES_25 a grid:PowerPlant ;
+    grid:name "ВЕС/СЕС Поділля 25" ;
+    grid:type "Thermal" ;
+    grid:capacityMW "72"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:PP_RES_26 a grid:PowerPlant ;
+    grid:name "ВЕС/СЕС Поділля 26" ;
+    grid:type "Solar" ;
+    grid:capacityMW "243"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:PP_RES_27 a grid:PowerPlant ;
+    grid:name "ВЕС/СЕС Поділля 27" ;
+    grid:type "Thermal" ;
+    grid:capacityMW "371"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:PP_RES_28 a grid:PowerPlant ;
+    grid:name "ВЕС/СЕС Поділля 28" ;
+    grid:type "Wind" ;
+    grid:capacityMW "85"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:PP_RES_29 a grid:PowerPlant ;
+    grid:name "ВЕС/СЕС Поділля 29" ;
+    grid:type "Wind" ;
+    grid:capacityMW "198"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:PP_RES_30 a grid:PowerPlant ;
+    grid:name "ВЕС/СЕС Поділля 30" ;
+    grid:type "Wind" ;
+    grid:capacityMW "101"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:SS_750_ZAK a grid:Substation ;
+    grid:name "ПС 750 кВ Західноукраїнська" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:SS_750_VIN a grid:Substation ;
+    grid:name "ПС 750 кВ Вінницька" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:SS_750_KYI a grid:Substation ;
+    grid:name "ПС 750 кВ Київська" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:SS_750_DNI a grid:Substation ;
+    grid:name "ПС 750 кВ Дніпровська" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:SS_750_ZAP a grid:Substation ;
+    grid:name "ПС 750 кВ Запорізька" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:SS_750_PIV a grid:Substation ;
+    grid:name "ПС 750 кВ Південнодонбаська" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:SS_330_RIV a grid:Substation ;
+    grid:name "ПС 330 кВ Рівне" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:SS_330_LVI a grid:Substation ;
+    grid:name "ПС 330 кВ Львів Західна" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:SS_330_IVA a grid:Substation ;
+    grid:name "ПС 330 кВ Івано-Франківськ" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:SS_330_TER a grid:Substation ;
+    grid:name "ПС 330 кВ Тернопільська" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:SS_330_KHM a grid:Substation ;
+    grid:name "ПС 330 кВ Хмельницька" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:SS_330_ZHY a grid:Substation ;
+    grid:name "ПС 330 кВ Житомирська" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:SS_330_CHE a grid:Substation ;
+    grid:name "ПС 330 кВ Чернівецька" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:SS_330_BRO a grid:Substation ;
+    grid:name "ПС 330 кВ Бровари" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:SS_330_KRI a grid:Substation ;
+    grid:name "ПС 330 кВ Кривий Ріг" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:SS_110_016 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 16" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_330_017 a grid:Substation ;
+    grid:name "ПС 330 кВ Вузлова 17" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:SS_110_018 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 18" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_019 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 19" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_020 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 20" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_021 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 21" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_022 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 22" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_023 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 23" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_024 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 24" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_025 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 25" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_026 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 26" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_027 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 27" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_330_028 a grid:Substation ;
+    grid:name "ПС 330 кВ Вузлова 28" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:SS_330_029 a grid:Substation ;
+    grid:name "ПС 330 кВ Вузлова 29" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:SS_110_030 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 30" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_031 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 31" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_032 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 32" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_033 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 33" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_034 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 34" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_035 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 35" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_036 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 36" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_330_037 a grid:Substation ;
+    grid:name "ПС 330 кВ Вузлова 37" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:SS_110_038 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 38" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_039 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 39" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_040 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 40" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_041 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 41" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_042 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 42" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_330_043 a grid:Substation ;
+    grid:name "ПС 330 кВ Вузлова 43" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:SS_330_044 a grid:Substation ;
+    grid:name "ПС 330 кВ Вузлова 44" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:SS_330_045 a grid:Substation ;
+    grid:name "ПС 330 кВ Вузлова 45" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:SS_110_046 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 46" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_047 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 47" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_048 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 48" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_049 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 49" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_050 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 50" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_330_051 a grid:Substation ;
+    grid:name "ПС 330 кВ Вузлова 51" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:SS_330_052 a grid:Substation ;
+    grid:name "ПС 330 кВ Вузлова 52" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:SS_110_053 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 53" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_054 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 54" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_055 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 55" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_330_056 a grid:Substation ;
+    grid:name "ПС 330 кВ Вузлова 56" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:SS_110_057 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 57" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_058 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 58" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_059 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 59" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_060 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 60" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_061 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 61" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_330_062 a grid:Substation ;
+    grid:name "ПС 330 кВ Вузлова 62" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:SS_110_063 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 63" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_330_064 a grid:Substation ;
+    grid:name "ПС 330 кВ Вузлова 64" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:SS_330_065 a grid:Substation ;
+    grid:name "ПС 330 кВ Вузлова 65" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:SS_330_066 a grid:Substation ;
+    grid:name "ПС 330 кВ Вузлова 66" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:SS_110_067 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 67" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_068 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 68" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_069 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 69" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_070 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 70" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_071 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 71" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_072 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 72" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_073 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 73" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_330_074 a grid:Substation ;
+    grid:name "ПС 330 кВ Вузлова 74" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:SS_110_075 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 75" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_330_076 a grid:Substation ;
+    grid:name "ПС 330 кВ Вузлова 76" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:SS_110_077 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 77" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_078 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 78" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_079 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 79" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_080 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 80" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_081 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 81" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_082 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 82" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_083 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 83" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_084 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 84" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_085 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 85" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_086 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 86" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_087 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 87" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_330_088 a grid:Substation ;
+    grid:name "ПС 330 кВ Вузлова 88" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:SS_110_089 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 89" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_090 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 90" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_091 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 91" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_092 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 92" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_093 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 93" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_094 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 94" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_095 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 95" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_096 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 96" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_097 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 97" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_330_098 a grid:Substation ;
+    grid:name "ПС 330 кВ Вузлова 98" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:SS_110_099 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 99" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_100 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 100" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_101 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 101" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_330_102 a grid:Substation ;
+    grid:name "ПС 330 кВ Вузлова 102" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:SS_110_103 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 103" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_104 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 104" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_330_105 a grid:Substation ;
+    grid:name "ПС 330 кВ Вузлова 105" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:SS_110_106 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 106" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_107 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 107" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_108 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 108" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_330_109 a grid:Substation ;
+    grid:name "ПС 330 кВ Вузлова 109" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:SS_110_110 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 110" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_330_111 a grid:Substation ;
+    grid:name "ПС 330 кВ Вузлова 111" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:SS_330_112 a grid:Substation ;
+    grid:name "ПС 330 кВ Вузлова 112" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:SS_110_113 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 113" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_114 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 114" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_115 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 115" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_116 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 116" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_117 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 117" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_118 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 118" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_119 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 119" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:SS_110_120 a grid:Substation ;
+    grid:name "ПС 110 кВ Вузлова 120" ;
+    grid:type "Substation" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_750_001 a grid:TransmissionLine ;
+    grid:name "ПЛ 750 кВ Магістраль 1" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:TL_750_002 a grid:TransmissionLine ;
+    grid:name "ПЛ 750 кВ Магістраль 2" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:TL_750_003 a grid:TransmissionLine ;
+    grid:name "ПЛ 750 кВ Магістраль 3" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:TL_750_004 a grid:TransmissionLine ;
+    grid:name "ПЛ 750 кВ Магістраль 4" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:TL_750_005 a grid:TransmissionLine ;
+    grid:name "ПЛ 750 кВ Магістраль 5" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:TL_750_006 a grid:TransmissionLine ;
+    grid:name "ПЛ 750 кВ Магістраль 6" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:TL_750_007 a grid:TransmissionLine ;
+    grid:name "ПЛ 750 кВ Магістраль 7" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:TL_750_008 a grid:TransmissionLine ;
+    grid:name "ПЛ 750 кВ Магістраль 8" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:TL_750_009 a grid:TransmissionLine ;
+    grid:name "ПЛ 750 кВ Магістраль 9" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:TL_750_010 a grid:TransmissionLine ;
+    grid:name "ПЛ 750 кВ Магістраль 10" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:TL_750_011 a grid:TransmissionLine ;
+    grid:name "ПЛ 750 кВ Магістраль 11" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:TL_750_012 a grid:TransmissionLine ;
+    grid:name "ПЛ 750 кВ Магістраль 12" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:TL_750_013 a grid:TransmissionLine ;
+    grid:name "ПЛ 750 кВ Магістраль 13" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:TL_750_014 a grid:TransmissionLine ;
+    grid:name "ПЛ 750 кВ Магістраль 14" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:TL_750_015 a grid:TransmissionLine ;
+    grid:name "ПЛ 750 кВ Магістраль 15" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:TL_330_016 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 16" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_017 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 17" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_018 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 18" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_019 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 19" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_020 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 20" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_021 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 21" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_022 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 22" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_023 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 23" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_024 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 24" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_025 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 25" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_026 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 26" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_027 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 27" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_028 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 28" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_029 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 29" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_030 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 30" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_031 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 31" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_032 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 32" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_033 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 33" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_034 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 34" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_035 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 35" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_036 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 36" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_037 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 37" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_038 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 38" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_039 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 39" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_040 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 40" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_041 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 41" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_042 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 42" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_043 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 43" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_044 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 44" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_045 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 45" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_046 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 46" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_047 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 47" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_048 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 48" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_049 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 49" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_050 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 50" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_051 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 51" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_052 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 52" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_053 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 53" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_054 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 54" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_055 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 55" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_056 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 56" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_057 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 57" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_058 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 58" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_059 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 59" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_060 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 60" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_061 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 61" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_062 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 62" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_063 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 63" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_064 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 64" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_065 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 65" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_066 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 66" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_067 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 67" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_068 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 68" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_069 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 69" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_330_070 a grid:TransmissionLine ;
+    grid:name "ПЛ 330 кВ Магістраль 70" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TL_110_071 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 71" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_072 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 72" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_073 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 73" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_074 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 74" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_075 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 75" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_076 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 76" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_077 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 77" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_078 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 78" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_079 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 79" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_080 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 80" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_081 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 81" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_082 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 82" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_083 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 83" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_084 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 84" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_085 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 85" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_086 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 86" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_087 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 87" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_088 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 88" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_089 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 89" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_090 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 90" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_091 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 91" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_092 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 92" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_093 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 93" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_094 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 94" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_095 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 95" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_096 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 96" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_097 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 97" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_098 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 98" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_099 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 99" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_100 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 100" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_101 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 101" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_102 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 102" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_103 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 103" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_104 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 104" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_105 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 105" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_106 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 106" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_107 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 107" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_108 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 108" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_109 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 109" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_110 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 110" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_111 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 111" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_112 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 112" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_113 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 113" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_114 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 114" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_115 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 115" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_116 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 116" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_117 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 117" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_118 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 118" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_119 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 119" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_120 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 120" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_121 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 121" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_122 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 122" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_123 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 123" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_124 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 124" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_125 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 125" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_126 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 126" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_127 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 127" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_128 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 128" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_129 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 129" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_130 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 130" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_131 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 131" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_132 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 132" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_133 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 133" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_134 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 134" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_135 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 135" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_136 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 136" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_137 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 137" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_138 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 138" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_139 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 139" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TL_110_140 a grid:TransmissionLine ;
+    grid:name "ПЛ 110 кВ Магістраль 140" ;
+    grid:type "OverheadLine" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TR_750_001 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-1 (750 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:TR_750_002 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-2 (750 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:TR_750_003 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-3 (750 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:TR_750_004 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-4 (750 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:TR_750_005 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-5 (750 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:TR_750_006 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-6 (750 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:TR_750_007 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-7 (750 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:TR_750_008 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-8 (750 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:TR_750_009 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-9 (750 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:TR_750_010 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-10 (750 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:TR_750_011 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-11 (750 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:TR_750_012 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-12 (750 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:TR_750_013 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-13 (750 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:TR_750_014 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-14 (750 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:TR_750_015 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-15 (750 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:TR_330_016 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-16 (330 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TR_330_017 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-17 (330 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TR_330_018 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-18 (330 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TR_330_019 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-19 (330 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TR_330_020 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-20 (330 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TR_330_021 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-21 (330 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TR_330_022 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-22 (330 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TR_330_023 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-23 (330 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TR_330_024 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-24 (330 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TR_330_025 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-25 (330 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TR_330_026 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-26 (330 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TR_330_027 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-27 (330 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TR_330_028 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-28 (330 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TR_330_029 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-29 (330 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TR_330_030 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-30 (330 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TR_330_031 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-31 (330 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TR_330_032 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-32 (330 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TR_330_033 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-33 (330 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TR_330_034 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-34 (330 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TR_330_035 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-35 (330 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TR_330_036 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-36 (330 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TR_330_037 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-37 (330 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TR_330_038 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-38 (330 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TR_330_039 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-39 (330 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TR_330_040 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-40 (330 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TR_330_041 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-41 (330 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TR_330_042 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-42 (330 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TR_330_043 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-43 (330 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TR_330_044 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-44 (330 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TR_330_045 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-45 (330 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TR_330_046 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-46 (330 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TR_330_047 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-47 (330 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TR_330_048 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-48 (330 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TR_330_049 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-49 (330 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TR_330_050 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-50 (330 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:TR_110_051 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-51 (110 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TR_110_052 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-52 (110 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TR_110_053 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-53 (110 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TR_110_054 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-54 (110 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TR_110_055 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-55 (110 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TR_110_056 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-56 (110 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TR_110_057 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-57 (110 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TR_110_058 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-58 (110 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TR_110_059 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-59 (110 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TR_110_060 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-60 (110 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TR_110_061 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-61 (110 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TR_110_062 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-62 (110 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TR_110_063 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-63 (110 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TR_110_064 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-64 (110 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TR_110_065 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-65 (110 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TR_110_066 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-66 (110 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TR_110_067 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-67 (110 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TR_110_068 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-68 (110 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TR_110_069 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-69 (110 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TR_110_070 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-70 (110 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TR_110_071 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-71 (110 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TR_110_072 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-72 (110 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TR_110_073 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-73 (110 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TR_110_074 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-74 (110 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TR_110_075 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-75 (110 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TR_110_076 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-76 (110 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TR_110_077 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-77 (110 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TR_110_078 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-78 (110 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TR_110_079 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-79 (110 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:TR_110_080 a grid:Transformer ;
+    grid:name "Автотрансформатор АТ-80 (110 кВ)" ;
+    grid:type "Autotransformer" ;
+    grid:capacityMW "250"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:CB_750_001 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-1 (750 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:CB_750_002 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-2 (750 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:CB_750_003 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-3 (750 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:CB_750_004 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-4 (750 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:CB_750_005 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-5 (750 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:CB_750_006 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-6 (750 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:CB_750_007 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-7 (750 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:CB_750_008 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-8 (750 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:CB_750_009 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-9 (750 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:CB_750_010 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-10 (750 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:CB_750_011 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-11 (750 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:CB_750_012 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-12 (750 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:CB_750_013 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-13 (750 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:CB_750_014 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-14 (750 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:CB_750_015 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-15 (750 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "750"^^xsd:integer .
+grid:CB_330_016 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-16 (330 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:CB_330_017 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-17 (330 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:CB_330_018 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-18 (330 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:CB_330_019 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-19 (330 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:CB_330_020 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-20 (330 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:CB_330_021 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-21 (330 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:CB_330_022 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-22 (330 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:CB_330_023 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-23 (330 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:CB_330_024 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-24 (330 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:CB_330_025 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-25 (330 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:CB_330_026 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-26 (330 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:CB_330_027 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-27 (330 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:CB_330_028 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-28 (330 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:CB_330_029 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-29 (330 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:CB_330_030 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-30 (330 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:CB_330_031 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-31 (330 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:CB_330_032 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-32 (330 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:CB_330_033 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-33 (330 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:CB_330_034 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-34 (330 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:CB_330_035 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-35 (330 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:CB_330_036 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-36 (330 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:CB_330_037 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-37 (330 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:CB_330_038 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-38 (330 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:CB_330_039 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-39 (330 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:CB_330_040 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-40 (330 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:CB_330_041 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-41 (330 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:CB_330_042 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-42 (330 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:CB_330_043 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-43 (330 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:CB_330_044 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-44 (330 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:CB_330_045 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-45 (330 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:CB_330_046 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-46 (330 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:CB_330_047 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-47 (330 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:CB_330_048 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-48 (330 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:CB_330_049 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-49 (330 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:CB_330_050 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-50 (330 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:CB_330_051 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-51 (330 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:CB_330_052 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-52 (330 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:CB_330_053 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-53 (330 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:CB_330_054 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-54 (330 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:CB_330_055 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-55 (330 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "330"^^xsd:integer .
+grid:CB_110_056 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-56 (110 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:CB_110_057 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-57 (110 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:CB_110_058 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-58 (110 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:CB_110_059 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-59 (110 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:CB_110_060 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-60 (110 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:CB_110_061 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-61 (110 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:CB_110_062 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-62 (110 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:CB_110_063 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-63 (110 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:CB_110_064 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-64 (110 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:CB_110_065 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-65 (110 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:CB_110_066 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-66 (110 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:CB_110_067 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-67 (110 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:CB_110_068 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-68 (110 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:CB_110_069 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-69 (110 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:CB_110_070 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-70 (110 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:CB_110_071 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-71 (110 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:CB_110_072 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-72 (110 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:CB_110_073 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-73 (110 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:CB_110_074 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-74 (110 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:CB_110_075 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-75 (110 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:CB_110_076 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-76 (110 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:CB_110_077 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-77 (110 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:CB_110_078 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-78 (110 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:CB_110_079 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-79 (110 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:CB_110_080 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-80 (110 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:CB_110_081 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-81 (110 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:CB_110_082 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-82 (110 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:CB_110_083 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-83 (110 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:CB_110_084 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-84 (110 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:CB_110_085 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-85 (110 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:CB_110_086 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-86 (110 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:CB_110_087 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-87 (110 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:CB_110_088 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-88 (110 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:CB_110_089 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-89 (110 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:CB_110_090 a grid:CircuitBreaker ;
+    grid:name "Елегазовий вимикач В-90 (110 кВ)" ;
+    grid:type "SF6_Breaker" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "110"^^xsd:integer .
+grid:RP_PROT_001 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-1" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_002 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-2" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_003 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-3" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_004 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-4" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_005 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-5" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_006 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-6" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_007 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-7" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_008 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-8" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_009 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-9" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_010 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-10" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_011 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-11" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_012 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-12" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_013 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-13" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_014 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-14" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_015 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-15" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_016 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-16" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_017 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-17" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_018 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-18" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_019 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-19" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_020 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-20" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_021 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-21" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_022 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-22" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_023 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-23" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_024 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-24" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_025 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-25" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_026 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-26" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_027 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-27" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_028 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-28" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_029 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-29" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_030 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-30" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_031 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-31" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_032 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-32" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_033 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-33" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_034 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-34" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_035 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-35" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_036 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-36" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_037 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-37" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_038 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-38" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_039 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-39" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_040 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-40" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_041 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-41" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_042 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-42" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_043 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-43" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_044 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-44" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_045 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-45" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_046 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-46" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_047 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-47" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_048 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-48" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_049 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-49" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_050 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-50" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_051 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-51" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_052 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-52" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_053 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-53" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_054 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-54" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_055 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-55" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_056 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-56" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_057 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-57" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_058 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-58" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_059 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-59" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:RP_PROT_060 a grid:RelayProtection ;
+    grid:name "Мікропроцесорний захист РЗА-60" ;
+    grid:type "DistanceRelay" ;
+    grid:capacityMW "0"^^xsd:integer ;
+    grid:voltageKV "0"^^xsd:integer .
+grid:PP_NUC_01 grid:suppliesPowerTo grid:SS_750_ZAK .
+grid:PP_NUC_02 grid:suppliesPowerTo grid:SS_750_KYI .
+grid:PP_NUC_03 grid:suppliesPowerTo grid:SS_110_023 .
+grid:PP_THE_01 grid:suppliesPowerTo grid:SS_110_021 .
+grid:PP_THE_02 grid:suppliesPowerTo grid:SS_750_VIN .
+grid:PP_THE_03 grid:suppliesPowerTo grid:SS_330_LVI .
+grid:PP_THE_04 grid:suppliesPowerTo grid:SS_750_KYI .
+grid:PP_THE_05 grid:suppliesPowerTo grid:SS_750_VIN .
+grid:PP_THE_06 grid:suppliesPowerTo grid:SS_330_KHM .
+grid:PP_HYD_01 grid:suppliesPowerTo grid:SS_750_KYI .
+grid:PP_HYD_02 grid:suppliesPowerTo grid:SS_330_017 .
+grid:PP_HYD_03 grid:suppliesPowerTo grid:SS_330_LVI .
+grid:PP_RES_13 grid:suppliesPowerTo grid:SS_330_IVA .
+grid:PP_RES_14 grid:suppliesPowerTo grid:SS_110_022 .
+grid:PP_RES_15 grid:suppliesPowerTo grid:SS_110_016 .
+grid:PP_RES_16 grid:suppliesPowerTo grid:SS_330_RIV .
+grid:PP_RES_17 grid:suppliesPowerTo grid:SS_110_018 .
+grid:PP_RES_18 grid:suppliesPowerTo grid:SS_750_ZAP .
+grid:PP_RES_19 grid:suppliesPowerTo grid:SS_110_024 .
+grid:PP_RES_20 grid:suppliesPowerTo grid:SS_110_019 .
+grid:PP_RES_21 grid:suppliesPowerTo grid:SS_110_019 .
+grid:PP_RES_22 grid:suppliesPowerTo grid:SS_110_016 .
+grid:PP_RES_23 grid:suppliesPowerTo grid:SS_330_LVI .
+grid:PP_RES_24 grid:suppliesPowerTo grid:SS_110_016 .
+grid:PP_RES_25 grid:suppliesPowerTo grid:SS_330_BRO .
+grid:PP_RES_26 grid:suppliesPowerTo grid:SS_330_RIV .
+grid:PP_RES_27 grid:suppliesPowerTo grid:SS_750_DNI .
+grid:PP_RES_28 grid:suppliesPowerTo grid:SS_750_DNI .
+grid:PP_RES_29 grid:suppliesPowerTo grid:SS_110_022 .
+grid:PP_RES_30 grid:suppliesPowerTo grid:SS_330_BRO .
+grid:PP_HYD_03 grid:suppliesPowerTo grid:SS_110_055 .
+grid:PP_RES_14 grid:suppliesPowerTo grid:SS_110_060 .
+grid:PP_RES_28 grid:suppliesPowerTo grid:SS_110_094 .
+grid:PP_NUC_02 grid:suppliesPowerTo grid:SS_110_087 .
+grid:PP_RES_21 grid:suppliesPowerTo grid:SS_110_083 .
+grid:PP_THE_01 grid:suppliesPowerTo grid:SS_330_LVI .
+grid:PP_RES_13 grid:suppliesPowerTo grid:SS_110_094 .
+grid:PP_HYD_02 grid:suppliesPowerTo grid:SS_110_103 .
+grid:PP_RES_28 grid:suppliesPowerTo grid:SS_330_BRO .
+grid:PP_THE_05 grid:suppliesPowerTo grid:SS_110_025 .
+grid:PP_THE_04 grid:suppliesPowerTo grid:SS_110_069 .
+grid:PP_RES_15 grid:suppliesPowerTo grid:SS_110_018 .
+grid:PP_RES_14 grid:suppliesPowerTo grid:SS_110_024 .
+grid:PP_THE_06 grid:suppliesPowerTo grid:SS_110_060 .
+grid:PP_THE_05 grid:suppliesPowerTo grid:SS_330_112 .
+grid:PP_RES_30 grid:suppliesPowerTo grid:SS_330_TER .
+grid:PP_RES_15 grid:suppliesPowerTo grid:SS_110_104 .
+grid:PP_RES_28 grid:suppliesPowerTo grid:SS_110_110 .
+grid:PP_RES_18 grid:suppliesPowerTo grid:SS_330_CHE .
+grid:PP_NUC_02 grid:suppliesPowerTo grid:SS_110_084 .
+grid:PP_RES_18 grid:suppliesPowerTo grid:SS_110_108 .
+grid:PP_NUC_01 grid:suppliesPowerTo grid:SS_330_ZHY .
+grid:PP_RES_30 grid:suppliesPowerTo grid:SS_110_097 .
+grid:PP_RES_28 grid:suppliesPowerTo grid:SS_110_031 .
+grid:PP_THE_03 grid:suppliesPowerTo grid:SS_110_053 .
+grid:PP_RES_16 grid:suppliesPowerTo grid:SS_330_062 .
+grid:PP_THE_04 grid:suppliesPowerTo grid:SS_330_111 .
+grid:PP_RES_13 grid:suppliesPowerTo grid:SS_110_116 .
+grid:PP_NUC_02 grid:suppliesPowerTo grid:SS_110_022 .
+grid:PP_RES_13 grid:suppliesPowerTo grid:SS_750_ZAK .
+grid:PP_RES_13 grid:suppliesPowerTo grid:SS_110_034 .
+grid:PP_RES_30 grid:suppliesPowerTo grid:SS_110_101 .
+grid:PP_RES_26 grid:suppliesPowerTo grid:SS_110_059 .
+grid:PP_HYD_01 grid:suppliesPowerTo grid:SS_110_055 .
+grid:PP_RES_23 grid:suppliesPowerTo grid:SS_110_094 .
+grid:PP_RES_26 grid:suppliesPowerTo grid:SS_110_072 .
+grid:PP_RES_22 grid:suppliesPowerTo grid:SS_110_092 .
+grid:PP_RES_16 grid:suppliesPowerTo grid:SS_110_020 .
+grid:PP_THE_04 grid:suppliesPowerTo grid:SS_110_038 .
+grid:PP_THE_04 grid:suppliesPowerTo grid:SS_330_LVI .
+grid:PP_RES_19 grid:suppliesPowerTo grid:SS_110_095 .
+grid:PP_RES_18 grid:suppliesPowerTo grid:SS_330_LVI .
+grid:PP_RES_24 grid:suppliesPowerTo grid:SS_110_041 .
+grid:PP_NUC_02 grid:suppliesPowerTo grid:SS_330_RIV .
+grid:PP_RES_19 grid:suppliesPowerTo grid:SS_330_062 .
+grid:PP_RES_17 grid:suppliesPowerTo grid:SS_110_118 .
+grid:PP_RES_28 grid:suppliesPowerTo grid:SS_110_068 .
+grid:PP_THE_03 grid:suppliesPowerTo grid:SS_330_LVI .
+grid:PP_RES_17 grid:suppliesPowerTo grid:SS_330_KHM .
+grid:PP_RES_28 grid:suppliesPowerTo grid:SS_110_024 .
+grid:PP_NUC_03 grid:suppliesPowerTo grid:SS_110_077 .
+grid:PP_NUC_03 grid:suppliesPowerTo grid:SS_110_087 .
+grid:PP_RES_28 grid:suppliesPowerTo grid:SS_110_031 .
+grid:PP_RES_13 grid:suppliesPowerTo grid:SS_110_016 .
+grid:PP_RES_29 grid:suppliesPowerTo grid:SS_110_073 .
+grid:PP_THE_05 grid:suppliesPowerTo grid:SS_110_075 .
+grid:PP_RES_20 grid:suppliesPowerTo grid:SS_750_PIV .
+grid:PP_RES_20 grid:suppliesPowerTo grid:SS_330_KHM .
+grid:PP_RES_14 grid:suppliesPowerTo grid:SS_110_085 .
+grid:PP_RES_19 grid:suppliesPowerTo grid:SS_110_073 .
+grid:PP_RES_17 grid:suppliesPowerTo grid:SS_110_041 .
+grid:PP_RES_30 grid:suppliesPowerTo grid:SS_110_034 .
+grid:PP_THE_04 grid:suppliesPowerTo grid:SS_110_086 .
+grid:PP_RES_23 grid:suppliesPowerTo grid:SS_110_041 .
+grid:PP_THE_05 grid:suppliesPowerTo grid:SS_110_034 .
+grid:PP_RES_13 grid:suppliesPowerTo grid:SS_330_017 .
+grid:PP_RES_22 grid:suppliesPowerTo grid:SS_110_083 .
+grid:PP_HYD_01 grid:suppliesPowerTo grid:SS_110_059 .
+grid:PP_HYD_02 grid:suppliesPowerTo grid:SS_110_119 .
+grid:PP_RES_25 grid:suppliesPowerTo grid:SS_110_120 .
+grid:PP_NUC_03 grid:suppliesPowerTo grid:SS_750_VIN .
+grid:PP_RES_15 grid:suppliesPowerTo grid:SS_110_080 .
+grid:PP_RES_19 grid:suppliesPowerTo grid:SS_330_CHE .
+grid:PP_NUC_03 grid:suppliesPowerTo grid:SS_110_069 .
+grid:PP_THE_04 grid:suppliesPowerTo grid:SS_330_065 .
+grid:PP_THE_06 grid:suppliesPowerTo grid:SS_330_017 .
+grid:PP_RES_30 grid:suppliesPowerTo grid:SS_330_045 .
+grid:PP_RES_29 grid:suppliesPowerTo grid:SS_330_IVA .
+grid:PP_RES_29 grid:suppliesPowerTo grid:SS_110_032 .
+grid:PP_HYD_03 grid:suppliesPowerTo grid:SS_330_037 .
+grid:PP_THE_03 grid:suppliesPowerTo grid:SS_110_057 .
+grid:PP_RES_27 grid:suppliesPowerTo grid:SS_110_070 .
+grid:PP_RES_23 grid:suppliesPowerTo grid:SS_110_039 .
+grid:PP_RES_20 grid:suppliesPowerTo grid:SS_110_104 .
+grid:PP_RES_21 grid:suppliesPowerTo grid:SS_110_068 .
+grid:PP_NUC_01 grid:suppliesPowerTo grid:SS_110_086 .
+grid:PP_RES_27 grid:suppliesPowerTo grid:SS_110_071 .
+grid:PP_HYD_01 grid:suppliesPowerTo grid:SS_110_120 .
+grid:PP_RES_22 grid:suppliesPowerTo grid:SS_330_BRO .
+grid:PP_RES_29 grid:suppliesPowerTo grid:SS_110_018 .
+grid:PP_THE_06 grid:suppliesPowerTo grid:SS_330_KRI .
+grid:PP_RES_29 grid:suppliesPowerTo grid:SS_330_BRO .
+grid:PP_RES_24 grid:suppliesPowerTo grid:SS_110_071 .
+grid:PP_THE_02 grid:suppliesPowerTo grid:SS_110_035 .
+grid:PP_HYD_01 grid:suppliesPowerTo grid:SS_110_078 .
+grid:PP_THE_04 grid:suppliesPowerTo grid:SS_110_092 .
+grid:PP_HYD_02 grid:suppliesPowerTo grid:SS_110_027 .
+grid:PP_RES_22 grid:suppliesPowerTo grid:SS_110_082 .
+grid:PP_RES_28 grid:suppliesPowerTo grid:SS_110_034 .
+grid:PP_RES_17 grid:suppliesPowerTo grid:SS_110_063 .
+grid:PP_THE_06 grid:suppliesPowerTo grid:SS_110_116 .
+grid:PP_RES_30 grid:suppliesPowerTo grid:SS_330_109 .
+grid:PP_NUC_02 grid:suppliesPowerTo grid:SS_330_ZHY .
+grid:PP_RES_21 grid:suppliesPowerTo grid:SS_110_055 .
+grid:PP_RES_27 grid:suppliesPowerTo grid:SS_110_036 .
+grid:PP_NUC_02 grid:suppliesPowerTo grid:SS_750_ZAK .
+grid:PP_HYD_02 grid:suppliesPowerTo grid:SS_110_099 .
+grid:PP_THE_02 grid:suppliesPowerTo grid:SS_110_082 .
+grid:PP_THE_06 grid:suppliesPowerTo grid:SS_110_021 .
+grid:PP_RES_24 grid:suppliesPowerTo grid:SS_110_057 .
+grid:PP_RES_18 grid:suppliesPowerTo grid:SS_110_091 .
+grid:PP_RES_14 grid:suppliesPowerTo grid:SS_110_072 .
+grid:PP_NUC_01 grid:suppliesPowerTo grid:SS_330_KRI .
+grid:PP_NUC_03 grid:suppliesPowerTo grid:SS_110_114 .
+grid:PP_RES_23 grid:suppliesPowerTo grid:SS_110_116 .
+grid:PP_THE_02 grid:suppliesPowerTo grid:SS_110_070 .
+grid:PP_NUC_02 grid:suppliesPowerTo grid:SS_110_107 .
+grid:PP_HYD_03 grid:suppliesPowerTo grid:SS_110_075 .
+grid:PP_RES_18 grid:suppliesPowerTo grid:SS_110_019 .
+grid:PP_RES_14 grid:suppliesPowerTo grid:SS_330_017 .
+grid:PP_NUC_02 grid:suppliesPowerTo grid:SS_110_040 .
+grid:PP_HYD_03 grid:suppliesPowerTo grid:SS_110_116 .
+grid:PP_RES_30 grid:suppliesPowerTo grid:SS_330_102 .
+grid:PP_RES_28 grid:suppliesPowerTo grid:SS_750_PIV .
+grid:PP_RES_29 grid:suppliesPowerTo grid:SS_110_046 .
+grid:PP_THE_04 grid:suppliesPowerTo grid:SS_330_088 .
+grid:PP_THE_05 grid:suppliesPowerTo grid:SS_110_086 .
+grid:PP_THE_01 grid:suppliesPowerTo grid:SS_110_046 .
+grid:PP_RES_25 grid:suppliesPowerTo grid:SS_110_072 .
+grid:PP_RES_29 grid:suppliesPowerTo grid:SS_330_112 .
+grid:PP_RES_14 grid:suppliesPowerTo grid:SS_110_080 .
+grid:PP_RES_24 grid:suppliesPowerTo grid:SS_110_020 .
+grid:PP_RES_30 grid:suppliesPowerTo grid:SS_110_120 .
+grid:PP_THE_05 grid:suppliesPowerTo grid:SS_330_111 .
+grid:PP_THE_03 grid:suppliesPowerTo grid:SS_110_103 .
+grid:PP_RES_26 grid:suppliesPowerTo grid:SS_110_023 .
+grid:PP_RES_29 grid:suppliesPowerTo grid:SS_110_053 .
+grid:PP_NUC_01 grid:suppliesPowerTo grid:SS_110_023 .
+grid:PP_RES_24 grid:suppliesPowerTo grid:SS_110_119 .
+grid:PP_HYD_02 grid:suppliesPowerTo grid:SS_110_101 .
+grid:PP_RES_30 grid:suppliesPowerTo grid:SS_110_053 .
+grid:PP_RES_26 grid:suppliesPowerTo grid:SS_110_086 .
+grid:PP_RES_28 grid:suppliesPowerTo grid:SS_110_095 .
+grid:PP_RES_26 grid:suppliesPowerTo grid:SS_110_032 .
+grid:PP_THE_06 grid:suppliesPowerTo grid:SS_110_021 .
+grid:PP_RES_26 grid:suppliesPowerTo grid:SS_110_090 .
+grid:PP_THE_01 grid:suppliesPowerTo grid:SS_110_049 .
+grid:PP_RES_28 grid:suppliesPowerTo grid:SS_750_ZAP .
+grid:PP_RES_28 grid:suppliesPowerTo grid:SS_110_061 .
+grid:PP_THE_05 grid:suppliesPowerTo grid:SS_110_026 .
+grid:SS_330_105 grid:connectsTo grid:TL_750_001 .
+grid:TL_750_001 grid:connectsTo grid:SS_110_118 .
+grid:SS_110_059 grid:connectsTo grid:TL_750_002 .
+grid:TL_750_002 grid:connectsTo grid:SS_330_045 .
+grid:SS_110_040 grid:connectsTo grid:TL_750_003 .
+grid:TL_750_003 grid:connectsTo grid:SS_110_106 .
+grid:SS_330_102 grid:connectsTo grid:TL_750_004 .
+grid:TL_750_004 grid:connectsTo grid:SS_330_112 .
+grid:SS_110_030 grid:connectsTo grid:TL_750_005 .
+grid:TL_750_005 grid:connectsTo grid:SS_330_029 .
+grid:SS_750_DNI grid:connectsTo grid:TL_750_006 .
+grid:TL_750_006 grid:connectsTo grid:SS_110_085 .
+grid:SS_110_025 grid:connectsTo grid:TL_750_007 .
+grid:TL_750_007 grid:connectsTo grid:SS_330_052 .
+grid:SS_330_043 grid:connectsTo grid:TL_750_008 .
+grid:TL_750_008 grid:connectsTo grid:SS_110_036 .
+grid:SS_330_111 grid:connectsTo grid:TL_750_009 .
+grid:TL_750_009 grid:connectsTo grid:SS_330_IVA .
+grid:SS_110_099 grid:connectsTo grid:TL_750_010 .
+grid:TL_750_010 grid:connectsTo grid:SS_110_036 .
+grid:SS_330_045 grid:connectsTo grid:TL_750_011 .
+grid:TL_750_011 grid:connectsTo grid:SS_110_083 .
+grid:SS_330_066 grid:connectsTo grid:TL_750_012 .
+grid:TL_750_012 grid:connectsTo grid:SS_330_052 .
+grid:SS_110_087 grid:connectsTo grid:TL_750_013 .
+grid:TL_750_013 grid:connectsTo grid:SS_110_108 .
+grid:SS_110_069 grid:connectsTo grid:TL_750_014 .
+grid:TL_750_014 grid:connectsTo grid:SS_330_043 .
+grid:SS_750_DNI grid:connectsTo grid:TL_750_015 .
+grid:TL_750_015 grid:connectsTo grid:SS_330_KRI .
+grid:SS_110_113 grid:connectsTo grid:TL_330_016 .
+grid:TL_330_016 grid:connectsTo grid:SS_110_034 .
+grid:SS_110_023 grid:connectsTo grid:TL_330_017 .
+grid:TL_330_017 grid:connectsTo grid:SS_110_075 .
+grid:SS_110_034 grid:connectsTo grid:TL_330_018 .
+grid:TL_330_018 grid:connectsTo grid:SS_750_ZAP .
+grid:SS_330_BRO grid:connectsTo grid:TL_330_019 .
+grid:TL_330_019 grid:connectsTo grid:SS_110_077 .
+grid:SS_330_056 grid:connectsTo grid:TL_330_020 .
+grid:TL_330_020 grid:connectsTo grid:SS_330_045 .
+grid:SS_110_094 grid:connectsTo grid:TL_330_021 .
+grid:TL_330_021 grid:connectsTo grid:SS_110_101 .
+grid:SS_110_041 grid:connectsTo grid:TL_330_022 .
+grid:TL_330_022 grid:connectsTo grid:SS_330_056 .
+grid:SS_110_078 grid:connectsTo grid:TL_330_023 .
+grid:TL_330_023 grid:connectsTo grid:SS_330_066 .
+grid:SS_330_KRI grid:connectsTo grid:TL_330_024 .
+grid:TL_330_024 grid:connectsTo grid:SS_110_050 .
+grid:SS_110_116 grid:connectsTo grid:TL_330_025 .
+grid:TL_330_025 grid:connectsTo grid:SS_330_074 .
+grid:SS_110_025 grid:connectsTo grid:TL_330_026 .
+grid:TL_330_026 grid:connectsTo grid:SS_110_033 .
+grid:SS_750_PIV grid:connectsTo grid:TL_330_027 .
+grid:TL_330_027 grid:connectsTo grid:SS_110_091 .
+grid:SS_330_056 grid:connectsTo grid:TL_330_028 .
+grid:TL_330_028 grid:connectsTo grid:SS_750_ZAK .
+grid:SS_110_067 grid:connectsTo grid:TL_330_029 .
+grid:TL_330_029 grid:connectsTo grid:SS_110_119 .
+grid:SS_110_104 grid:connectsTo grid:TL_330_030 .
+grid:TL_330_030 grid:connectsTo grid:SS_110_069 .
+grid:SS_330_088 grid:connectsTo grid:TL_330_031 .
+grid:TL_330_031 grid:connectsTo grid:SS_110_093 .
+grid:SS_110_095 grid:connectsTo grid:TL_330_032 .
+grid:TL_330_032 grid:connectsTo grid:SS_110_086 .
+grid:SS_110_026 grid:connectsTo grid:TL_330_033 .
+grid:TL_330_033 grid:connectsTo grid:SS_110_047 .
+grid:SS_330_056 grid:connectsTo grid:TL_330_034 .
+grid:TL_330_034 grid:connectsTo grid:SS_330_IVA .
+grid:SS_110_086 grid:connectsTo grid:TL_330_035 .
+grid:TL_330_035 grid:connectsTo grid:SS_110_118 .
+grid:SS_330_043 grid:connectsTo grid:TL_330_036 .
+grid:TL_330_036 grid:connectsTo grid:SS_110_080 .
+grid:SS_110_041 grid:connectsTo grid:TL_330_037 .
+grid:TL_330_037 grid:connectsTo grid:SS_110_085 .
+grid:SS_330_109 grid:connectsTo grid:TL_330_038 .
+grid:TL_330_038 grid:connectsTo grid:SS_110_016 .
+grid:SS_110_093 grid:connectsTo grid:TL_330_039 .
+grid:TL_330_039 grid:connectsTo grid:SS_110_116 .
+grid:SS_110_039 grid:connectsTo grid:TL_330_040 .
+grid:TL_330_040 grid:connectsTo grid:SS_330_065 .
+grid:SS_110_040 grid:connectsTo grid:TL_330_041 .
+grid:TL_330_041 grid:connectsTo grid:SS_110_086 .
+grid:SS_110_053 grid:connectsTo grid:TL_330_042 .
+grid:TL_330_042 grid:connectsTo grid:SS_110_042 .
+grid:SS_330_052 grid:connectsTo grid:TL_330_043 .
+grid:TL_330_043 grid:connectsTo grid:SS_110_090 .
+grid:SS_110_038 grid:connectsTo grid:TL_330_044 .
+grid:TL_330_044 grid:connectsTo grid:SS_110_071 .
+grid:SS_330_017 grid:connectsTo grid:TL_330_045 .
+grid:TL_330_045 grid:connectsTo grid:SS_110_025 .
+grid:SS_110_054 grid:connectsTo grid:TL_330_046 .
+grid:TL_330_046 grid:connectsTo grid:SS_110_086 .
+grid:SS_110_049 grid:connectsTo grid:TL_330_047 .
+grid:TL_330_047 grid:connectsTo grid:SS_110_087 .
+grid:SS_110_096 grid:connectsTo grid:TL_330_048 .
+grid:TL_330_048 grid:connectsTo grid:SS_110_116 .
+grid:SS_110_023 grid:connectsTo grid:TL_330_049 .
+grid:TL_330_049 grid:connectsTo grid:SS_110_079 .
+grid:SS_110_073 grid:connectsTo grid:TL_330_050 .
+grid:TL_330_050 grid:connectsTo grid:SS_110_039 .
+grid:SS_330_052 grid:connectsTo grid:TL_330_051 .
+grid:TL_330_051 grid:connectsTo grid:SS_110_071 .
+grid:SS_110_107 grid:connectsTo grid:TL_330_052 .
+grid:TL_330_052 grid:connectsTo grid:SS_750_ZAK .
+grid:SS_110_039 grid:connectsTo grid:TL_330_053 .
+grid:TL_330_053 grid:connectsTo grid:SS_330_037 .
+grid:SS_110_027 grid:connectsTo grid:TL_330_054 .
+grid:TL_330_054 grid:connectsTo grid:SS_330_056 .
+grid:SS_110_101 grid:connectsTo grid:TL_330_055 .
+grid:TL_330_055 grid:connectsTo grid:SS_110_075 .
+grid:SS_110_078 grid:connectsTo grid:TL_330_056 .
+grid:TL_330_056 grid:connectsTo grid:SS_110_084 .
+grid:SS_110_042 grid:connectsTo grid:TL_330_057 .
+grid:TL_330_057 grid:connectsTo grid:SS_110_060 .
+grid:SS_110_057 grid:connectsTo grid:TL_330_058 .
+grid:TL_330_058 grid:connectsTo grid:SS_110_087 .
+grid:SS_330_028 grid:connectsTo grid:TL_330_059 .
+grid:TL_330_059 grid:connectsTo grid:SS_330_066 .
+grid:SS_110_061 grid:connectsTo grid:TL_330_060 .
+grid:TL_330_060 grid:connectsTo grid:SS_330_102 .
+grid:SS_110_116 grid:connectsTo grid:TL_330_061 .
+grid:TL_330_061 grid:connectsTo grid:SS_330_102 .
+grid:SS_110_095 grid:connectsTo grid:TL_330_062 .
+grid:TL_330_062 grid:connectsTo grid:SS_110_022 .
+grid:SS_110_085 grid:connectsTo grid:TL_330_063 .
+grid:TL_330_063 grid:connectsTo grid:SS_330_KHM .
+grid:SS_330_037 grid:connectsTo grid:TL_330_064 .
+grid:TL_330_064 grid:connectsTo grid:SS_330_066 .
+grid:SS_110_085 grid:connectsTo grid:TL_330_065 .
+grid:TL_330_065 grid:connectsTo grid:SS_110_082 .
+grid:SS_110_080 grid:connectsTo grid:TL_330_066 .
+grid:TL_330_066 grid:connectsTo grid:SS_330_043 .
+grid:SS_330_ZHY grid:connectsTo grid:TL_330_067 .
+grid:TL_330_067 grid:connectsTo grid:SS_330_105 .
+grid:SS_110_097 grid:connectsTo grid:TL_330_068 .
+grid:TL_330_068 grid:connectsTo grid:SS_110_031 .
+grid:SS_110_087 grid:connectsTo grid:TL_330_069 .
+grid:TL_330_069 grid:connectsTo grid:SS_110_040 .
+grid:SS_330_029 grid:connectsTo grid:TL_330_070 .
+grid:TL_330_070 grid:connectsTo grid:SS_110_104 .
+grid:SS_110_026 grid:connectsTo grid:TL_110_071 .
+grid:TL_110_071 grid:connectsTo grid:SS_110_019 .
+grid:SS_750_DNI grid:connectsTo grid:TL_110_072 .
+grid:TL_110_072 grid:connectsTo grid:SS_750_PIV .
+grid:SS_110_032 grid:connectsTo grid:TL_110_073 .
+grid:TL_110_073 grid:connectsTo grid:SS_110_061 .
+grid:SS_110_079 grid:connectsTo grid:TL_110_074 .
+grid:TL_110_074 grid:connectsTo grid:SS_330_109 .
+grid:SS_110_099 grid:connectsTo grid:TL_110_075 .
+grid:TL_110_075 grid:connectsTo grid:SS_330_TER .
+grid:SS_110_059 grid:connectsTo grid:TL_110_076 .
+grid:TL_110_076 grid:connectsTo grid:SS_110_054 .
+grid:SS_110_114 grid:connectsTo grid:TL_110_077 .
+grid:TL_110_077 grid:connectsTo grid:SS_110_081 .
+grid:SS_330_074 grid:connectsTo grid:TL_110_078 .
+grid:TL_110_078 grid:connectsTo grid:SS_110_025 .
+grid:SS_110_092 grid:connectsTo grid:TL_110_079 .
+grid:TL_110_079 grid:connectsTo grid:SS_110_090 .
+grid:SS_110_050 grid:connectsTo grid:TL_110_080 .
+grid:TL_110_080 grid:connectsTo grid:SS_330_064 .
+grid:SS_330_052 grid:connectsTo grid:TL_110_081 .
+grid:TL_110_081 grid:connectsTo grid:SS_110_032 .
+grid:SS_110_019 grid:connectsTo grid:TL_110_082 .
+grid:TL_110_082 grid:connectsTo grid:SS_110_084 .
+grid:SS_110_089 grid:connectsTo grid:TL_110_083 .
+grid:TL_110_083 grid:connectsTo grid:SS_750_ZAK .
+grid:SS_110_115 grid:connectsTo grid:TL_110_084 .
+grid:TL_110_084 grid:connectsTo grid:SS_110_097 .
+grid:SS_330_111 grid:connectsTo grid:TL_110_085 .
+grid:TL_110_085 grid:connectsTo grid:SS_110_099 .
+grid:SS_110_114 grid:connectsTo grid:TL_110_086 .
+grid:TL_110_086 grid:connectsTo grid:SS_330_BRO .
+grid:SS_110_100 grid:connectsTo grid:TL_110_087 .
+grid:TL_110_087 grid:connectsTo grid:SS_110_055 .
+grid:SS_330_029 grid:connectsTo grid:TL_110_088 .
+grid:TL_110_088 grid:connectsTo grid:SS_110_023 .
+grid:SS_110_103 grid:connectsTo grid:TL_110_089 .
+grid:TL_110_089 grid:connectsTo grid:SS_110_090 .
+grid:SS_110_067 grid:connectsTo grid:TL_110_090 .
+grid:TL_110_090 grid:connectsTo grid:SS_110_060 .
+grid:SS_330_RIV grid:connectsTo grid:TL_110_091 .
+grid:TL_110_091 grid:connectsTo grid:SS_110_072 .
+grid:SS_110_032 grid:connectsTo grid:TL_110_092 .
+grid:TL_110_092 grid:connectsTo grid:SS_110_118 .
+grid:SS_330_109 grid:connectsTo grid:TL_110_093 .
+grid:TL_110_093 grid:connectsTo grid:SS_110_016 .
+grid:SS_110_059 grid:connectsTo grid:TL_110_094 .
+grid:TL_110_094 grid:connectsTo grid:SS_110_018 .
+grid:SS_110_103 grid:connectsTo grid:TL_110_095 .
+grid:TL_110_095 grid:connectsTo grid:SS_110_060 .
+grid:SS_110_086 grid:connectsTo grid:TL_110_096 .
+grid:TL_110_096 grid:connectsTo grid:SS_110_068 .
+grid:SS_110_072 grid:connectsTo grid:TL_110_097 .
+grid:TL_110_097 grid:connectsTo grid:SS_110_077 .
+grid:SS_110_041 grid:connectsTo grid:TL_110_098 .
+grid:TL_110_098 grid:connectsTo grid:SS_110_097 .
+grid:SS_110_115 grid:connectsTo grid:TL_110_099 .
+grid:TL_110_099 grid:connectsTo grid:SS_110_057 .
+grid:SS_110_079 grid:connectsTo grid:TL_110_100 .
+grid:TL_110_100 grid:connectsTo grid:SS_330_105 .
+grid:SS_110_093 grid:connectsTo grid:TL_110_101 .
+grid:TL_110_101 grid:connectsTo grid:SS_110_115 .
+grid:SS_330_065 grid:connectsTo grid:TL_110_102 .
+grid:TL_110_102 grid:connectsTo grid:SS_110_055 .
+grid:SS_110_107 grid:connectsTo grid:TL_110_103 .
+grid:TL_110_103 grid:connectsTo grid:SS_110_117 .
+grid:SS_110_071 grid:connectsTo grid:TL_110_104 .
+grid:TL_110_104 grid:connectsTo grid:SS_110_058 .
+grid:SS_110_115 grid:connectsTo grid:TL_110_105 .
+grid:TL_110_105 grid:connectsTo grid:SS_110_021 .
+grid:SS_110_096 grid:connectsTo grid:TL_110_106 .
+grid:TL_110_106 grid:connectsTo grid:SS_330_111 .
+grid:SS_110_061 grid:connectsTo grid:TL_110_107 .
+grid:TL_110_107 grid:connectsTo grid:SS_110_058 .
+grid:SS_110_034 grid:connectsTo grid:TL_110_108 .
+grid:TL_110_108 grid:connectsTo grid:SS_110_097 .
+grid:SS_110_032 grid:connectsTo grid:TL_110_109 .
+grid:TL_110_109 grid:connectsTo grid:SS_110_108 .
+grid:SS_110_082 grid:connectsTo grid:TL_110_110 .
+grid:TL_110_110 grid:connectsTo grid:SS_110_036 .
+grid:SS_110_099 grid:connectsTo grid:TL_110_111 .
+grid:TL_110_111 grid:connectsTo grid:SS_110_100 .
+grid:SS_110_067 grid:connectsTo grid:TL_110_112 .
+grid:TL_110_112 grid:connectsTo grid:SS_110_063 .
+grid:SS_110_081 grid:connectsTo grid:TL_110_113 .
+grid:TL_110_113 grid:connectsTo grid:SS_110_031 .
+grid:SS_110_036 grid:connectsTo grid:TL_110_114 .
+grid:TL_110_114 grid:connectsTo grid:SS_110_057 .
+grid:SS_330_TER grid:connectsTo grid:TL_110_115 .
+grid:TL_110_115 grid:connectsTo grid:SS_110_092 .
+grid:SS_330_037 grid:connectsTo grid:TL_110_116 .
+grid:TL_110_116 grid:connectsTo grid:SS_110_031 .
+grid:SS_110_035 grid:connectsTo grid:TL_110_117 .
+grid:TL_110_117 grid:connectsTo grid:SS_330_043 .
+grid:SS_110_041 grid:connectsTo grid:TL_110_118 .
+grid:TL_110_118 grid:connectsTo grid:SS_110_115 .
+grid:SS_110_070 grid:connectsTo grid:TL_110_119 .
+grid:TL_110_119 grid:connectsTo grid:SS_330_KHM .
+grid:SS_110_018 grid:connectsTo grid:TL_110_120 .
+grid:TL_110_120 grid:connectsTo grid:SS_110_020 .
+grid:SS_110_030 grid:connectsTo grid:TL_110_121 .
+grid:TL_110_121 grid:connectsTo grid:SS_110_050 .
+grid:SS_110_089 grid:connectsTo grid:TL_110_122 .
+grid:TL_110_122 grid:connectsTo grid:SS_110_020 .
+grid:SS_110_091 grid:connectsTo grid:TL_110_123 .
+grid:TL_110_123 grid:connectsTo grid:SS_330_028 .
+grid:SS_330_IVA grid:connectsTo grid:TL_110_124 .
+grid:TL_110_124 grid:connectsTo grid:SS_110_054 .
+grid:SS_110_053 grid:connectsTo grid:TL_110_125 .
+grid:TL_110_125 grid:connectsTo grid:SS_330_043 .
+grid:SS_110_070 grid:connectsTo grid:TL_110_126 .
+grid:TL_110_126 grid:connectsTo grid:SS_110_060 .
+grid:SS_110_054 grid:connectsTo grid:TL_110_127 .
+grid:TL_110_127 grid:connectsTo grid:SS_330_LVI .
+grid:SS_110_027 grid:connectsTo grid:TL_110_128 .
+grid:TL_110_128 grid:connectsTo grid:SS_110_107 .
+grid:SS_110_054 grid:connectsTo grid:TL_110_129 .
+grid:TL_110_129 grid:connectsTo grid:SS_110_050 .
+grid:SS_110_116 grid:connectsTo grid:TL_110_130 .
+grid:TL_110_130 grid:connectsTo grid:SS_110_099 .
+grid:SS_110_075 grid:connectsTo grid:TL_110_131 .
+grid:TL_110_131 grid:connectsTo grid:SS_110_090 .
+grid:SS_750_KYI grid:connectsTo grid:TL_110_132 .
+grid:TL_110_132 grid:connectsTo grid:SS_110_110 .
+grid:SS_110_113 grid:connectsTo grid:TL_110_133 .
+grid:TL_110_133 grid:connectsTo grid:SS_330_098 .
+grid:SS_330_074 grid:connectsTo grid:TL_110_134 .
+grid:TL_110_134 grid:connectsTo grid:SS_110_049 .
+grid:SS_330_062 grid:connectsTo grid:TL_110_135 .
+grid:TL_110_135 grid:connectsTo grid:SS_750_ZAK .
+grid:SS_110_046 grid:connectsTo grid:TL_110_136 .
+grid:TL_110_136 grid:connectsTo grid:SS_110_039 .
+grid:SS_110_097 grid:connectsTo grid:TL_110_137 .
+grid:TL_110_137 grid:connectsTo grid:SS_110_050 .
+grid:SS_110_110 grid:connectsTo grid:TL_110_138 .
+grid:TL_110_138 grid:connectsTo grid:SS_110_115 .
+grid:SS_110_107 grid:connectsTo grid:TL_110_139 .
+grid:TL_110_139 grid:connectsTo grid:SS_110_054 .
+grid:SS_110_069 grid:connectsTo grid:TL_110_140 .
+grid:TL_110_140 grid:connectsTo grid:SS_110_096 .
+grid:SS_110_048 grid:containsEquipment grid:TR_750_001 .
+grid:SS_110_035 grid:containsEquipment grid:TR_750_002 .
+grid:SS_110_039 grid:containsEquipment grid:TR_750_003 .
+grid:SS_330_KRI grid:containsEquipment grid:TR_750_004 .
+grid:SS_110_032 grid:containsEquipment grid:TR_750_005 .
+grid:SS_330_KRI grid:containsEquipment grid:TR_750_006 .
+grid:SS_110_018 grid:containsEquipment grid:TR_750_007 .
+grid:SS_330_028 grid:containsEquipment grid:TR_750_008 .
+grid:SS_110_032 grid:containsEquipment grid:TR_750_009 .
+grid:SS_750_VIN grid:containsEquipment grid:TR_750_010 .
+grid:SS_110_025 grid:containsEquipment grid:TR_750_011 .
+grid:SS_110_022 grid:containsEquipment grid:TR_750_012 .
+grid:SS_330_043 grid:containsEquipment grid:TR_750_013 .
+grid:SS_330_044 grid:containsEquipment grid:TR_750_014 .
+grid:SS_110_026 grid:containsEquipment grid:TR_750_015 .
+grid:SS_110_047 grid:containsEquipment grid:TR_330_016 .
+grid:SS_330_KHM grid:containsEquipment grid:TR_330_017 .
+grid:SS_110_030 grid:containsEquipment grid:TR_330_018 .
+grid:SS_330_IVA grid:containsEquipment grid:TR_330_019 .
+grid:SS_110_040 grid:containsEquipment grid:TR_330_020 .
+grid:SS_110_035 grid:containsEquipment grid:TR_330_021 .
+grid:SS_750_VIN grid:containsEquipment grid:TR_330_022 .
+grid:SS_110_026 grid:containsEquipment grid:TR_330_023 .
+grid:SS_110_038 grid:containsEquipment grid:TR_330_024 .
+grid:SS_330_037 grid:containsEquipment grid:TR_330_025 .
+grid:SS_330_043 grid:containsEquipment grid:TR_330_026 .
+grid:SS_750_VIN grid:containsEquipment grid:TR_330_027 .
+grid:SS_750_PIV grid:containsEquipment grid:TR_330_028 .
+grid:SS_110_042 grid:containsEquipment grid:TR_330_029 .
+grid:SS_330_028 grid:containsEquipment grid:TR_330_030 .
+grid:SS_330_IVA grid:containsEquipment grid:TR_330_031 .
+grid:SS_110_030 grid:containsEquipment grid:TR_330_032 .
+grid:SS_330_ZHY grid:containsEquipment grid:TR_330_033 .
+grid:SS_750_DNI grid:containsEquipment grid:TR_330_034 .
+grid:SS_330_017 grid:containsEquipment grid:TR_330_035 .
+grid:SS_110_025 grid:containsEquipment grid:TR_330_036 .
+grid:SS_110_021 grid:containsEquipment grid:TR_330_037 .
+grid:SS_330_BRO grid:containsEquipment grid:TR_330_038 .
+grid:SS_110_030 grid:containsEquipment grid:TR_330_039 .
+grid:SS_110_021 grid:containsEquipment grid:TR_330_040 .
+grid:SS_110_022 grid:containsEquipment grid:TR_330_041 .
+grid:SS_110_049 grid:containsEquipment grid:TR_330_042 .
+grid:SS_110_025 grid:containsEquipment grid:TR_330_043 .
+grid:SS_110_018 grid:containsEquipment grid:TR_330_044 .
+grid:SS_110_049 grid:containsEquipment grid:TR_330_045 .
+grid:SS_110_027 grid:containsEquipment grid:TR_330_046 .
+grid:SS_330_017 grid:containsEquipment grid:TR_330_047 .
+grid:SS_750_PIV grid:containsEquipment grid:TR_330_048 .
+grid:SS_110_031 grid:containsEquipment grid:TR_330_049 .
+grid:SS_750_VIN grid:containsEquipment grid:TR_330_050 .
+grid:SS_110_048 grid:containsEquipment grid:TR_110_051 .
+grid:SS_110_035 grid:containsEquipment grid:TR_110_052 .
+grid:SS_750_DNI grid:containsEquipment grid:TR_110_053 .
+grid:SS_110_023 grid:containsEquipment grid:TR_110_054 .
+grid:SS_330_KRI grid:containsEquipment grid:TR_110_055 .
+grid:SS_110_042 grid:containsEquipment grid:TR_110_056 .
+grid:SS_750_ZAP grid:containsEquipment grid:TR_110_057 .
+grid:SS_110_050 grid:containsEquipment grid:TR_110_058 .
+grid:SS_110_042 grid:containsEquipment grid:TR_110_059 .
+grid:SS_750_KYI grid:containsEquipment grid:TR_110_060 .
+grid:SS_110_049 grid:containsEquipment grid:TR_110_061 .
+grid:SS_750_VIN grid:containsEquipment grid:TR_110_062 .
+grid:SS_110_016 grid:containsEquipment grid:TR_110_063 .
+grid:SS_330_CHE grid:containsEquipment grid:TR_110_064 .
+grid:SS_750_VIN grid:containsEquipment grid:TR_110_065 .
+grid:SS_110_040 grid:containsEquipment grid:TR_110_066 .
+grid:SS_330_TER grid:containsEquipment grid:TR_110_067 .
+grid:SS_110_016 grid:containsEquipment grid:TR_110_068 .
+grid:SS_330_IVA grid:containsEquipment grid:TR_110_069 .
+grid:SS_110_031 grid:containsEquipment grid:TR_110_070 .
+grid:SS_330_043 grid:containsEquipment grid:TR_110_071 .
+grid:SS_330_LVI grid:containsEquipment grid:TR_110_072 .
+grid:SS_330_037 grid:containsEquipment grid:TR_110_073 .
+grid:SS_330_BRO grid:containsEquipment grid:TR_110_074 .
+grid:SS_110_030 grid:containsEquipment grid:TR_110_075 .
+grid:SS_330_045 grid:containsEquipment grid:TR_110_076 .
+grid:SS_330_017 grid:containsEquipment grid:TR_110_077 .
+grid:SS_110_050 grid:containsEquipment grid:TR_110_078 .
+grid:SS_110_024 grid:containsEquipment grid:TR_110_079 .
+grid:SS_330_KHM grid:containsEquipment grid:TR_110_080 .
+grid:SS_110_039 grid:containsEquipment grid:CB_750_001 .
+grid:SS_110_039 grid:containsEquipment grid:CB_750_002 .
+grid:SS_110_048 grid:containsEquipment grid:CB_750_003 .
+grid:SS_110_046 grid:containsEquipment grid:CB_750_004 .
+grid:SS_330_LVI grid:containsEquipment grid:CB_750_005 .
+grid:SS_110_050 grid:containsEquipment grid:CB_750_006 .
+grid:SS_330_KHM grid:containsEquipment grid:CB_750_007 .
+grid:SS_110_020 grid:containsEquipment grid:CB_750_008 .
+grid:SS_330_RIV grid:containsEquipment grid:CB_750_009 .
+grid:SS_110_038 grid:containsEquipment grid:CB_750_010 .
+grid:SS_750_VIN grid:containsEquipment grid:CB_750_011 .
+grid:SS_110_020 grid:containsEquipment grid:CB_750_012 .
+grid:SS_330_037 grid:containsEquipment grid:CB_750_013 .
+grid:SS_330_044 grid:containsEquipment grid:CB_750_014 .
+grid:SS_110_025 grid:containsEquipment grid:CB_750_015 .
+grid:SS_110_026 grid:containsEquipment grid:CB_330_016 .
+grid:SS_110_046 grid:containsEquipment grid:CB_330_017 .
+grid:SS_330_CHE grid:containsEquipment grid:CB_330_018 .
+grid:SS_750_ZAP grid:containsEquipment grid:CB_330_019 .
+grid:SS_110_038 grid:containsEquipment grid:CB_330_020 .
+grid:SS_330_045 grid:containsEquipment grid:CB_330_021 .
+grid:SS_110_041 grid:containsEquipment grid:CB_330_022 .
+grid:SS_110_016 grid:containsEquipment grid:CB_330_023 .
+grid:SS_330_RIV grid:containsEquipment grid:CB_330_024 .
+grid:SS_330_045 grid:containsEquipment grid:CB_330_025 .
+grid:SS_110_050 grid:containsEquipment grid:CB_330_026 .
+grid:SS_110_020 grid:containsEquipment grid:CB_330_027 .
+grid:SS_330_044 grid:containsEquipment grid:CB_330_028 .
+grid:SS_110_039 grid:containsEquipment grid:CB_330_029 .
+grid:SS_330_LVI grid:containsEquipment grid:CB_330_030 .
+grid:SS_330_037 grid:containsEquipment grid:CB_330_031 .
+grid:SS_750_KYI grid:containsEquipment grid:CB_330_032 .
+grid:SS_110_023 grid:containsEquipment grid:CB_330_033 .
+grid:SS_110_035 grid:containsEquipment grid:CB_330_034 .
+grid:SS_330_028 grid:containsEquipment grid:CB_330_035 .
+grid:SS_330_043 grid:containsEquipment grid:CB_330_036 .
+grid:SS_110_024 grid:containsEquipment grid:CB_330_037 .
+grid:SS_750_ZAP grid:containsEquipment grid:CB_330_038 .
+grid:SS_110_033 grid:containsEquipment grid:CB_330_039 .
+grid:SS_110_042 grid:containsEquipment grid:CB_330_040 .
+grid:SS_110_022 grid:containsEquipment grid:CB_330_041 .
+grid:SS_750_ZAK grid:containsEquipment grid:CB_330_042 .
+grid:SS_110_027 grid:containsEquipment grid:CB_330_043 .
+grid:SS_110_032 grid:containsEquipment grid:CB_330_044 .
+grid:SS_330_RIV grid:containsEquipment grid:CB_330_045 .
+grid:SS_330_028 grid:containsEquipment grid:CB_330_046 .
+grid:SS_110_024 grid:containsEquipment grid:CB_330_047 .
+grid:SS_110_041 grid:containsEquipment grid:CB_330_048 .
+grid:SS_110_030 grid:containsEquipment grid:CB_330_049 .
+grid:SS_110_046 grid:containsEquipment grid:CB_330_050 .
+grid:SS_330_TER grid:containsEquipment grid:CB_330_051 .
+grid:SS_330_028 grid:containsEquipment grid:CB_330_052 .
+grid:SS_330_ZHY grid:containsEquipment grid:CB_330_053 .
+grid:SS_110_047 grid:containsEquipment grid:CB_330_054 .
+grid:SS_110_034 grid:containsEquipment grid:CB_330_055 .
+grid:SS_110_042 grid:containsEquipment grid:CB_110_056 .
+grid:SS_110_018 grid:containsEquipment grid:CB_110_057 .
+grid:SS_110_040 grid:containsEquipment grid:CB_110_058 .
+grid:SS_110_035 grid:containsEquipment grid:CB_110_059 .
+grid:SS_110_050 grid:containsEquipment grid:CB_110_060 .
+grid:SS_110_031 grid:containsEquipment grid:CB_110_061 .
+grid:SS_110_030 grid:containsEquipment grid:CB_110_062 .
+grid:SS_330_028 grid:containsEquipment grid:CB_110_063 .
+grid:SS_110_047 grid:containsEquipment grid:CB_110_064 .
+grid:SS_110_038 grid:containsEquipment grid:CB_110_065 .
+grid:SS_110_018 grid:containsEquipment grid:CB_110_066 .
+grid:SS_110_021 grid:containsEquipment grid:CB_110_067 .
+grid:SS_110_016 grid:containsEquipment grid:CB_110_068 .
+grid:SS_750_PIV grid:containsEquipment grid:CB_110_069 .
+grid:SS_110_018 grid:containsEquipment grid:CB_110_070 .
+grid:SS_330_029 grid:containsEquipment grid:CB_110_071 .
+grid:SS_110_016 grid:containsEquipment grid:CB_110_072 .
+grid:SS_110_049 grid:containsEquipment grid:CB_110_073 .
+grid:SS_110_030 grid:containsEquipment grid:CB_110_074 .
+grid:SS_330_037 grid:containsEquipment grid:CB_110_075 .
+grid:SS_110_040 grid:containsEquipment grid:CB_110_076 .
+grid:SS_330_043 grid:containsEquipment grid:CB_110_077 .
+grid:SS_110_025 grid:containsEquipment grid:CB_110_078 .
+grid:SS_110_022 grid:containsEquipment grid:CB_110_079 .
+grid:SS_750_VIN grid:containsEquipment grid:CB_110_080 .
+grid:SS_110_032 grid:containsEquipment grid:CB_110_081 .
+grid:SS_110_021 grid:containsEquipment grid:CB_110_082 .
+grid:SS_330_ZHY grid:containsEquipment grid:CB_110_083 .
+grid:SS_110_032 grid:containsEquipment grid:CB_110_084 .
+grid:SS_330_BRO grid:containsEquipment grid:CB_110_085 .
+grid:SS_110_023 grid:containsEquipment grid:CB_110_086 .
+grid:SS_330_017 grid:containsEquipment grid:CB_110_087 .
+grid:SS_110_022 grid:containsEquipment grid:CB_110_088 .
+grid:SS_110_018 grid:containsEquipment grid:CB_110_089 .
+grid:SS_110_039 grid:containsEquipment grid:CB_110_090 .
+grid:RP_PROT_001 grid:tripsBreaker grid:CB_750_001 .
+grid:RP_PROT_001 grid:protects grid:TL_750_001 .
+grid:RP_PROT_002 grid:tripsBreaker grid:CB_750_002 .
+grid:RP_PROT_002 grid:protects grid:TL_750_002 .
+grid:RP_PROT_003 grid:tripsBreaker grid:CB_750_003 .
+grid:RP_PROT_003 grid:protects grid:TL_750_003 .
+grid:RP_PROT_004 grid:tripsBreaker grid:CB_750_004 .
+grid:RP_PROT_004 grid:protects grid:TL_750_004 .
+grid:RP_PROT_005 grid:tripsBreaker grid:CB_750_005 .
+grid:RP_PROT_005 grid:protects grid:TL_750_005 .
+grid:RP_PROT_006 grid:tripsBreaker grid:CB_750_006 .
+grid:RP_PROT_006 grid:protects grid:TL_750_006 .
+grid:RP_PROT_007 grid:tripsBreaker grid:CB_750_007 .
+grid:RP_PROT_007 grid:protects grid:TL_750_007 .
+grid:RP_PROT_008 grid:tripsBreaker grid:CB_750_008 .
+grid:RP_PROT_008 grid:protects grid:TL_750_008 .
+grid:RP_PROT_009 grid:tripsBreaker grid:CB_750_009 .
+grid:RP_PROT_009 grid:protects grid:TL_750_009 .
+grid:RP_PROT_010 grid:tripsBreaker grid:CB_750_010 .
+grid:RP_PROT_010 grid:protects grid:TL_750_010 .
+grid:RP_PROT_011 grid:tripsBreaker grid:CB_750_011 .
+grid:RP_PROT_011 grid:protects grid:TL_750_011 .
+grid:RP_PROT_012 grid:tripsBreaker grid:CB_750_012 .
+grid:RP_PROT_012 grid:protects grid:TL_750_012 .
+grid:RP_PROT_013 grid:tripsBreaker grid:CB_750_013 .
+grid:RP_PROT_013 grid:protects grid:TL_750_013 .
+grid:RP_PROT_014 grid:tripsBreaker grid:CB_750_014 .
+grid:RP_PROT_014 grid:protects grid:TL_750_014 .
+grid:RP_PROT_015 grid:tripsBreaker grid:CB_750_015 .
+grid:RP_PROT_015 grid:protects grid:TL_750_015 .
+grid:RP_PROT_016 grid:tripsBreaker grid:CB_330_016 .
+grid:RP_PROT_016 grid:protects grid:TL_330_016 .
+grid:RP_PROT_017 grid:tripsBreaker grid:CB_330_017 .
+grid:RP_PROT_017 grid:protects grid:TL_330_017 .
+grid:RP_PROT_018 grid:tripsBreaker grid:CB_330_018 .
+grid:RP_PROT_018 grid:protects grid:TL_330_018 .
+grid:RP_PROT_019 grid:tripsBreaker grid:CB_330_019 .
+grid:RP_PROT_019 grid:protects grid:TL_330_019 .
+grid:RP_PROT_020 grid:tripsBreaker grid:CB_330_020 .
+grid:RP_PROT_020 grid:protects grid:TL_330_020 .
+grid:RP_PROT_021 grid:tripsBreaker grid:CB_330_021 .
+grid:RP_PROT_021 grid:protects grid:TL_330_021 .
+grid:RP_PROT_022 grid:tripsBreaker grid:CB_330_022 .
+grid:RP_PROT_022 grid:protects grid:TL_330_022 .
+grid:RP_PROT_023 grid:tripsBreaker grid:CB_330_023 .
+grid:RP_PROT_023 grid:protects grid:TL_330_023 .
+grid:RP_PROT_024 grid:tripsBreaker grid:CB_330_024 .
+grid:RP_PROT_024 grid:protects grid:TL_330_024 .
+grid:RP_PROT_025 grid:tripsBreaker grid:CB_330_025 .
+grid:RP_PROT_025 grid:protects grid:TL_330_025 .
+grid:RP_PROT_026 grid:tripsBreaker grid:CB_330_026 .
+grid:RP_PROT_026 grid:protects grid:TL_330_026 .
+grid:RP_PROT_027 grid:tripsBreaker grid:CB_330_027 .
+grid:RP_PROT_027 grid:protects grid:TL_330_027 .
+grid:RP_PROT_028 grid:tripsBreaker grid:CB_330_028 .
+grid:RP_PROT_028 grid:protects grid:TL_330_028 .
+grid:RP_PROT_029 grid:tripsBreaker grid:CB_330_029 .
+grid:RP_PROT_029 grid:protects grid:TL_330_029 .
+grid:RP_PROT_030 grid:tripsBreaker grid:CB_330_030 .
+grid:RP_PROT_030 grid:protects grid:TL_330_030 .
+grid:RP_PROT_031 grid:tripsBreaker grid:CB_330_031 .
+grid:RP_PROT_031 grid:protects grid:TL_330_031 .
+grid:RP_PROT_032 grid:tripsBreaker grid:CB_330_032 .
+grid:RP_PROT_032 grid:protects grid:TL_330_032 .
+grid:RP_PROT_033 grid:tripsBreaker grid:CB_330_033 .
+grid:RP_PROT_033 grid:protects grid:TL_330_033 .
+grid:RP_PROT_034 grid:tripsBreaker grid:CB_330_034 .
+grid:RP_PROT_034 grid:protects grid:TL_330_034 .
+grid:RP_PROT_035 grid:tripsBreaker grid:CB_330_035 .
+grid:RP_PROT_035 grid:protects grid:TL_330_035 .
+grid:RP_PROT_036 grid:tripsBreaker grid:CB_330_036 .
+grid:RP_PROT_036 grid:protects grid:TL_330_036 .
+grid:RP_PROT_037 grid:tripsBreaker grid:CB_330_037 .
+grid:RP_PROT_037 grid:protects grid:TL_330_037 .
+grid:RP_PROT_038 grid:tripsBreaker grid:CB_330_038 .
+grid:RP_PROT_038 grid:protects grid:TL_330_038 .
+grid:RP_PROT_039 grid:tripsBreaker grid:CB_330_039 .
+grid:RP_PROT_039 grid:protects grid:TL_330_039 .
+grid:RP_PROT_040 grid:tripsBreaker grid:CB_330_040 .
+grid:RP_PROT_040 grid:protects grid:TL_330_040 .
+grid:RP_PROT_041 grid:tripsBreaker grid:CB_330_001 .
+grid:RP_PROT_041 grid:protects grid:TL_330_041 .
+grid:RP_PROT_042 grid:tripsBreaker grid:CB_330_002 .
+grid:RP_PROT_042 grid:protects grid:TL_330_042 .
+grid:RP_PROT_043 grid:tripsBreaker grid:CB_330_003 .
+grid:RP_PROT_043 grid:protects grid:TL_330_043 .
+grid:RP_PROT_044 grid:tripsBreaker grid:CB_330_004 .
+grid:RP_PROT_044 grid:protects grid:TL_330_044 .
+grid:RP_PROT_045 grid:tripsBreaker grid:CB_330_005 .
+grid:RP_PROT_045 grid:protects grid:TL_330_045 .
+grid:RP_PROT_046 grid:tripsBreaker grid:CB_330_006 .
+grid:RP_PROT_046 grid:protects grid:TL_330_046 .
+grid:RP_PROT_047 grid:tripsBreaker grid:CB_330_007 .
+grid:RP_PROT_047 grid:protects grid:TL_330_047 .
+grid:RP_PROT_048 grid:tripsBreaker grid:CB_330_008 .
+grid:RP_PROT_048 grid:protects grid:TL_330_048 .
+grid:RP_PROT_049 grid:tripsBreaker grid:CB_330_009 .
+grid:RP_PROT_049 grid:protects grid:TL_330_049 .
+grid:RP_PROT_050 grid:tripsBreaker grid:CB_330_010 .
+grid:RP_PROT_050 grid:protects grid:TL_330_050 .
+grid:RP_PROT_051 grid:tripsBreaker grid:CB_330_011 .
+grid:RP_PROT_051 grid:protects grid:TL_330_051 .
+grid:RP_PROT_052 grid:tripsBreaker grid:CB_330_012 .
+grid:RP_PROT_052 grid:protects grid:TL_330_052 .
+grid:RP_PROT_053 grid:tripsBreaker grid:CB_330_013 .
+grid:RP_PROT_053 grid:protects grid:TL_330_053 .
+grid:RP_PROT_054 grid:tripsBreaker grid:CB_330_014 .
+grid:RP_PROT_054 grid:protects grid:TL_330_054 .
+grid:RP_PROT_055 grid:tripsBreaker grid:CB_330_015 .
+grid:RP_PROT_055 grid:protects grid:TL_330_055 .
+grid:RP_PROT_056 grid:tripsBreaker grid:CB_330_016 .
+grid:RP_PROT_056 grid:protects grid:TL_330_056 .
+grid:RP_PROT_057 grid:tripsBreaker grid:CB_330_017 .
+grid:RP_PROT_057 grid:protects grid:TL_330_057 .
+grid:RP_PROT_058 grid:tripsBreaker grid:CB_330_018 .
+grid:RP_PROT_058 grid:protects grid:TL_330_058 .
+grid:RP_PROT_059 grid:tripsBreaker grid:CB_330_019 .
+grid:RP_PROT_059 grid:protects grid:TL_330_059 .
+grid:RP_PROT_060 grid:tripsBreaker grid:CB_330_020 .
+grid:RP_PROT_060 grid:protects grid:TL_330_060 .
+grid:SS_110_090 grid:connectsTo grid:SS_110_113 .
+grid:SS_110_036 grid:connectsTo grid:SS_110_072 .
+grid:SS_750_VIN grid:connectsTo grid:SS_110_067 .
+grid:SS_110_025 grid:connectsTo grid:SS_330_KHM .
+grid:SS_110_031 grid:connectsTo grid:SS_110_093 .
+grid:SS_110_053 grid:connectsTo grid:SS_110_063 .
+grid:SS_110_072 grid:connectsTo grid:SS_330_098 .
+grid:SS_110_031 grid:connectsTo grid:SS_110_089 .
+grid:SS_110_061 grid:connectsTo grid:SS_110_083 .
+grid:SS_110_092 grid:connectsTo grid:SS_110_063 .
+grid:SS_110_058 grid:connectsTo grid:SS_330_102 .
+grid:SS_750_KYI grid:connectsTo grid:SS_330_ZHY .
+grid:SS_110_038 grid:connectsTo grid:SS_330_029 .
+grid:SS_330_052 grid:connectsTo grid:SS_110_089 .
+grid:SS_110_032 grid:connectsTo grid:SS_110_040 .
+grid:SS_110_085 grid:connectsTo grid:SS_110_075 .
+grid:SS_110_048 grid:connectsTo grid:SS_110_061 .
+grid:SS_110_071 grid:connectsTo grid:SS_110_068 .
+grid:SS_330_045 grid:connectsTo grid:SS_110_055 .
+grid:SS_110_096 grid:connectsTo grid:SS_110_071 .
+grid:SS_330_043 grid:connectsTo grid:SS_110_046 .
+grid:SS_110_090 grid:connectsTo grid:SS_110_059 .
+grid:SS_110_035 grid:connectsTo grid:SS_110_040 .
+grid:SS_110_033 grid:connectsTo grid:SS_110_030 .
+grid:SS_110_016 grid:connectsTo grid:SS_110_093 .
+grid:SS_110_025 grid:connectsTo grid:SS_110_041 .
+grid:SS_110_016 grid:connectsTo grid:SS_110_096 .
+grid:SS_110_069 grid:connectsTo grid:SS_330_098 .
+grid:SS_110_089 grid:connectsTo grid:SS_110_024 .
+grid:SS_110_025 grid:connectsTo grid:SS_330_028 .
+grid:SS_110_095 grid:connectsTo grid:SS_330_062 .
+grid:SS_110_036 grid:connectsTo grid:SS_110_093 .
+grid:SS_330_076 grid:connectsTo grid:SS_330_098 .
+grid:SS_110_068 grid:connectsTo grid:SS_110_077 .
+grid:SS_330_037 grid:connectsTo grid:SS_330_CHE .
+grid:SS_110_107 grid:connectsTo grid:SS_110_025 .
+grid:SS_110_038 grid:connectsTo grid:SS_110_030 .
+grid:SS_110_047 grid:connectsTo grid:SS_110_023 .
+grid:SS_110_039 grid:connectsTo grid:SS_750_VIN .
+grid:SS_110_091 grid:connectsTo grid:SS_110_069 .
+grid:SS_330_017 grid:connectsTo grid:SS_110_036 .
+grid:SS_750_PIV grid:connectsTo grid:SS_330_RIV .
+grid:SS_110_071 grid:connectsTo grid:SS_110_038 .
+grid:SS_110_090 grid:connectsTo grid:SS_330_017 .
+grid:SS_110_082 grid:connectsTo grid:SS_330_112 .
+grid:SS_110_097 grid:connectsTo grid:SS_110_063 .
+grid:SS_330_BRO grid:connectsTo grid:SS_330_112 .
+grid:SS_750_VIN grid:connectsTo grid:SS_330_074 .
+grid:SS_330_037 grid:connectsTo grid:SS_110_061 .
+grid:SS_330_062 grid:connectsTo grid:SS_110_057 .
+grid:SS_330_044 grid:connectsTo grid:SS_110_024 .
+grid:SS_330_RIV grid:connectsTo grid:SS_110_033 .
+grid:SS_330_111 grid:connectsTo grid:SS_330_062 .
+grid:SS_330_KRI grid:connectsTo grid:SS_110_106 .
+grid:SS_330_IVA grid:connectsTo grid:SS_330_052 .
+grid:SS_110_063 grid:connectsTo grid:SS_330_TER .
+grid:SS_330_074 grid:connectsTo grid:SS_110_081 .
+grid:SS_330_088 grid:connectsTo grid:SS_330_RIV .
+grid:SS_110_104 grid:connectsTo grid:SS_110_073 .
+grid:SS_110_039 grid:connectsTo grid:SS_330_KHM .
+grid:SS_110_032 grid:connectsTo grid:SS_110_016 .
+grid:SS_110_072 grid:connectsTo grid:SS_330_098 .
+grid:SS_110_054 grid:connectsTo grid:SS_110_078 .
+grid:SS_110_077 grid:connectsTo grid:SS_330_102 .
+grid:SS_110_080 grid:connectsTo grid:SS_330_029 .
+grid:SS_110_100 grid:connectsTo grid:SS_110_067 .
+grid:SS_110_049 grid:connectsTo grid:SS_110_058 .
+grid:SS_110_117 grid:connectsTo grid:SS_110_057 .
+grid:SS_110_039 grid:connectsTo grid:SS_330_111 .
+grid:SS_330_076 grid:connectsTo grid:SS_110_055 .
+grid:SS_110_040 grid:connectsTo grid:SS_110_073 .
+grid:SS_110_080 grid:connectsTo grid:SS_330_LVI .
+grid:SS_110_079 grid:connectsTo grid:SS_110_095 .
+grid:SS_330_CHE grid:connectsTo grid:SS_330_098 .
+grid:SS_110_027 grid:connectsTo grid:SS_110_081 .
+grid:SS_330_028 grid:connectsTo grid:SS_110_034 .
+grid:SS_110_085 grid:connectsTo grid:SS_330_KHM .
+grid:SS_110_021 grid:connectsTo grid:SS_110_031 .
+grid:SS_110_023 grid:connectsTo grid:SS_110_071 .
+grid:SS_330_TER grid:connectsTo grid:SS_110_021 .
+grid:SS_750_ZAK grid:connectsTo grid:SS_110_053 .
+grid:SS_110_058 grid:connectsTo grid:SS_110_089 .
+grid:SS_110_077 grid:connectsTo grid:SS_110_061 .
+grid:SS_110_038 grid:connectsTo grid:SS_750_ZAP .
+grid:SS_110_030 grid:connectsTo grid:SS_330_037 .
+grid:SS_110_091 grid:connectsTo grid:SS_330_037 .
+grid:SS_110_090 grid:connectsTo grid:SS_330_111 .
+grid:SS_110_059 grid:connectsTo grid:SS_330_TER .
+grid:SS_330_088 grid:connectsTo grid:SS_110_030 .
+grid:SS_110_119 grid:connectsTo grid:SS_110_034 .
+grid:SS_110_101 grid:connectsTo grid:SS_330_102 .
+grid:SS_110_081 grid:connectsTo grid:SS_330_076 .
+grid:SS_110_085 grid:connectsTo grid:SS_110_103 .
+grid:SS_110_120 grid:connectsTo grid:SS_110_026 .
+grid:SS_110_055 grid:connectsTo grid:SS_330_KRI .
+grid:SS_110_070 grid:connectsTo grid:SS_330_029 .
+grid:SS_110_083 grid:connectsTo grid:SS_110_020 .
+grid:SS_110_117 grid:connectsTo grid:SS_110_035 .
+grid:SS_110_106 grid:connectsTo grid:SS_110_019 .
+grid:SS_330_TER grid:connectsTo grid:SS_330_LVI .
+grid:SS_110_022 grid:connectsTo grid:SS_330_102 .
+grid:SS_110_040 grid:connectsTo grid:SS_110_077 .
+grid:SS_110_096 grid:connectsTo grid:SS_110_106 .
+grid:SS_110_073 grid:connectsTo grid:SS_110_118 .
+grid:SS_330_037 grid:connectsTo grid:SS_110_057 .
+grid:SS_110_016 grid:connectsTo grid:SS_110_060 .
+grid:SS_110_089 grid:connectsTo grid:SS_110_039 .
+grid:SS_110_090 grid:connectsTo grid:SS_330_052 .
+grid:SS_110_035 grid:connectsTo grid:SS_330_065 .
+grid:SS_110_070 grid:connectsTo grid:SS_330_064 .
+grid:SS_110_057 grid:connectsTo grid:SS_330_KHM .
+grid:SS_110_077 grid:connectsTo grid:SS_750_PIV .
+grid:SS_110_114 grid:connectsTo grid:SS_330_056 .
+grid:SS_110_095 grid:connectsTo grid:SS_110_042 .
+grid:SS_110_078 grid:connectsTo grid:SS_110_033 .
+grid:SS_750_DNI grid:connectsTo grid:SS_330_ZHY .
+grid:SS_110_030 grid:connectsTo grid:SS_110_087 .
+grid:SS_110_108 grid:connectsTo grid:SS_330_111 .
+grid:SS_330_074 grid:connectsTo grid:SS_330_076 .
+grid:SS_750_KYI grid:connectsTo grid:SS_330_098 .
+grid:SS_110_087 grid:connectsTo grid:SS_110_106 .
+grid:SS_110_035 grid:connectsTo grid:SS_330_074 .
+grid:SS_750_PIV grid:connectsTo grid:SS_330_098 .
+grid:SS_110_097 grid:connectsTo grid:SS_110_023 .
+grid:SS_110_061 grid:connectsTo grid:SS_110_067 .
+grid:SS_110_084 grid:connectsTo grid:SS_110_057 .
+grid:SS_110_118 grid:connectsTo grid:SS_110_036 .
+grid:SS_110_024 grid:connectsTo grid:SS_110_075 .
+grid:SS_330_056 grid:connectsTo grid:SS_110_082 .
+grid:SS_330_105 grid:connectsTo grid:SS_110_063 .
+grid:SS_330_ZHY grid:connectsTo grid:SS_110_061 .
+grid:SS_330_045 grid:connectsTo grid:SS_110_053 .
+grid:SS_330_043 grid:connectsTo grid:SS_110_042 .
+grid:SS_110_086 grid:connectsTo grid:SS_330_BRO .
+grid:SS_110_110 grid:connectsTo grid:SS_110_021 .
+grid:SS_330_043 grid:connectsTo grid:SS_110_053 .
+grid:SS_110_089 grid:connectsTo grid:SS_330_064 .
+grid:SS_330_037 grid:connectsTo grid:SS_110_085 .
+grid:SS_330_052 grid:connectsTo grid:SS_330_105 .
+grid:SS_330_098 grid:connectsTo grid:SS_110_071 .
+grid:SS_750_ZAP grid:connectsTo grid:SS_110_059 .
+grid:SS_330_ZHY grid:connectsTo grid:SS_110_041 .
+grid:SS_110_033 grid:connectsTo grid:SS_110_042 .
+grid:SS_330_KRI grid:connectsTo grid:SS_110_099 .
+grid:SS_330_052 grid:connectsTo grid:SS_330_111 .
+grid:SS_330_066 grid:connectsTo grid:SS_110_106 .
+grid:SS_750_ZAK grid:connectsTo grid:SS_110_085 .
+grid:SS_330_112 grid:connectsTo grid:SS_110_070 .
+grid:SS_110_060 grid:connectsTo grid:SS_110_053 .
+grid:SS_330_RIV grid:connectsTo grid:SS_110_025 .
+grid:SS_110_067 grid:connectsTo grid:SS_110_047 .
+grid:SS_110_080 grid:connectsTo grid:SS_110_097 .
+grid:SS_330_064 grid:connectsTo grid:SS_110_081 .
+grid:SS_110_057 grid:connectsTo grid:SS_330_098 .
+grid:SS_330_RIV grid:connectsTo grid:SS_110_027 .
+grid:SS_110_035 grid:connectsTo grid:SS_110_071 .
+grid:SS_330_017 grid:connectsTo grid:SS_110_119 .
+grid:SS_330_037 grid:connectsTo grid:SS_110_057 .
+grid:SS_110_113 grid:connectsTo grid:SS_110_090 .
+grid:SS_110_063 grid:connectsTo grid:SS_110_016 .
+grid:SS_750_DNI grid:connectsTo grid:SS_110_081 .
+grid:SS_110_078 grid:connectsTo grid:SS_110_103 .
+grid:SS_110_031 grid:connectsTo grid:SS_110_091 .
+grid:SS_110_021 grid:connectsTo grid:SS_110_040 .
+grid:SS_110_071 grid:connectsTo grid:SS_750_VIN .
+grid:SS_110_071 grid:connectsTo grid:SS_110_053 .
+grid:SS_330_ZHY grid:connectsTo grid:SS_330_029 .
+grid:SS_110_108 grid:connectsTo grid:SS_110_117 .
+grid:SS_330_KRI grid:connectsTo grid:SS_110_060 .
+grid:SS_110_016 grid:connectsTo grid:SS_110_083 .
+grid:SS_110_107 grid:connectsTo grid:SS_110_020 .
+grid:SS_330_064 grid:connectsTo grid:SS_110_120 .
+grid:SS_110_092 grid:connectsTo grid:SS_110_038 .
+grid:SS_330_066 grid:connectsTo grid:SS_110_091 .
+grid:SS_110_035 grid:connectsTo grid:SS_110_054 .
+grid:SS_110_107 grid:connectsTo grid:SS_330_062 .
+grid:SS_110_061 grid:connectsTo grid:SS_110_032 .
+grid:SS_110_059 grid:connectsTo grid:SS_110_071 .
+grid:SS_110_019 grid:connectsTo grid:SS_110_050 .
+grid:SS_110_025 grid:connectsTo grid:SS_110_118 .
+grid:SS_110_077 grid:connectsTo grid:SS_330_066 .
+grid:SS_110_096 grid:connectsTo grid:SS_110_113 .
+grid:SS_110_018 grid:connectsTo grid:SS_330_111 .
+grid:SS_330_IVA grid:connectsTo grid:SS_110_036 .
+grid:SS_110_099 grid:connectsTo grid:SS_330_102 .
+grid:SS_110_110 grid:connectsTo grid:SS_110_054 .
+grid:SS_330_044 grid:connectsTo grid:SS_110_120 .
+grid:SS_110_101 grid:connectsTo grid:SS_330_065 .
+grid:SS_110_035 grid:connectsTo grid:SS_110_106 .
+grid:SS_750_ZAK grid:connectsTo grid:SS_330_037 .
+grid:SS_110_093 grid:connectsTo grid:SS_110_039 .
+grid:SS_110_108 grid:connectsTo grid:SS_330_076 .
+grid:SS_110_075 grid:connectsTo grid:SS_110_085 .
+grid:SS_110_063 grid:connectsTo grid:SS_330_111 .
+grid:SS_110_020 grid:connectsTo grid:SS_110_058 .
+grid:SS_110_069 grid:connectsTo grid:SS_330_062 .
+grid:SS_330_045 grid:connectsTo grid:SS_330_043 .
+grid:SS_110_071 grid:connectsTo grid:SS_330_098 .
+grid:SS_110_070 grid:connectsTo grid:SS_110_049 .
+grid:SS_110_059 grid:connectsTo grid:SS_110_120 .
+grid:SS_110_042 grid:connectsTo grid:SS_330_112 .
+grid:SS_110_025 grid:connectsTo grid:SS_110_090 .
+grid:SS_110_031 grid:connectsTo grid:SS_330_074 .
+grid:SS_110_050 grid:connectsTo grid:SS_110_030 .
+grid:SS_110_110 grid:connectsTo grid:SS_110_100 .
+grid:SS_110_053 grid:connectsTo grid:SS_750_PIV .
+grid:SS_110_041 grid:connectsTo grid:SS_110_096 .
+grid:SS_110_061 grid:connectsTo grid:SS_110_091 .
+grid:SS_110_117 grid:connectsTo grid:SS_110_104 .
+grid:SS_110_049 grid:connectsTo grid:SS_110_050 .
+grid:SS_110_085 grid:connectsTo grid:SS_330_102 .
+grid:SS_110_106 grid:connectsTo grid:SS_110_084 .
+grid:SS_110_020 grid:connectsTo grid:SS_330_064 .
+grid:SS_750_ZAP grid:connectsTo grid:SS_330_017 .
+grid:SS_330_065 grid:connectsTo grid:SS_330_076 .
+grid:SS_330_043 grid:connectsTo grid:SS_330_112 .
+grid:SS_330_CHE grid:connectsTo grid:SS_330_112 .
+grid:SS_330_109 grid:connectsTo grid:SS_110_057 .
+grid:SS_330_CHE grid:connectsTo grid:SS_110_068 .
+grid:SS_110_117 grid:connectsTo grid:SS_110_059 .
+grid:SS_750_VIN grid:connectsTo grid:SS_110_093 .
+grid:SS_110_019 grid:connectsTo grid:SS_110_053 .
+grid:SS_330_112 grid:connectsTo grid:SS_110_084 .
+grid:SS_110_020 grid:connectsTo grid:SS_330_TER .
+grid:SS_110_061 grid:connectsTo grid:SS_110_101 .
+grid:SS_110_034 grid:connectsTo grid:SS_330_044 .
+grid:SS_110_080 grid:connectsTo grid:SS_110_089 .
+grid:SS_330_051 grid:connectsTo grid:SS_110_084 .
+grid:SS_330_KHM grid:connectsTo grid:SS_110_110 .
+grid:SS_330_043 grid:connectsTo grid:SS_110_110 .
+grid:SS_110_087 grid:connectsTo grid:SS_110_110 .
+grid:SS_110_069 grid:connectsTo grid:SS_110_049 .
+grid:SS_110_041 grid:connectsTo grid:SS_110_081 .
+grid:SS_110_092 grid:connectsTo grid:SS_110_114 .
+grid:SS_330_098 grid:connectsTo grid:SS_110_063 .
+grid:SS_330_112 grid:connectsTo grid:SS_110_070 .
+grid:SS_750_ZAP grid:connectsTo grid:SS_110_080 .
+grid:SS_330_IVA grid:connectsTo grid:SS_110_031 .
+grid:SS_110_081 grid:connectsTo grid:SS_330_088 .
+grid:SS_110_118 grid:connectsTo grid:SS_330_037 .
+grid:SS_110_030 grid:connectsTo grid:SS_110_096 .
+grid:SS_330_ZHY grid:connectsTo grid:SS_330_056 .
+grid:SS_330_CHE grid:connectsTo grid:SS_330_098 .
+grid:SS_110_082 grid:connectsTo grid:SS_110_091 .
+grid:SS_330_112 grid:connectsTo grid:SS_330_CHE .
+grid:SS_110_057 grid:connectsTo grid:SS_110_022 .
+grid:SS_110_089 grid:connectsTo grid:SS_110_039 .
+grid:SS_110_116 grid:connectsTo grid:SS_750_DNI .
+grid:SS_750_PIV grid:connectsTo grid:SS_110_042 .
+grid:SS_330_102 grid:connectsTo grid:SS_330_LVI .
+grid:SS_110_038 grid:connectsTo grid:SS_110_046 .
+grid:SS_110_048 grid:connectsTo grid:SS_330_056 .
+grid:SS_110_019 grid:connectsTo grid:SS_110_032 .
+grid:SS_110_068 grid:connectsTo grid:SS_110_053 .
+grid:SS_110_073 grid:connectsTo grid:SS_330_088 .
+grid:SS_330_102 grid:connectsTo grid:SS_110_024 .
+grid:SS_110_022 grid:connectsTo grid:SS_110_023 .
+grid:SS_330_KHM grid:connectsTo grid:SS_110_079 .
+grid:SS_330_112 grid:connectsTo grid:SS_110_049 .
+grid:SS_110_080 grid:connectsTo grid:SS_330_088 .
+grid:SS_110_031 grid:connectsTo grid:SS_330_064 .
+grid:SS_110_117 grid:connectsTo grid:SS_110_075 .
+grid:SS_110_019 grid:connectsTo grid:SS_110_030 .
+grid:SS_110_060 grid:connectsTo grid:SS_110_082 .
+grid:SS_110_033 grid:connectsTo grid:SS_110_059 .
+grid:SS_110_033 grid:connectsTo grid:SS_110_086 .
+grid:SS_750_VIN grid:connectsTo grid:SS_110_116 .
+grid:SS_110_103 grid:connectsTo grid:SS_110_060 .
+grid:SS_110_116 grid:connectsTo grid:SS_330_037 .
+grid:SS_110_087 grid:connectsTo grid:SS_110_070 .
+grid:SS_110_021 grid:connectsTo grid:SS_330_TER .
+grid:SS_110_057 grid:connectsTo grid:SS_330_045 .
+grid:SS_330_076 grid:connectsTo grid:SS_110_039 .
+grid:SS_110_082 grid:connectsTo grid:SS_110_055 .
+grid:SS_110_089 grid:connectsTo grid:SS_110_033 .
+grid:SS_110_059 grid:connectsTo grid:SS_330_109 .
+grid:SS_110_039 grid:connectsTo grid:SS_110_026 .
+grid:SS_110_050 grid:connectsTo grid:SS_110_110 .
+grid:SS_330_062 grid:connectsTo grid:SS_330_BRO .
+grid:SS_110_031 grid:connectsTo grid:SS_110_049 .
+grid:SS_330_074 grid:connectsTo grid:SS_110_046 .
+grid:SS_330_074 grid:connectsTo grid:SS_110_038 .
+grid:SS_110_090 grid:connectsTo grid:SS_110_038 .
+grid:SS_750_KYI grid:connectsTo grid:SS_110_107 .
+grid:SS_110_085 grid:connectsTo grid:SS_330_051 .
+grid:SS_110_036 grid:connectsTo grid:SS_750_VIN .
+grid:SS_110_073 grid:connectsTo grid:SS_330_111 .
+grid:SS_330_088 grid:connectsTo grid:SS_110_100 .
+grid:SS_110_096 grid:connectsTo grid:SS_330_RIV .
+grid:SS_110_117 grid:connectsTo grid:SS_110_078 .
+grid:SS_110_096 grid:connectsTo grid:SS_330_064 .
+grid:SS_110_107 grid:connectsTo grid:SS_110_116 .
+grid:SS_110_116 grid:connectsTo grid:SS_330_037 .
+grid:SS_110_100 grid:connectsTo grid:SS_110_103 .
+grid:SS_110_030 grid:connectsTo grid:SS_110_078 .
+grid:SS_110_103 grid:connectsTo grid:SS_110_046 .
+grid:SS_330_029 grid:connectsTo grid:SS_110_082 .
+grid:SS_110_025 grid:connectsTo grid:SS_110_080 .
+grid:SS_110_033 grid:connectsTo grid:SS_110_087 .
+grid:SS_110_097 grid:connectsTo grid:SS_110_093 .
+grid:SS_110_099 grid:connectsTo grid:SS_110_085 .
+grid:SS_330_088 grid:connectsTo grid:SS_110_108 .
+grid:SS_110_018 grid:connectsTo grid:SS_110_081 .
+grid:SS_330_CHE grid:connectsTo grid:SS_110_116 .
+grid:SS_110_081 grid:connectsTo grid:SS_110_083 .
+grid:SS_750_PIV grid:connectsTo grid:SS_110_040 .
+grid:SS_110_101 grid:connectsTo grid:SS_110_057 .
+grid:SS_750_ZAP grid:connectsTo grid:SS_110_075 .
+grid:SS_110_047 grid:connectsTo grid:SS_110_094 .
+grid:SS_330_017 grid:connectsTo grid:SS_330_ZHY .
+grid:SS_110_117 grid:connectsTo grid:SS_110_038 .
+grid:SS_110_042 grid:connectsTo grid:SS_110_096 .
+grid:SS_110_054 grid:connectsTo grid:SS_110_023 .
+grid:SS_110_026 grid:connectsTo grid:SS_330_017 .
+grid:SS_110_101 grid:connectsTo grid:SS_110_070 .
+grid:SS_110_113 grid:connectsTo grid:SS_110_047 .
+grid:SS_110_068 grid:connectsTo grid:SS_330_065 .
+grid:SS_110_117 grid:connectsTo grid:SS_110_035 .
+grid:SS_110_107 grid:connectsTo grid:SS_110_022 .
+grid:SS_110_033 grid:connectsTo grid:SS_110_117 .
+grid:SS_110_106 grid:connectsTo grid:SS_330_062 .
+grid:SS_110_104 grid:connectsTo grid:SS_110_038 .
+grid:SS_110_096 grid:connectsTo grid:SS_330_112 .
+grid:SS_330_044 grid:connectsTo grid:SS_110_103 .
+grid:SS_330_KRI grid:connectsTo grid:SS_110_060 .
+grid:SS_330_TER grid:connectsTo grid:SS_110_019 .
+grid:SS_110_097 grid:connectsTo grid:SS_330_029 .
+grid:SS_330_111 grid:connectsTo grid:SS_110_087 .
+grid:SS_110_093 grid:connectsTo grid:SS_110_087 .
+grid:SS_330_051 grid:connectsTo grid:SS_330_109 .
+grid:SS_110_103 grid:connectsTo grid:SS_110_072 .
+grid:SS_110_047 grid:connectsTo grid:SS_330_ZHY .
+grid:SS_330_102 grid:connectsTo grid:SS_330_051 .
+grid:SS_750_VIN grid:connectsTo grid:SS_110_034 .
+grid:SS_110_069 grid:connectsTo grid:SS_110_016 .
+grid:SS_110_059 grid:connectsTo grid:SS_110_048 .
+grid:SS_110_087 grid:connectsTo grid:SS_110_096 .
+grid:SS_110_087 grid:connectsTo grid:SS_110_034 .
+grid:SS_110_075 grid:connectsTo grid:SS_110_049 .
+grid:SS_110_106 grid:connectsTo grid:SS_110_082 .
+grid:SS_110_048 grid:connectsTo grid:SS_330_BRO .
+grid:SS_110_087 grid:connectsTo grid:SS_110_030 .
+grid:SS_110_061 grid:connectsTo grid:SS_750_DNI .
+grid:SS_110_080 grid:connectsTo grid:SS_110_114 .
+grid:SS_110_072 grid:connectsTo grid:SS_110_042 .
+grid:SS_110_118 grid:connectsTo grid:SS_110_079 .
+grid:SS_330_029 grid:connectsTo grid:SS_110_083 .
+grid:SS_330_IVA grid:connectsTo grid:SS_110_082 .
+grid:SS_110_106 grid:connectsTo grid:SS_110_060 .
+grid:SS_110_117 grid:connectsTo grid:SS_110_090 .
+grid:SS_110_039 grid:connectsTo grid:SS_110_084 .
+grid:SS_110_053 grid:connectsTo grid:SS_330_KRI .
+grid:SS_110_018 grid:connectsTo grid:SS_750_PIV .
+grid:SS_750_ZAP grid:connectsTo grid:SS_110_039 .
+grid:SS_330_064 grid:connectsTo grid:SS_330_KRI .
+grid:SS_330_CHE grid:connectsTo grid:SS_110_031 .
+grid:SS_110_114 grid:connectsTo grid:SS_110_069 .
+grid:SS_110_018 grid:connectsTo grid:SS_110_050 .
+grid:SS_110_059 grid:connectsTo grid:SS_110_048 .
+grid:SS_110_086 grid:connectsTo grid:SS_110_096 .
+grid:SS_110_090 grid:connectsTo grid:SS_110_070 .
+grid:SS_110_054 grid:connectsTo grid:SS_330_076 .
+grid:SS_110_096 grid:connectsTo grid:SS_110_094 .
+grid:SS_110_020 grid:connectsTo grid:SS_110_114 .
+grid:SS_110_054 grid:connectsTo grid:SS_110_084 .
+grid:SS_330_CHE grid:connectsTo grid:SS_110_107 .
+grid:SS_110_063 grid:connectsTo grid:SS_110_079 .
+grid:SS_110_053 grid:connectsTo grid:SS_110_036 .
+grid:SS_750_ZAP grid:connectsTo grid:SS_110_089 .
+grid:SS_110_048 grid:connectsTo grid:SS_330_028 .
+grid:SS_110_031 grid:connectsTo grid:SS_110_110 .
+grid:SS_110_047 grid:connectsTo grid:SS_330_CHE .
+grid:SS_330_088 grid:connectsTo grid:SS_110_048 .
+grid:SS_110_070 grid:connectsTo grid:SS_110_116 .
+grid:SS_110_083 grid:connectsTo grid:SS_110_046 .
+grid:SS_330_LVI grid:connectsTo grid:SS_330_051 .
+grid:SS_110_036 grid:connectsTo grid:SS_110_025 .
+grid:SS_110_016 grid:connectsTo grid:SS_330_109 .
+grid:SS_110_106 grid:connectsTo grid:SS_110_059 .
+grid:SS_330_ZHY grid:connectsTo grid:SS_110_085 .
+grid:SS_330_028 grid:connectsTo grid:SS_110_083 .
+grid:SS_110_082 grid:connectsTo grid:SS_110_077 .
+grid:SS_750_KYI grid:connectsTo grid:SS_330_RIV .
+grid:SS_110_101 grid:connectsTo grid:SS_330_043 .
+grid:SS_110_032 grid:connectsTo grid:SS_330_017 .
+grid:SS_110_101 grid:connectsTo grid:SS_110_073 .
+grid:SS_110_027 grid:connectsTo grid:SS_330_IVA .
+grid:SS_110_107 grid:connectsTo grid:SS_330_098 .
+grid:SS_110_071 grid:connectsTo grid:SS_110_027 .
+grid:SS_330_076 grid:connectsTo grid:SS_330_028 .
+grid:SS_330_105 grid:connectsTo grid:SS_330_112 .
+grid:SS_110_030 grid:connectsTo grid:SS_330_043 .
+grid:SS_110_100 grid:connectsTo grid:SS_110_019 .
+grid:SS_110_101 grid:connectsTo grid:SS_110_116 .
+grid:SS_110_077 grid:connectsTo grid:SS_750_ZAK .
+grid:SS_110_036 grid:connectsTo grid:SS_110_110 .
+grid:SS_110_019 grid:connectsTo grid:SS_330_017 .
+grid:SS_110_070 grid:connectsTo grid:SS_110_033 .
+grid:SS_110_103 grid:connectsTo grid:SS_110_023 .
+grid:SS_330_KRI grid:connectsTo grid:SS_110_085 .

@@ -1,0 +1,521 @@
+id,name,label,type,capacityMW,voltageKV
+PP_NUC_01,Рівненська АЕС,PowerPlant,Nuclear,2835,750
+PP_NUC_02,Хмельницька АЕС,PowerPlant,Nuclear,2000,750
+PP_NUC_03,Південноукраїнська АЕС,PowerPlant,Nuclear,3000,750
+PP_THE_01,Бурштинська ТЕС,PowerPlant,Thermal,2400,400
+PP_THE_02,Добротвірська ТЕС,PowerPlant,Thermal,600,220
+PP_THE_03,Трипільська ТЕС,PowerPlant,Thermal,1800,330
+PP_THE_04,Ладижинська ТЕС,PowerPlant,Thermal,1800,330
+PP_THE_05,Придніпровська ТЕС,PowerPlant,Thermal,1765,330
+PP_THE_06,Криворізька ТЕС,PowerPlant,Thermal,2820,330
+PP_HYD_01,Дніпровська ГЕС,PowerPlant,Hydro,1569,330
+PP_HYD_02,Дністровська ГАЕС,PowerPlant,Hydro,1296,330
+PP_HYD_03,Кременчуцька ГЕС,PowerPlant,Hydro,700,330
+PP_RES_13,ВЕС/СЕС Поділля 13,PowerPlant,Solar,62,330
+PP_RES_14,ВЕС/СЕС Поділля 14,PowerPlant,Wind,164,110
+PP_RES_15,ВЕС/СЕС Поділля 15,PowerPlant,Solar,396,110
+PP_RES_16,ВЕС/СЕС Поділля 16,PowerPlant,Hydro,66,110
+PP_RES_17,ВЕС/СЕС Поділля 17,PowerPlant,Solar,161,110
+PP_RES_18,ВЕС/СЕС Поділля 18,PowerPlant,Solar,337,110
+PP_RES_19,ВЕС/СЕС Поділля 19,PowerPlant,Hydro,162,330
+PP_RES_20,ВЕС/СЕС Поділля 20,PowerPlant,Thermal,53,110
+PP_RES_21,ВЕС/СЕС Поділля 21,PowerPlant,Hydro,224,330
+PP_RES_22,ВЕС/СЕС Поділля 22,PowerPlant,Wind,160,330
+PP_RES_23,ВЕС/СЕС Поділля 23,PowerPlant,Solar,97,330
+PP_RES_24,ВЕС/СЕС Поділля 24,PowerPlant,Solar,233,330
+PP_RES_25,ВЕС/СЕС Поділля 25,PowerPlant,Thermal,72,330
+PP_RES_26,ВЕС/СЕС Поділля 26,PowerPlant,Solar,243,110
+PP_RES_27,ВЕС/СЕС Поділля 27,PowerPlant,Thermal,371,330
+PP_RES_28,ВЕС/СЕС Поділля 28,PowerPlant,Wind,85,110
+PP_RES_29,ВЕС/СЕС Поділля 29,PowerPlant,Wind,198,110
+PP_RES_30,ВЕС/СЕС Поділля 30,PowerPlant,Wind,101,330
+SS_750_ZAK,ПС 750 кВ Західноукраїнська,Substation,Substation,0,750
+SS_750_VIN,ПС 750 кВ Вінницька,Substation,Substation,0,750
+SS_750_KYI,ПС 750 кВ Київська,Substation,Substation,0,750
+SS_750_DNI,ПС 750 кВ Дніпровська,Substation,Substation,0,750
+SS_750_ZAP,ПС 750 кВ Запорізька,Substation,Substation,0,750
+SS_750_PIV,ПС 750 кВ Південнодонбаська,Substation,Substation,0,750
+SS_330_RIV,ПС 330 кВ Рівне,Substation,Substation,0,330
+SS_330_LVI,ПС 330 кВ Львів Західна,Substation,Substation,0,330
+SS_330_IVA,ПС 330 кВ Івано-Франківськ,Substation,Substation,0,330
+SS_330_TER,ПС 330 кВ Тернопільська,Substation,Substation,0,330
+SS_330_KHM,ПС 330 кВ Хмельницька,Substation,Substation,0,330
+SS_330_ZHY,ПС 330 кВ Житомирська,Substation,Substation,0,330
+SS_330_CHE,ПС 330 кВ Чернівецька,Substation,Substation,0,330
+SS_330_BRO,ПС 330 кВ Бровари,Substation,Substation,0,330
+SS_330_KRI,ПС 330 кВ Кривий Ріг,Substation,Substation,0,330
+SS_110_016,ПС 110 кВ Вузлова 16,Substation,Substation,0,110
+SS_330_017,ПС 330 кВ Вузлова 17,Substation,Substation,0,330
+SS_110_018,ПС 110 кВ Вузлова 18,Substation,Substation,0,110
+SS_110_019,ПС 110 кВ Вузлова 19,Substation,Substation,0,110
+SS_110_020,ПС 110 кВ Вузлова 20,Substation,Substation,0,110
+SS_110_021,ПС 110 кВ Вузлова 21,Substation,Substation,0,110
+SS_110_022,ПС 110 кВ Вузлова 22,Substation,Substation,0,110
+SS_110_023,ПС 110 кВ Вузлова 23,Substation,Substation,0,110
+SS_110_024,ПС 110 кВ Вузлова 24,Substation,Substation,0,110
+SS_110_025,ПС 110 кВ Вузлова 25,Substation,Substation,0,110
+SS_110_026,ПС 110 кВ Вузлова 26,Substation,Substation,0,110
+SS_110_027,ПС 110 кВ Вузлова 27,Substation,Substation,0,110
+SS_330_028,ПС 330 кВ Вузлова 28,Substation,Substation,0,330
+SS_330_029,ПС 330 кВ Вузлова 29,Substation,Substation,0,330
+SS_110_030,ПС 110 кВ Вузлова 30,Substation,Substation,0,110
+SS_110_031,ПС 110 кВ Вузлова 31,Substation,Substation,0,110
+SS_110_032,ПС 110 кВ Вузлова 32,Substation,Substation,0,110
+SS_110_033,ПС 110 кВ Вузлова 33,Substation,Substation,0,110
+SS_110_034,ПС 110 кВ Вузлова 34,Substation,Substation,0,110
+SS_110_035,ПС 110 кВ Вузлова 35,Substation,Substation,0,110
+SS_110_036,ПС 110 кВ Вузлова 36,Substation,Substation,0,110
+SS_330_037,ПС 330 кВ Вузлова 37,Substation,Substation,0,330
+SS_110_038,ПС 110 кВ Вузлова 38,Substation,Substation,0,110
+SS_110_039,ПС 110 кВ Вузлова 39,Substation,Substation,0,110
+SS_110_040,ПС 110 кВ Вузлова 40,Substation,Substation,0,110
+SS_110_041,ПС 110 кВ Вузлова 41,Substation,Substation,0,110
+SS_110_042,ПС 110 кВ Вузлова 42,Substation,Substation,0,110
+SS_330_043,ПС 330 кВ Вузлова 43,Substation,Substation,0,330
+SS_330_044,ПС 330 кВ Вузлова 44,Substation,Substation,0,330
+SS_330_045,ПС 330 кВ Вузлова 45,Substation,Substation,0,330
+SS_110_046,ПС 110 кВ Вузлова 46,Substation,Substation,0,110
+SS_110_047,ПС 110 кВ Вузлова 47,Substation,Substation,0,110
+SS_110_048,ПС 110 кВ Вузлова 48,Substation,Substation,0,110
+SS_110_049,ПС 110 кВ Вузлова 49,Substation,Substation,0,110
+SS_110_050,ПС 110 кВ Вузлова 50,Substation,Substation,0,110
+SS_330_051,ПС 330 кВ Вузлова 51,Substation,Substation,0,330
+SS_330_052,ПС 330 кВ Вузлова 52,Substation,Substation,0,330
+SS_110_053,ПС 110 кВ Вузлова 53,Substation,Substation,0,110
+SS_110_054,ПС 110 кВ Вузлова 54,Substation,Substation,0,110
+SS_110_055,ПС 110 кВ Вузлова 55,Substation,Substation,0,110
+SS_330_056,ПС 330 кВ Вузлова 56,Substation,Substation,0,330
+SS_110_057,ПС 110 кВ Вузлова 57,Substation,Substation,0,110
+SS_110_058,ПС 110 кВ Вузлова 58,Substation,Substation,0,110
+SS_110_059,ПС 110 кВ Вузлова 59,Substation,Substation,0,110
+SS_110_060,ПС 110 кВ Вузлова 60,Substation,Substation,0,110
+SS_110_061,ПС 110 кВ Вузлова 61,Substation,Substation,0,110
+SS_330_062,ПС 330 кВ Вузлова 62,Substation,Substation,0,330
+SS_110_063,ПС 110 кВ Вузлова 63,Substation,Substation,0,110
+SS_330_064,ПС 330 кВ Вузлова 64,Substation,Substation,0,330
+SS_330_065,ПС 330 кВ Вузлова 65,Substation,Substation,0,330
+SS_330_066,ПС 330 кВ Вузлова 66,Substation,Substation,0,330
+SS_110_067,ПС 110 кВ Вузлова 67,Substation,Substation,0,110
+SS_110_068,ПС 110 кВ Вузлова 68,Substation,Substation,0,110
+SS_110_069,ПС 110 кВ Вузлова 69,Substation,Substation,0,110
+SS_110_070,ПС 110 кВ Вузлова 70,Substation,Substation,0,110
+SS_110_071,ПС 110 кВ Вузлова 71,Substation,Substation,0,110
+SS_110_072,ПС 110 кВ Вузлова 72,Substation,Substation,0,110
+SS_110_073,ПС 110 кВ Вузлова 73,Substation,Substation,0,110
+SS_330_074,ПС 330 кВ Вузлова 74,Substation,Substation,0,330
+SS_110_075,ПС 110 кВ Вузлова 75,Substation,Substation,0,110
+SS_330_076,ПС 330 кВ Вузлова 76,Substation,Substation,0,330
+SS_110_077,ПС 110 кВ Вузлова 77,Substation,Substation,0,110
+SS_110_078,ПС 110 кВ Вузлова 78,Substation,Substation,0,110
+SS_110_079,ПС 110 кВ Вузлова 79,Substation,Substation,0,110
+SS_110_080,ПС 110 кВ Вузлова 80,Substation,Substation,0,110
+SS_110_081,ПС 110 кВ Вузлова 81,Substation,Substation,0,110
+SS_110_082,ПС 110 кВ Вузлова 82,Substation,Substation,0,110
+SS_110_083,ПС 110 кВ Вузлова 83,Substation,Substation,0,110
+SS_110_084,ПС 110 кВ Вузлова 84,Substation,Substation,0,110
+SS_110_085,ПС 110 кВ Вузлова 85,Substation,Substation,0,110
+SS_110_086,ПС 110 кВ Вузлова 86,Substation,Substation,0,110
+SS_110_087,ПС 110 кВ Вузлова 87,Substation,Substation,0,110
+SS_330_088,ПС 330 кВ Вузлова 88,Substation,Substation,0,330
+SS_110_089,ПС 110 кВ Вузлова 89,Substation,Substation,0,110
+SS_110_090,ПС 110 кВ Вузлова 90,Substation,Substation,0,110
+SS_110_091,ПС 110 кВ Вузлова 91,Substation,Substation,0,110
+SS_110_092,ПС 110 кВ Вузлова 92,Substation,Substation,0,110
+SS_110_093,ПС 110 кВ Вузлова 93,Substation,Substation,0,110
+SS_110_094,ПС 110 кВ Вузлова 94,Substation,Substation,0,110
+SS_110_095,ПС 110 кВ Вузлова 95,Substation,Substation,0,110
+SS_110_096,ПС 110 кВ Вузлова 96,Substation,Substation,0,110
+SS_110_097,ПС 110 кВ Вузлова 97,Substation,Substation,0,110
+SS_330_098,ПС 330 кВ Вузлова 98,Substation,Substation,0,330
+SS_110_099,ПС 110 кВ Вузлова 99,Substation,Substation,0,110
+SS_110_100,ПС 110 кВ Вузлова 100,Substation,Substation,0,110
+SS_110_101,ПС 110 кВ Вузлова 101,Substation,Substation,0,110
+SS_330_102,ПС 330 кВ Вузлова 102,Substation,Substation,0,330
+SS_110_103,ПС 110 кВ Вузлова 103,Substation,Substation,0,110
+SS_110_104,ПС 110 кВ Вузлова 104,Substation,Substation,0,110
+SS_330_105,ПС 330 кВ Вузлова 105,Substation,Substation,0,330
+SS_110_106,ПС 110 кВ Вузлова 106,Substation,Substation,0,110
+SS_110_107,ПС 110 кВ Вузлова 107,Substation,Substation,0,110
+SS_110_108,ПС 110 кВ Вузлова 108,Substation,Substation,0,110
+SS_330_109,ПС 330 кВ Вузлова 109,Substation,Substation,0,330
+SS_110_110,ПС 110 кВ Вузлова 110,Substation,Substation,0,110
+SS_330_111,ПС 330 кВ Вузлова 111,Substation,Substation,0,330
+SS_330_112,ПС 330 кВ Вузлова 112,Substation,Substation,0,330
+SS_110_113,ПС 110 кВ Вузлова 113,Substation,Substation,0,110
+SS_110_114,ПС 110 кВ Вузлова 114,Substation,Substation,0,110
+SS_110_115,ПС 110 кВ Вузлова 115,Substation,Substation,0,110
+SS_110_116,ПС 110 кВ Вузлова 116,Substation,Substation,0,110
+SS_110_117,ПС 110 кВ Вузлова 117,Substation,Substation,0,110
+SS_110_118,ПС 110 кВ Вузлова 118,Substation,Substation,0,110
+SS_110_119,ПС 110 кВ Вузлова 119,Substation,Substation,0,110
+SS_110_120,ПС 110 кВ Вузлова 120,Substation,Substation,0,110
+TL_750_001,ПЛ 750 кВ Магістраль 1,TransmissionLine,OverheadLine,0,750
+TL_750_002,ПЛ 750 кВ Магістраль 2,TransmissionLine,OverheadLine,0,750
+TL_750_003,ПЛ 750 кВ Магістраль 3,TransmissionLine,OverheadLine,0,750
+TL_750_004,ПЛ 750 кВ Магістраль 4,TransmissionLine,OverheadLine,0,750
+TL_750_005,ПЛ 750 кВ Магістраль 5,TransmissionLine,OverheadLine,0,750
+TL_750_006,ПЛ 750 кВ Магістраль 6,TransmissionLine,OverheadLine,0,750
+TL_750_007,ПЛ 750 кВ Магістраль 7,TransmissionLine,OverheadLine,0,750
+TL_750_008,ПЛ 750 кВ Магістраль 8,TransmissionLine,OverheadLine,0,750
+TL_750_009,ПЛ 750 кВ Магістраль 9,TransmissionLine,OverheadLine,0,750
+TL_750_010,ПЛ 750 кВ Магістраль 10,TransmissionLine,OverheadLine,0,750
+TL_750_011,ПЛ 750 кВ Магістраль 11,TransmissionLine,OverheadLine,0,750
+TL_750_012,ПЛ 750 кВ Магістраль 12,TransmissionLine,OverheadLine,0,750
+TL_750_013,ПЛ 750 кВ Магістраль 13,TransmissionLine,OverheadLine,0,750
+TL_750_014,ПЛ 750 кВ Магістраль 14,TransmissionLine,OverheadLine,0,750
+TL_750_015,ПЛ 750 кВ Магістраль 15,TransmissionLine,OverheadLine,0,750
+TL_330_016,ПЛ 330 кВ Магістраль 16,TransmissionLine,OverheadLine,0,330
+TL_330_017,ПЛ 330 кВ Магістраль 17,TransmissionLine,OverheadLine,0,330
+TL_330_018,ПЛ 330 кВ Магістраль 18,TransmissionLine,OverheadLine,0,330
+TL_330_019,ПЛ 330 кВ Магістраль 19,TransmissionLine,OverheadLine,0,330
+TL_330_020,ПЛ 330 кВ Магістраль 20,TransmissionLine,OverheadLine,0,330
+TL_330_021,ПЛ 330 кВ Магістраль 21,TransmissionLine,OverheadLine,0,330
+TL_330_022,ПЛ 330 кВ Магістраль 22,TransmissionLine,OverheadLine,0,330
+TL_330_023,ПЛ 330 кВ Магістраль 23,TransmissionLine,OverheadLine,0,330
+TL_330_024,ПЛ 330 кВ Магістраль 24,TransmissionLine,OverheadLine,0,330
+TL_330_025,ПЛ 330 кВ Магістраль 25,TransmissionLine,OverheadLine,0,330
+TL_330_026,ПЛ 330 кВ Магістраль 26,TransmissionLine,OverheadLine,0,330
+TL_330_027,ПЛ 330 кВ Магістраль 27,TransmissionLine,OverheadLine,0,330
+TL_330_028,ПЛ 330 кВ Магістраль 28,TransmissionLine,OverheadLine,0,330
+TL_330_029,ПЛ 330 кВ Магістраль 29,TransmissionLine,OverheadLine,0,330
+TL_330_030,ПЛ 330 кВ Магістраль 30,TransmissionLine,OverheadLine,0,330
+TL_330_031,ПЛ 330 кВ Магістраль 31,TransmissionLine,OverheadLine,0,330
+TL_330_032,ПЛ 330 кВ Магістраль 32,TransmissionLine,OverheadLine,0,330
+TL_330_033,ПЛ 330 кВ Магістраль 33,TransmissionLine,OverheadLine,0,330
+TL_330_034,ПЛ 330 кВ Магістраль 34,TransmissionLine,OverheadLine,0,330
+TL_330_035,ПЛ 330 кВ Магістраль 35,TransmissionLine,OverheadLine,0,330
+TL_330_036,ПЛ 330 кВ Магістраль 36,TransmissionLine,OverheadLine,0,330
+TL_330_037,ПЛ 330 кВ Магістраль 37,TransmissionLine,OverheadLine,0,330
+TL_330_038,ПЛ 330 кВ Магістраль 38,TransmissionLine,OverheadLine,0,330
+TL_330_039,ПЛ 330 кВ Магістраль 39,TransmissionLine,OverheadLine,0,330
+TL_330_040,ПЛ 330 кВ Магістраль 40,TransmissionLine,OverheadLine,0,330
+TL_330_041,ПЛ 330 кВ Магістраль 41,TransmissionLine,OverheadLine,0,330
+TL_330_042,ПЛ 330 кВ Магістраль 42,TransmissionLine,OverheadLine,0,330
+TL_330_043,ПЛ 330 кВ Магістраль 43,TransmissionLine,OverheadLine,0,330
+TL_330_044,ПЛ 330 кВ Магістраль 44,TransmissionLine,OverheadLine,0,330
+TL_330_045,ПЛ 330 кВ Магістраль 45,TransmissionLine,OverheadLine,0,330
+TL_330_046,ПЛ 330 кВ Магістраль 46,TransmissionLine,OverheadLine,0,330
+TL_330_047,ПЛ 330 кВ Магістраль 47,TransmissionLine,OverheadLine,0,330
+TL_330_048,ПЛ 330 кВ Магістраль 48,TransmissionLine,OverheadLine,0,330
+TL_330_049,ПЛ 330 кВ Магістраль 49,TransmissionLine,OverheadLine,0,330
+TL_330_050,ПЛ 330 кВ Магістраль 50,TransmissionLine,OverheadLine,0,330
+TL_330_051,ПЛ 330 кВ Магістраль 51,TransmissionLine,OverheadLine,0,330
+TL_330_052,ПЛ 330 кВ Магістраль 52,TransmissionLine,OverheadLine,0,330
+TL_330_053,ПЛ 330 кВ Магістраль 53,TransmissionLine,OverheadLine,0,330
+TL_330_054,ПЛ 330 кВ Магістраль 54,TransmissionLine,OverheadLine,0,330
+TL_330_055,ПЛ 330 кВ Магістраль 55,TransmissionLine,OverheadLine,0,330
+TL_330_056,ПЛ 330 кВ Магістраль 56,TransmissionLine,OverheadLine,0,330
+TL_330_057,ПЛ 330 кВ Магістраль 57,TransmissionLine,OverheadLine,0,330
+TL_330_058,ПЛ 330 кВ Магістраль 58,TransmissionLine,OverheadLine,0,330
+TL_330_059,ПЛ 330 кВ Магістраль 59,TransmissionLine,OverheadLine,0,330
+TL_330_060,ПЛ 330 кВ Магістраль 60,TransmissionLine,OverheadLine,0,330
+TL_330_061,ПЛ 330 кВ Магістраль 61,TransmissionLine,OverheadLine,0,330
+TL_330_062,ПЛ 330 кВ Магістраль 62,TransmissionLine,OverheadLine,0,330
+TL_330_063,ПЛ 330 кВ Магістраль 63,TransmissionLine,OverheadLine,0,330
+TL_330_064,ПЛ 330 кВ Магістраль 64,TransmissionLine,OverheadLine,0,330
+TL_330_065,ПЛ 330 кВ Магістраль 65,TransmissionLine,OverheadLine,0,330
+TL_330_066,ПЛ 330 кВ Магістраль 66,TransmissionLine,OverheadLine,0,330
+TL_330_067,ПЛ 330 кВ Магістраль 67,TransmissionLine,OverheadLine,0,330
+TL_330_068,ПЛ 330 кВ Магістраль 68,TransmissionLine,OverheadLine,0,330
+TL_330_069,ПЛ 330 кВ Магістраль 69,TransmissionLine,OverheadLine,0,330
+TL_330_070,ПЛ 330 кВ Магістраль 70,TransmissionLine,OverheadLine,0,330
+TL_110_071,ПЛ 110 кВ Магістраль 71,TransmissionLine,OverheadLine,0,110
+TL_110_072,ПЛ 110 кВ Магістраль 72,TransmissionLine,OverheadLine,0,110
+TL_110_073,ПЛ 110 кВ Магістраль 73,TransmissionLine,OverheadLine,0,110
+TL_110_074,ПЛ 110 кВ Магістраль 74,TransmissionLine,OverheadLine,0,110
+TL_110_075,ПЛ 110 кВ Магістраль 75,TransmissionLine,OverheadLine,0,110
+TL_110_076,ПЛ 110 кВ Магістраль 76,TransmissionLine,OverheadLine,0,110
+TL_110_077,ПЛ 110 кВ Магістраль 77,TransmissionLine,OverheadLine,0,110
+TL_110_078,ПЛ 110 кВ Магістраль 78,TransmissionLine,OverheadLine,0,110
+TL_110_079,ПЛ 110 кВ Магістраль 79,TransmissionLine,OverheadLine,0,110
+TL_110_080,ПЛ 110 кВ Магістраль 80,TransmissionLine,OverheadLine,0,110
+TL_110_081,ПЛ 110 кВ Магістраль 81,TransmissionLine,OverheadLine,0,110
+TL_110_082,ПЛ 110 кВ Магістраль 82,TransmissionLine,OverheadLine,0,110
+TL_110_083,ПЛ 110 кВ Магістраль 83,TransmissionLine,OverheadLine,0,110
+TL_110_084,ПЛ 110 кВ Магістраль 84,TransmissionLine,OverheadLine,0,110
+TL_110_085,ПЛ 110 кВ Магістраль 85,TransmissionLine,OverheadLine,0,110
+TL_110_086,ПЛ 110 кВ Магістраль 86,TransmissionLine,OverheadLine,0,110
+TL_110_087,ПЛ 110 кВ Магістраль 87,TransmissionLine,OverheadLine,0,110
+TL_110_088,ПЛ 110 кВ Магістраль 88,TransmissionLine,OverheadLine,0,110
+TL_110_089,ПЛ 110 кВ Магістраль 89,TransmissionLine,OverheadLine,0,110
+TL_110_090,ПЛ 110 кВ Магістраль 90,TransmissionLine,OverheadLine,0,110
+TL_110_091,ПЛ 110 кВ Магістраль 91,TransmissionLine,OverheadLine,0,110
+TL_110_092,ПЛ 110 кВ Магістраль 92,TransmissionLine,OverheadLine,0,110
+TL_110_093,ПЛ 110 кВ Магістраль 93,TransmissionLine,OverheadLine,0,110
+TL_110_094,ПЛ 110 кВ Магістраль 94,TransmissionLine,OverheadLine,0,110
+TL_110_095,ПЛ 110 кВ Магістраль 95,TransmissionLine,OverheadLine,0,110
+TL_110_096,ПЛ 110 кВ Магістраль 96,TransmissionLine,OverheadLine,0,110
+TL_110_097,ПЛ 110 кВ Магістраль 97,TransmissionLine,OverheadLine,0,110
+TL_110_098,ПЛ 110 кВ Магістраль 98,TransmissionLine,OverheadLine,0,110
+TL_110_099,ПЛ 110 кВ Магістраль 99,TransmissionLine,OverheadLine,0,110
+TL_110_100,ПЛ 110 кВ Магістраль 100,TransmissionLine,OverheadLine,0,110
+TL_110_101,ПЛ 110 кВ Магістраль 101,TransmissionLine,OverheadLine,0,110
+TL_110_102,ПЛ 110 кВ Магістраль 102,TransmissionLine,OverheadLine,0,110
+TL_110_103,ПЛ 110 кВ Магістраль 103,TransmissionLine,OverheadLine,0,110
+TL_110_104,ПЛ 110 кВ Магістраль 104,TransmissionLine,OverheadLine,0,110
+TL_110_105,ПЛ 110 кВ Магістраль 105,TransmissionLine,OverheadLine,0,110
+TL_110_106,ПЛ 110 кВ Магістраль 106,TransmissionLine,OverheadLine,0,110
+TL_110_107,ПЛ 110 кВ Магістраль 107,TransmissionLine,OverheadLine,0,110
+TL_110_108,ПЛ 110 кВ Магістраль 108,TransmissionLine,OverheadLine,0,110
+TL_110_109,ПЛ 110 кВ Магістраль 109,TransmissionLine,OverheadLine,0,110
+TL_110_110,ПЛ 110 кВ Магістраль 110,TransmissionLine,OverheadLine,0,110
+TL_110_111,ПЛ 110 кВ Магістраль 111,TransmissionLine,OverheadLine,0,110
+TL_110_112,ПЛ 110 кВ Магістраль 112,TransmissionLine,OverheadLine,0,110
+TL_110_113,ПЛ 110 кВ Магістраль 113,TransmissionLine,OverheadLine,0,110
+TL_110_114,ПЛ 110 кВ Магістраль 114,TransmissionLine,OverheadLine,0,110
+TL_110_115,ПЛ 110 кВ Магістраль 115,TransmissionLine,OverheadLine,0,110
+TL_110_116,ПЛ 110 кВ Магістраль 116,TransmissionLine,OverheadLine,0,110
+TL_110_117,ПЛ 110 кВ Магістраль 117,TransmissionLine,OverheadLine,0,110
+TL_110_118,ПЛ 110 кВ Магістраль 118,TransmissionLine,OverheadLine,0,110
+TL_110_119,ПЛ 110 кВ Магістраль 119,TransmissionLine,OverheadLine,0,110
+TL_110_120,ПЛ 110 кВ Магістраль 120,TransmissionLine,OverheadLine,0,110
+TL_110_121,ПЛ 110 кВ Магістраль 121,TransmissionLine,OverheadLine,0,110
+TL_110_122,ПЛ 110 кВ Магістраль 122,TransmissionLine,OverheadLine,0,110
+TL_110_123,ПЛ 110 кВ Магістраль 123,TransmissionLine,OverheadLine,0,110
+TL_110_124,ПЛ 110 кВ Магістраль 124,TransmissionLine,OverheadLine,0,110
+TL_110_125,ПЛ 110 кВ Магістраль 125,TransmissionLine,OverheadLine,0,110
+TL_110_126,ПЛ 110 кВ Магістраль 126,TransmissionLine,OverheadLine,0,110
+TL_110_127,ПЛ 110 кВ Магістраль 127,TransmissionLine,OverheadLine,0,110
+TL_110_128,ПЛ 110 кВ Магістраль 128,TransmissionLine,OverheadLine,0,110
+TL_110_129,ПЛ 110 кВ Магістраль 129,TransmissionLine,OverheadLine,0,110
+TL_110_130,ПЛ 110 кВ Магістраль 130,TransmissionLine,OverheadLine,0,110
+TL_110_131,ПЛ 110 кВ Магістраль 131,TransmissionLine,OverheadLine,0,110
+TL_110_132,ПЛ 110 кВ Магістраль 132,TransmissionLine,OverheadLine,0,110
+TL_110_133,ПЛ 110 кВ Магістраль 133,TransmissionLine,OverheadLine,0,110
+TL_110_134,ПЛ 110 кВ Магістраль 134,TransmissionLine,OverheadLine,0,110
+TL_110_135,ПЛ 110 кВ Магістраль 135,TransmissionLine,OverheadLine,0,110
+TL_110_136,ПЛ 110 кВ Магістраль 136,TransmissionLine,OverheadLine,0,110
+TL_110_137,ПЛ 110 кВ Магістраль 137,TransmissionLine,OverheadLine,0,110
+TL_110_138,ПЛ 110 кВ Магістраль 138,TransmissionLine,OverheadLine,0,110
+TL_110_139,ПЛ 110 кВ Магістраль 139,TransmissionLine,OverheadLine,0,110
+TL_110_140,ПЛ 110 кВ Магістраль 140,TransmissionLine,OverheadLine,0,110
+TR_750_001,Автотрансформатор АТ-1 (750 кВ),Transformer,Autotransformer,250,750
+TR_750_002,Автотрансформатор АТ-2 (750 кВ),Transformer,Autotransformer,250,750
+TR_750_003,Автотрансформатор АТ-3 (750 кВ),Transformer,Autotransformer,250,750
+TR_750_004,Автотрансформатор АТ-4 (750 кВ),Transformer,Autotransformer,250,750
+TR_750_005,Автотрансформатор АТ-5 (750 кВ),Transformer,Autotransformer,250,750
+TR_750_006,Автотрансформатор АТ-6 (750 кВ),Transformer,Autotransformer,250,750
+TR_750_007,Автотрансформатор АТ-7 (750 кВ),Transformer,Autotransformer,250,750
+TR_750_008,Автотрансформатор АТ-8 (750 кВ),Transformer,Autotransformer,250,750
+TR_750_009,Автотрансформатор АТ-9 (750 кВ),Transformer,Autotransformer,250,750
+TR_750_010,Автотрансформатор АТ-10 (750 кВ),Transformer,Autotransformer,250,750
+TR_750_011,Автотрансформатор АТ-11 (750 кВ),Transformer,Autotransformer,250,750
+TR_750_012,Автотрансформатор АТ-12 (750 кВ),Transformer,Autotransformer,250,750
+TR_750_013,Автотрансформатор АТ-13 (750 кВ),Transformer,Autotransformer,250,750
+TR_750_014,Автотрансформатор АТ-14 (750 кВ),Transformer,Autotransformer,250,750
+TR_750_015,Автотрансформатор АТ-15 (750 кВ),Transformer,Autotransformer,250,750
+TR_330_016,Автотрансформатор АТ-16 (330 кВ),Transformer,Autotransformer,250,330
+TR_330_017,Автотрансформатор АТ-17 (330 кВ),Transformer,Autotransformer,250,330
+TR_330_018,Автотрансформатор АТ-18 (330 кВ),Transformer,Autotransformer,250,330
+TR_330_019,Автотрансформатор АТ-19 (330 кВ),Transformer,Autotransformer,250,330
+TR_330_020,Автотрансформатор АТ-20 (330 кВ),Transformer,Autotransformer,250,330
+TR_330_021,Автотрансформатор АТ-21 (330 кВ),Transformer,Autotransformer,250,330
+TR_330_022,Автотрансформатор АТ-22 (330 кВ),Transformer,Autotransformer,250,330
+TR_330_023,Автотрансформатор АТ-23 (330 кВ),Transformer,Autotransformer,250,330
+TR_330_024,Автотрансформатор АТ-24 (330 кВ),Transformer,Autotransformer,250,330
+TR_330_025,Автотрансформатор АТ-25 (330 кВ),Transformer,Autotransformer,250,330
+TR_330_026,Автотрансформатор АТ-26 (330 кВ),Transformer,Autotransformer,250,330
+TR_330_027,Автотрансформатор АТ-27 (330 кВ),Transformer,Autotransformer,250,330
+TR_330_028,Автотрансформатор АТ-28 (330 кВ),Transformer,Autotransformer,250,330
+TR_330_029,Автотрансформатор АТ-29 (330 кВ),Transformer,Autotransformer,250,330
+TR_330_030,Автотрансформатор АТ-30 (330 кВ),Transformer,Autotransformer,250,330
+TR_330_031,Автотрансформатор АТ-31 (330 кВ),Transformer,Autotransformer,250,330
+TR_330_032,Автотрансформатор АТ-32 (330 кВ),Transformer,Autotransformer,250,330
+TR_330_033,Автотрансформатор АТ-33 (330 кВ),Transformer,Autotransformer,250,330
+TR_330_034,Автотрансформатор АТ-34 (330 кВ),Transformer,Autotransformer,250,330
+TR_330_035,Автотрансформатор АТ-35 (330 кВ),Transformer,Autotransformer,250,330
+TR_330_036,Автотрансформатор АТ-36 (330 кВ),Transformer,Autotransformer,250,330
+TR_330_037,Автотрансформатор АТ-37 (330 кВ),Transformer,Autotransformer,250,330
+TR_330_038,Автотрансформатор АТ-38 (330 кВ),Transformer,Autotransformer,250,330
+TR_330_039,Автотрансформатор АТ-39 (330 кВ),Transformer,Autotransformer,250,330
+TR_330_040,Автотрансформатор АТ-40 (330 кВ),Transformer,Autotransformer,250,330
+TR_330_041,Автотрансформатор АТ-41 (330 кВ),Transformer,Autotransformer,250,330
+TR_330_042,Автотрансформатор АТ-42 (330 кВ),Transformer,Autotransformer,250,330
+TR_330_043,Автотрансформатор АТ-43 (330 кВ),Transformer,Autotransformer,250,330
+TR_330_044,Автотрансформатор АТ-44 (330 кВ),Transformer,Autotransformer,250,330
+TR_330_045,Автотрансформатор АТ-45 (330 кВ),Transformer,Autotransformer,250,330
+TR_330_046,Автотрансформатор АТ-46 (330 кВ),Transformer,Autotransformer,250,330
+TR_330_047,Автотрансформатор АТ-47 (330 кВ),Transformer,Autotransformer,250,330
+TR_330_048,Автотрансформатор АТ-48 (330 кВ),Transformer,Autotransformer,250,330
+TR_330_049,Автотрансформатор АТ-49 (330 кВ),Transformer,Autotransformer,250,330
+TR_330_050,Автотрансформатор АТ-50 (330 кВ),Transformer,Autotransformer,250,330
+TR_110_051,Автотрансформатор АТ-51 (110 кВ),Transformer,Autotransformer,250,110
+TR_110_052,Автотрансформатор АТ-52 (110 кВ),Transformer,Autotransformer,250,110
+TR_110_053,Автотрансформатор АТ-53 (110 кВ),Transformer,Autotransformer,250,110
+TR_110_054,Автотрансформатор АТ-54 (110 кВ),Transformer,Autotransformer,250,110
+TR_110_055,Автотрансформатор АТ-55 (110 кВ),Transformer,Autotransformer,250,110
+TR_110_056,Автотрансформатор АТ-56 (110 кВ),Transformer,Autotransformer,250,110
+TR_110_057,Автотрансформатор АТ-57 (110 кВ),Transformer,Autotransformer,250,110
+TR_110_058,Автотрансформатор АТ-58 (110 кВ),Transformer,Autotransformer,250,110
+TR_110_059,Автотрансформатор АТ-59 (110 кВ),Transformer,Autotransformer,250,110
+TR_110_060,Автотрансформатор АТ-60 (110 кВ),Transformer,Autotransformer,250,110
+TR_110_061,Автотрансформатор АТ-61 (110 кВ),Transformer,Autotransformer,250,110
+TR_110_062,Автотрансформатор АТ-62 (110 кВ),Transformer,Autotransformer,250,110
+TR_110_063,Автотрансформатор АТ-63 (110 кВ),Transformer,Autotransformer,250,110
+TR_110_064,Автотрансформатор АТ-64 (110 кВ),Transformer,Autotransformer,250,110
+TR_110_065,Автотрансформатор АТ-65 (110 кВ),Transformer,Autotransformer,250,110
+TR_110_066,Автотрансформатор АТ-66 (110 кВ),Transformer,Autotransformer,250,110
+TR_110_067,Автотрансформатор АТ-67 (110 кВ),Transformer,Autotransformer,250,110
+TR_110_068,Автотрансформатор АТ-68 (110 кВ),Transformer,Autotransformer,250,110
+TR_110_069,Автотрансформатор АТ-69 (110 кВ),Transformer,Autotransformer,250,110
+TR_110_070,Автотрансформатор АТ-70 (110 кВ),Transformer,Autotransformer,250,110
+TR_110_071,Автотрансформатор АТ-71 (110 кВ),Transformer,Autotransformer,250,110
+TR_110_072,Автотрансформатор АТ-72 (110 кВ),Transformer,Autotransformer,250,110
+TR_110_073,Автотрансформатор АТ-73 (110 кВ),Transformer,Autotransformer,250,110
+TR_110_074,Автотрансформатор АТ-74 (110 кВ),Transformer,Autotransformer,250,110
+TR_110_075,Автотрансформатор АТ-75 (110 кВ),Transformer,Autotransformer,250,110
+TR_110_076,Автотрансформатор АТ-76 (110 кВ),Transformer,Autotransformer,250,110
+TR_110_077,Автотрансформатор АТ-77 (110 кВ),Transformer,Autotransformer,250,110
+TR_110_078,Автотрансформатор АТ-78 (110 кВ),Transformer,Autotransformer,250,110
+TR_110_079,Автотрансформатор АТ-79 (110 кВ),Transformer,Autotransformer,250,110
+TR_110_080,Автотрансформатор АТ-80 (110 кВ),Transformer,Autotransformer,250,110
+CB_750_001,Елегазовий вимикач В-1 (750 кВ),CircuitBreaker,SF6_Breaker,0,750
+CB_750_002,Елегазовий вимикач В-2 (750 кВ),CircuitBreaker,SF6_Breaker,0,750
+CB_750_003,Елегазовий вимикач В-3 (750 кВ),CircuitBreaker,SF6_Breaker,0,750
+CB_750_004,Елегазовий вимикач В-4 (750 кВ),CircuitBreaker,SF6_Breaker,0,750
+CB_750_005,Елегазовий вимикач В-5 (750 кВ),CircuitBreaker,SF6_Breaker,0,750
+CB_750_006,Елегазовий вимикач В-6 (750 кВ),CircuitBreaker,SF6_Breaker,0,750
+CB_750_007,Елегазовий вимикач В-7 (750 кВ),CircuitBreaker,SF6_Breaker,0,750
+CB_750_008,Елегазовий вимикач В-8 (750 кВ),CircuitBreaker,SF6_Breaker,0,750
+CB_750_009,Елегазовий вимикач В-9 (750 кВ),CircuitBreaker,SF6_Breaker,0,750
+CB_750_010,Елегазовий вимикач В-10 (750 кВ),CircuitBreaker,SF6_Breaker,0,750
+CB_750_011,Елегазовий вимикач В-11 (750 кВ),CircuitBreaker,SF6_Breaker,0,750
+CB_750_012,Елегазовий вимикач В-12 (750 кВ),CircuitBreaker,SF6_Breaker,0,750
+CB_750_013,Елегазовий вимикач В-13 (750 кВ),CircuitBreaker,SF6_Breaker,0,750
+CB_750_014,Елегазовий вимикач В-14 (750 кВ),CircuitBreaker,SF6_Breaker,0,750
+CB_750_015,Елегазовий вимикач В-15 (750 кВ),CircuitBreaker,SF6_Breaker,0,750
+CB_330_016,Елегазовий вимикач В-16 (330 кВ),CircuitBreaker,SF6_Breaker,0,330
+CB_330_017,Елегазовий вимикач В-17 (330 кВ),CircuitBreaker,SF6_Breaker,0,330
+CB_330_018,Елегазовий вимикач В-18 (330 кВ),CircuitBreaker,SF6_Breaker,0,330
+CB_330_019,Елегазовий вимикач В-19 (330 кВ),CircuitBreaker,SF6_Breaker,0,330
+CB_330_020,Елегазовий вимикач В-20 (330 кВ),CircuitBreaker,SF6_Breaker,0,330
+CB_330_021,Елегазовий вимикач В-21 (330 кВ),CircuitBreaker,SF6_Breaker,0,330
+CB_330_022,Елегазовий вимикач В-22 (330 кВ),CircuitBreaker,SF6_Breaker,0,330
+CB_330_023,Елегазовий вимикач В-23 (330 кВ),CircuitBreaker,SF6_Breaker,0,330
+CB_330_024,Елегазовий вимикач В-24 (330 кВ),CircuitBreaker,SF6_Breaker,0,330
+CB_330_025,Елегазовий вимикач В-25 (330 кВ),CircuitBreaker,SF6_Breaker,0,330
+CB_330_026,Елегазовий вимикач В-26 (330 кВ),CircuitBreaker,SF6_Breaker,0,330
+CB_330_027,Елегазовий вимикач В-27 (330 кВ),CircuitBreaker,SF6_Breaker,0,330
+CB_330_028,Елегазовий вимикач В-28 (330 кВ),CircuitBreaker,SF6_Breaker,0,330
+CB_330_029,Елегазовий вимикач В-29 (330 кВ),CircuitBreaker,SF6_Breaker,0,330
+CB_330_030,Елегазовий вимикач В-30 (330 кВ),CircuitBreaker,SF6_Breaker,0,330
+CB_330_031,Елегазовий вимикач В-31 (330 кВ),CircuitBreaker,SF6_Breaker,0,330
+CB_330_032,Елегазовий вимикач В-32 (330 кВ),CircuitBreaker,SF6_Breaker,0,330
+CB_330_033,Елегазовий вимикач В-33 (330 кВ),CircuitBreaker,SF6_Breaker,0,330
+CB_330_034,Елегазовий вимикач В-34 (330 кВ),CircuitBreaker,SF6_Breaker,0,330
+CB_330_035,Елегазовий вимикач В-35 (330 кВ),CircuitBreaker,SF6_Breaker,0,330
+CB_330_036,Елегазовий вимикач В-36 (330 кВ),CircuitBreaker,SF6_Breaker,0,330
+CB_330_037,Елегазовий вимикач В-37 (330 кВ),CircuitBreaker,SF6_Breaker,0,330
+CB_330_038,Елегазовий вимикач В-38 (330 кВ),CircuitBreaker,SF6_Breaker,0,330
+CB_330_039,Елегазовий вимикач В-39 (330 кВ),CircuitBreaker,SF6_Breaker,0,330
+CB_330_040,Елегазовий вимикач В-40 (330 кВ),CircuitBreaker,SF6_Breaker,0,330
+CB_330_041,Елегазовий вимикач В-41 (330 кВ),CircuitBreaker,SF6_Breaker,0,330
+CB_330_042,Елегазовий вимикач В-42 (330 кВ),CircuitBreaker,SF6_Breaker,0,330
+CB_330_043,Елегазовий вимикач В-43 (330 кВ),CircuitBreaker,SF6_Breaker,0,330
+CB_330_044,Елегазовий вимикач В-44 (330 кВ),CircuitBreaker,SF6_Breaker,0,330
+CB_330_045,Елегазовий вимикач В-45 (330 кВ),CircuitBreaker,SF6_Breaker,0,330
+CB_330_046,Елегазовий вимикач В-46 (330 кВ),CircuitBreaker,SF6_Breaker,0,330
+CB_330_047,Елегазовий вимикач В-47 (330 кВ),CircuitBreaker,SF6_Breaker,0,330
+CB_330_048,Елегазовий вимикач В-48 (330 кВ),CircuitBreaker,SF6_Breaker,0,330
+CB_330_049,Елегазовий вимикач В-49 (330 кВ),CircuitBreaker,SF6_Breaker,0,330
+CB_330_050,Елегазовий вимикач В-50 (330 кВ),CircuitBreaker,SF6_Breaker,0,330
+CB_330_051,Елегазовий вимикач В-51 (330 кВ),CircuitBreaker,SF6_Breaker,0,330
+CB_330_052,Елегазовий вимикач В-52 (330 кВ),CircuitBreaker,SF6_Breaker,0,330
+CB_330_053,Елегазовий вимикач В-53 (330 кВ),CircuitBreaker,SF6_Breaker,0,330
+CB_330_054,Елегазовий вимикач В-54 (330 кВ),CircuitBreaker,SF6_Breaker,0,330
+CB_330_055,Елегазовий вимикач В-55 (330 кВ),CircuitBreaker,SF6_Breaker,0,330
+CB_110_056,Елегазовий вимикач В-56 (110 кВ),CircuitBreaker,SF6_Breaker,0,110
+CB_110_057,Елегазовий вимикач В-57 (110 кВ),CircuitBreaker,SF6_Breaker,0,110
+CB_110_058,Елегазовий вимикач В-58 (110 кВ),CircuitBreaker,SF6_Breaker,0,110
+CB_110_059,Елегазовий вимикач В-59 (110 кВ),CircuitBreaker,SF6_Breaker,0,110
+CB_110_060,Елегазовий вимикач В-60 (110 кВ),CircuitBreaker,SF6_Breaker,0,110
+CB_110_061,Елегазовий вимикач В-61 (110 кВ),CircuitBreaker,SF6_Breaker,0,110
+CB_110_062,Елегазовий вимикач В-62 (110 кВ),CircuitBreaker,SF6_Breaker,0,110
+CB_110_063,Елегазовий вимикач В-63 (110 кВ),CircuitBreaker,SF6_Breaker,0,110
+CB_110_064,Елегазовий вимикач В-64 (110 кВ),CircuitBreaker,SF6_Breaker,0,110
+CB_110_065,Елегазовий вимикач В-65 (110 кВ),CircuitBreaker,SF6_Breaker,0,110
+CB_110_066,Елегазовий вимикач В-66 (110 кВ),CircuitBreaker,SF6_Breaker,0,110
+CB_110_067,Елегазовий вимикач В-67 (110 кВ),CircuitBreaker,SF6_Breaker,0,110
+CB_110_068,Елегазовий вимикач В-68 (110 кВ),CircuitBreaker,SF6_Breaker,0,110
+CB_110_069,Елегазовий вимикач В-69 (110 кВ),CircuitBreaker,SF6_Breaker,0,110
+CB_110_070,Елегазовий вимикач В-70 (110 кВ),CircuitBreaker,SF6_Breaker,0,110
+CB_110_071,Елегазовий вимикач В-71 (110 кВ),CircuitBreaker,SF6_Breaker,0,110
+CB_110_072,Елегазовий вимикач В-72 (110 кВ),CircuitBreaker,SF6_Breaker,0,110
+CB_110_073,Елегазовий вимикач В-73 (110 кВ),CircuitBreaker,SF6_Breaker,0,110
+CB_110_074,Елегазовий вимикач В-74 (110 кВ),CircuitBreaker,SF6_Breaker,0,110
+CB_110_075,Елегазовий вимикач В-75 (110 кВ),CircuitBreaker,SF6_Breaker,0,110
+CB_110_076,Елегазовий вимикач В-76 (110 кВ),CircuitBreaker,SF6_Breaker,0,110
+CB_110_077,Елегазовий вимикач В-77 (110 кВ),CircuitBreaker,SF6_Breaker,0,110
+CB_110_078,Елегазовий вимикач В-78 (110 кВ),CircuitBreaker,SF6_Breaker,0,110
+CB_110_079,Елегазовий вимикач В-79 (110 кВ),CircuitBreaker,SF6_Breaker,0,110
+CB_110_080,Елегазовий вимикач В-80 (110 кВ),CircuitBreaker,SF6_Breaker,0,110
+CB_110_081,Елегазовий вимикач В-81 (110 кВ),CircuitBreaker,SF6_Breaker,0,110
+CB_110_082,Елегазовий вимикач В-82 (110 кВ),CircuitBreaker,SF6_Breaker,0,110
+CB_110_083,Елегазовий вимикач В-83 (110 кВ),CircuitBreaker,SF6_Breaker,0,110
+CB_110_084,Елегазовий вимикач В-84 (110 кВ),CircuitBreaker,SF6_Breaker,0,110
+CB_110_085,Елегазовий вимикач В-85 (110 кВ),CircuitBreaker,SF6_Breaker,0,110
+CB_110_086,Елегазовий вимикач В-86 (110 кВ),CircuitBreaker,SF6_Breaker,0,110
+CB_110_087,Елегазовий вимикач В-87 (110 кВ),CircuitBreaker,SF6_Breaker,0,110
+CB_110_088,Елегазовий вимикач В-88 (110 кВ),CircuitBreaker,SF6_Breaker,0,110
+CB_110_089,Елегазовий вимикач В-89 (110 кВ),CircuitBreaker,SF6_Breaker,0,110
+CB_110_090,Елегазовий вимикач В-90 (110 кВ),CircuitBreaker,SF6_Breaker,0,110
+RP_PROT_001,Мікропроцесорний захист РЗА-1,RelayProtection,DistanceRelay,0,0
+RP_PROT_002,Мікропроцесорний захист РЗА-2,RelayProtection,DistanceRelay,0,0
+RP_PROT_003,Мікропроцесорний захист РЗА-3,RelayProtection,DistanceRelay,0,0
+RP_PROT_004,Мікропроцесорний захист РЗА-4,RelayProtection,DistanceRelay,0,0
+RP_PROT_005,Мікропроцесорний захист РЗА-5,RelayProtection,DistanceRelay,0,0
+RP_PROT_006,Мікропроцесорний захист РЗА-6,RelayProtection,DistanceRelay,0,0
+RP_PROT_007,Мікропроцесорний захист РЗА-7,RelayProtection,DistanceRelay,0,0
+RP_PROT_008,Мікропроцесорний захист РЗА-8,RelayProtection,DistanceRelay,0,0
+RP_PROT_009,Мікропроцесорний захист РЗА-9,RelayProtection,DistanceRelay,0,0
+RP_PROT_010,Мікропроцесорний захист РЗА-10,RelayProtection,DistanceRelay,0,0
+RP_PROT_011,Мікропроцесорний захист РЗА-11,RelayProtection,DistanceRelay,0,0
+RP_PROT_012,Мікропроцесорний захист РЗА-12,RelayProtection,DistanceRelay,0,0
+RP_PROT_013,Мікропроцесорний захист РЗА-13,RelayProtection,DistanceRelay,0,0
+RP_PROT_014,Мікропроцесорний захист РЗА-14,RelayProtection,DistanceRelay,0,0
+RP_PROT_015,Мікропроцесорний захист РЗА-15,RelayProtection,DistanceRelay,0,0
+RP_PROT_016,Мікропроцесорний захист РЗА-16,RelayProtection,DistanceRelay,0,0
+RP_PROT_017,Мікропроцесорний захист РЗА-17,RelayProtection,DistanceRelay,0,0
+RP_PROT_018,Мікропроцесорний захист РЗА-18,RelayProtection,DistanceRelay,0,0
+RP_PROT_019,Мікропроцесорний захист РЗА-19,RelayProtection,DistanceRelay,0,0
+RP_PROT_020,Мікропроцесорний захист РЗА-20,RelayProtection,DistanceRelay,0,0
+RP_PROT_021,Мікропроцесорний захист РЗА-21,RelayProtection,DistanceRelay,0,0
+RP_PROT_022,Мікропроцесорний захист РЗА-22,RelayProtection,DistanceRelay,0,0
+RP_PROT_023,Мікропроцесорний захист РЗА-23,RelayProtection,DistanceRelay,0,0
+RP_PROT_024,Мікропроцесорний захист РЗА-24,RelayProtection,DistanceRelay,0,0
+RP_PROT_025,Мікропроцесорний захист РЗА-25,RelayProtection,DistanceRelay,0,0
+RP_PROT_026,Мікропроцесорний захист РЗА-26,RelayProtection,DistanceRelay,0,0
+RP_PROT_027,Мікропроцесорний захист РЗА-27,RelayProtection,DistanceRelay,0,0
+RP_PROT_028,Мікропроцесорний захист РЗА-28,RelayProtection,DistanceRelay,0,0
+RP_PROT_029,Мікропроцесорний захист РЗА-29,RelayProtection,DistanceRelay,0,0
+RP_PROT_030,Мікропроцесорний захист РЗА-30,RelayProtection,DistanceRelay,0,0
+RP_PROT_031,Мікропроцесорний захист РЗА-31,RelayProtection,DistanceRelay,0,0
+RP_PROT_032,Мікропроцесорний захист РЗА-32,RelayProtection,DistanceRelay,0,0
+RP_PROT_033,Мікропроцесорний захист РЗА-33,RelayProtection,DistanceRelay,0,0
+RP_PROT_034,Мікропроцесорний захист РЗА-34,RelayProtection,DistanceRelay,0,0
+RP_PROT_035,Мікропроцесорний захист РЗА-35,RelayProtection,DistanceRelay,0,0
+RP_PROT_036,Мікропроцесорний захист РЗА-36,RelayProtection,DistanceRelay,0,0
+RP_PROT_037,Мікропроцесорний захист РЗА-37,RelayProtection,DistanceRelay,0,0
+RP_PROT_038,Мікропроцесорний захист РЗА-38,RelayProtection,DistanceRelay,0,0
+RP_PROT_039,Мікропроцесорний захист РЗА-39,RelayProtection,DistanceRelay,0,0
+RP_PROT_040,Мікропроцесорний захист РЗА-40,RelayProtection,DistanceRelay,0,0
+RP_PROT_041,Мікропроцесорний захист РЗА-41,RelayProtection,DistanceRelay,0,0
+RP_PROT_042,Мікропроцесорний захист РЗА-42,RelayProtection,DistanceRelay,0,0
+RP_PROT_043,Мікропроцесорний захист РЗА-43,RelayProtection,DistanceRelay,0,0
+RP_PROT_044,Мікропроцесорний захист РЗА-44,RelayProtection,DistanceRelay,0,0
+RP_PROT_045,Мікропроцесорний захист РЗА-45,RelayProtection,DistanceRelay,0,0
+RP_PROT_046,Мікропроцесорний захист РЗА-46,RelayProtection,DistanceRelay,0,0
+RP_PROT_047,Мікропроцесорний захист РЗА-47,RelayProtection,DistanceRelay,0,0
+RP_PROT_048,Мікропроцесорний захист РЗА-48,RelayProtection,DistanceRelay,0,0
+RP_PROT_049,Мікропроцесорний захист РЗА-49,RelayProtection,DistanceRelay,0,0
+RP_PROT_050,Мікропроцесорний захист РЗА-50,RelayProtection,DistanceRelay,0,0
+RP_PROT_051,Мікропроцесорний захист РЗА-51,RelayProtection,DistanceRelay,0,0
+RP_PROT_052,Мікропроцесорний захист РЗА-52,RelayProtection,DistanceRelay,0,0
+RP_PROT_053,Мікропроцесорний захист РЗА-53,RelayProtection,DistanceRelay,0,0
+RP_PROT_054,Мікропроцесорний захист РЗА-54,RelayProtection,DistanceRelay,0,0
+RP_PROT_055,Мікропроцесорний захист РЗА-55,RelayProtection,DistanceRelay,0,0
+RP_PROT_056,Мікропроцесорний захист РЗА-56,RelayProtection,DistanceRelay,0,0
+RP_PROT_057,Мікропроцесорний захист РЗА-57,RelayProtection,DistanceRelay,0,0
+RP_PROT_058,Мікропроцесорний захист РЗА-58,RelayProtection,DistanceRelay,0,0
+RP_PROT_059,Мікропроцесорний захист РЗА-59,RelayProtection,DistanceRelay,0,0
+RP_PROT_060,Мікропроцесорний захист РЗА-60,RelayProtection,DistanceRelay,0,0
