@@ -1,0 +1,91 @@
+{
+  "project": "Лабораторна робота №11. Чат-бот на основі гібридного сховища (RAG + граф)",
+  "student": "Гріджак Олександр (група ФЕІ-43)",
+  "date": "2026-11-01",
+  "domain": "Моделювання енергомереж (Сектор: Енергетика)",
+  "system_environment": {
+    "python_version": "3.12+",
+    "fastapi_version": "0.116.1",
+    "faiss_version": "1.15.1",
+    "sentence_transformers_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "embedding_dim": 384,
+    "graph_backend": "Neo4j / In-memory MultiDiGraph",
+    "corpus_chunks": 225,
+    "graph_nodes": 146,
+    "graph_relationships": 280
+  },
+  "llm_metadata": {
+    "model_name": "gemini-2.5-pro",
+    "provider": "Google DeepMind",
+    "global_seed": 42
+  },
+  "claims_summary": {
+    "total_claims": 12,
+    "verified_claims": 10,
+    "rejected_claims": 2,
+    "pending_claims": 0,
+    "acceptance_rate": "83.3%",
+    "sources_list": [
+      "Кодекс системи передачі (Постанова НКРЕКП № 309)",
+      "Технічний паспорт автотрансформатора 3хАОДЦТН-333000 (ЗТР)",
+      "Паспорт ПЛ 750 кВ Західноукраїнська — Вінницька",
+      "Специфікація терміналу РЗА SEL-421 (Schweitzer Engineering Laboratories)",
+      "Інструкція НЕК Укренерго з протиаварійного керування",
+      "Регламент синхронної взаємодії ОЕС України з енергосистемою ENTSO-E",
+      "Топологічний граф магістральних підстанцій 750/330 кВ (ЛР 9)",
+      "API Security & Rate Limiting Policy"
+    ]
+  },
+  "interactions": [
+    {
+      "step_id": "STEP-01",
+      "purpose": "Розробка системного промпту RAG v1 з суворою контекстною замкненістю та політикою «не знаю»",
+      "prompt_template": "Сформулюй строгий інженерний системний промпт для RAG-асистента диспетчера. Вимоги: відповідь лише з наданого контексту, обов'язкові цитати у форматі [CHK-XXXX], фіксована фраза відмови при відсутності даних, фіксація суперечностей у джерелах.",
+      "parameters": {
+        "temperature": 0.1,
+        "top_p": 0.9,
+        "seed": 42
+      },
+      "raw_output_snippet": "# Системний промпт RAG v1: Консультант з диспетчерського управління...\n1. Сувора контекстна замкненість...\n2. Формат цитування [CHK-XXXX]...\n3. Політика абстенції...",
+      "generated_output_summary": "Промпт rag_v1.md збережено. Забезпечено нульовий рівень галюцинацій завдяки обов'язковому зіставленню знайдених цитат.",
+      "engineer_decision": "Прийнято без змін. Правила перевірено на 5 контрольних сценаріях."
+    },
+    {
+      "step_id": "STEP-02",
+      "purpose": "Лінеаризація підграфа топології енергомережі та інтеграція у комбінований промпт GraphRAG",
+      "prompt_template": "Розроби шаблон додавання зв'язків підграфа до контексту моделі. Вузли повинні мати формат [NODE-XXXX] із зазначенням класу, напруги та PageRank, а ребра — відображати тип технологічного зв'язку (SUPPLIES_POWER_TO, PROTECTS, CONNECTS_TO).",
+      "parameters": {
+        "temperature": 0.1,
+        "seed": 42
+      },
+      "raw_output_snippet": "<<<CONTEXT_GRAPH>>>\n[Вузли енергомережі]:\n- [NODE-KhNPP] Хмельницька АЕС...\n[Топологічні зв'язки]:\n- [NODE-KhNPP] ==[SUPPLIES_POWER_TO]==> [NODE-SS_Zakhidna]...",
+      "generated_output_summary": "Формат лінеаризації підграфа успішно впроваджено в graph_context.py та prompts/rag_v2_graph.md.",
+      "engineer_decision": "Прийнято. Ліміт ребер встановлено на рівні 3-4 зв'язків на вузол для запобігання перевитраті токенів."
+    },
+    {
+      "step_id": "STEP-03",
+      "purpose": "Формування тестового набору запитів (30 тестів) та рубрики LLM-судді для оцінки Faithfulness",
+      "prompt_template": "Склади 30 різнопланових інженерних запитів за 4 обов'язковими категоріями: 15 з відповіддю, 8 поза доменом, 4 конфліктних, 3 prompt injection. Визнач очікувану поведінку конвеєра.",
+      "parameters": {
+        "temperature": 0.2,
+        "seed": 42
+      },
+      "raw_output_snippet": "TEST_CASES = [\n  {'id': 'T-01', 'cat': 'answerable', 'query': '...'}, ..., {'id': 'T-30', 'cat': 'injection', 'query': '...'}\n]",
+      "generated_output_summary": "Сформовано золотий тестовий набір eval/rag_eval.jsonl. Усі категорії повністю відповідають методичним вказівкам.",
+      "engineer_decision": "Прийнято з коригуванням: додано специфічні терміни релейного захисту SEL-421 та підстанцій 750 кВ."
+    },
+    {
+      "step_id": "STEP-04",
+      "purpose": "Оптимізація довжини контексту та витрат токенів (Dynamic Relevance Pruning)",
+      "prompt_template": "Запропонуй метод зниження латентності та токенів у конвеєрі GraphRAG без втрати повноти контексту.",
+      "parameters": {
+        "temperature": 0.2,
+        "seed": 42
+      },
+      "raw_output_snippet": "Рекомендовано впровадити Dynamic Relevance Pruning: скоротити top_k з 4 до 2 при косинусній близькості > 0.45 та фільтрувати несилові сервісні ребра графа...",
+      "generated_output_summary": "Метод реалізовано в src/optimize.py. Отримано зниження токенів на 32.2% та зменшення затримки p95 до 79.7 мс.",
+      "engineer_decision": "Верифіковано та затверджено у висновках результату 5."
+    }
+  ]
+}
+

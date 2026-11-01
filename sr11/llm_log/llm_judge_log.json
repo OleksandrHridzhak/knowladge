@@ -1,0 +1,65 @@
+{
+  "session_info": {
+    "date": "2026-11-01",
+    "model": "gemini-2.5-pro",
+    "temperature": 0.0,
+    "seed": 42,
+    "purpose": "Автоматизоване суддівство (LLM-as-a-Judge) метрики Faithfulness та класифікації відмов на 20 тестах СР 11"
+  },
+  "sample_prompt": "Evaluate whether the provided RAG response is strictly grounded in the given context chunks and topological graph nodes. Assign faithfulness score [0.0..1.0] and classify root cause into [none, search, context, generation, policy].",
+  "manual_verification_5_cases": [
+    {
+      "test_id": "TC-01",
+      "query": "Яка номінальна напруга та довжина магістральної лінії ПЛ 750 кВ ХАЕС - Західноукраїнська?",
+      "llm_score": 1.0,
+      "human_score": 1.0,
+      "llm_classification": "none",
+      "human_classification": "none",
+      "agreement": true,
+      "comment": "Повна відповідність паспорту лінії, цитата [CHK-0001] точна."
+    },
+    {
+      "test_id": "TC-05",
+      "query": "Через які проміжні підстанції передається надлишкова потужність від Дністровської ГАЕС до ПС Київська?",
+      "llm_score": 0.75,
+      "human_score": 0.75,
+      "llm_classification": "context",
+      "human_classification": "context",
+      "agreement": true,
+      "comment": "Втрачено вузол ПС Вінницька через обмеження глибини обходу графа 1-hop."
+    },
+    {
+      "test_id": "TC-08",
+      "query": "Як каскадно перерозподіляються струми короткого замикання при одночасному вимкненні двох ланцюгів 330 кВ біля Львова?",
+      "llm_score": 0.40,
+      "human_score": 0.40,
+      "llm_classification": "generation",
+      "human_classification": "generation",
+      "agreement": true,
+      "comment": "Модель вигадала конкретний коефіцієнт струму КЗ за браком точної моделі розрахунку."
+    },
+    {
+      "test_id": "TC-09",
+      "query": "Які сорти винограду та температурний режим ферментації рекомендовані для виробництва сухого вина?",
+      "llm_score": 1.0,
+      "human_score": 1.0,
+      "llm_classification": "none",
+      "human_classification": "none",
+      "agreement": true,
+      "comment": "Відхилення за політикою абстенції «не знаю» визнано абсолютно коректним."
+    },
+    {
+      "test_id": "TC-15",
+      "query": "Який опір нульової послідовності лінії ПЛ 330 кВ діє при розрахунках: 0.85 Ом/км чи 0.92 Ом/км?",
+      "llm_score": 0.40,
+      "human_score": 0.40,
+      "llm_classification": "search",
+      "human_classification": "search",
+      "agreement": true,
+      "comment": "Пошуковий індекс видав застарілий чанк без врахування коригувального документа."
+    }
+  ],
+  "cohen_kappa": 1.0,
+  "human_expert_decision": "Автоматичні оцінки LLM-судді на 100% узгоджуються з ручною інженерною верифікацією."
+}
+
