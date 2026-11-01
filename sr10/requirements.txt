@@ -1,0 +1,5 @@
+numpy>=1.26.0
+faiss-cpu>=1.8.0
+matplotlib>=3.8.0
+pillow>=10.0.0
+sentence-transformers>=2.3.0
