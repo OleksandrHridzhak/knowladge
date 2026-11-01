@@ -111,5 +111,8 @@ python scripts/run_lab10.py --all
 ### 4.3. Візуалізація семантичного векторного простору FAISS
 ![2D-проекція векторного простору FAISS](docs/faiss_vector_space_2d.png)
 
+### 4.4. Результати тестування стратегій чанкінгу
+![Чанкінг у терміналі](docs/terminal_chunking_proof.png)
 
-
+### 4.5. Інтерактивне виконання гібридного пошуку та Reranking наживо
+![Гібридний пошук у терміналі](docs/terminal_hybrid_query_proof.png)
