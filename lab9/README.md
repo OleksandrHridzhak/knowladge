@@ -24,6 +24,9 @@
 - `import/02_import_nodes.cypher` — ідемпотентний імпорт вузлів через `LOAD CSV` та `MERGE`.
 - `import/03_import_relationships.cypher` — ідемпотентний імпорт зв'язків.
 - `import/04_test_idempotency_and_violation.cypher` — верифікація ідемпотентності та демонстрація блокування дубліката з кодом помилки `ConstraintValidationFailed`.
+- `docs/neo4j_browser.jpg` — скріншот вебінтерфейсу Neo4j Browser із підтвердженням завантаження 146 вузлів, 280 зв'язків та візуалізацією топології мережі.
+
+![Neo4j Browser Visual Topology](docs/neo4j_browser.jpg)
 
 ### Результат 3: Запити Cypher
 - `queries/q1_paths.cypher` — шляхи змінної довжини (`*1..4`) від АЕС до підстанцій.
