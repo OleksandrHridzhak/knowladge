@@ -1,0 +1,19 @@
+# Q5: Каскадний аналіз вимкнення ліній при спрацюванні РЗА
+PREFIX grid: <http://energy.ua/grid#>
+
+SELECT ?relayName ?breakerName ?substationName (GROUP_CONCAT(?lineName; separator=", ") AS ?isolatedLines)
+WHERE {
+  ?rp a grid:RelayProtection ;
+      grid:name ?relayName ;
+      grid:tripsBreaker ?cb .
+  ?ss a grid:Substation ;
+      grid:name ?substationName ;
+      grid:voltageKV ?v ;
+      grid:containsEquipment ?cb ;
+      grid:connectsTo ?tl .
+  ?cb grid:name ?breakerName .
+  ?tl grid:name ?lineName .
+  FILTER (?v >= 330)
+}
+GROUP BY ?relayName ?breakerName ?substationName
+LIMIT 10

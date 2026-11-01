@@ -1,0 +1,9 @@
+# Q3: Найкоротший шлях транзиту між опорними вузлами 750 кВ
+PREFIX grid: <http://energy.ua/grid#>
+
+SELECT ?pathNode
+WHERE {
+  grid:SS_750_DNI (grid:connectsTo|^grid:connectsTo)* ?pathNode .
+  ?pathNode (grid:connectsTo|^grid:connectsTo)* grid:SS_750_ZAK .
+}
+LIMIT 10

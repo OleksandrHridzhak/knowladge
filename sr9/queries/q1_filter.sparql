@@ -1,0 +1,12 @@
+# Q1: Фільтрація підстанцій магістралі з напругою >= 330 кВ
+PREFIX grid: <http://energy.ua/grid#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?substation ?voltage
+WHERE {
+  ?s a grid:Substation ;
+     grid:name ?substation ;
+     grid:voltageKV ?voltage .
+  FILTER (?voltage >= 330)
+}
+ORDER BY DESC(?voltage) ?substation

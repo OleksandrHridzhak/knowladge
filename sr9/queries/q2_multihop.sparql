@@ -1,0 +1,13 @@
+# Q2: Багатохоповий обхід досяжності від АЕС (Property Paths)
+PREFIX grid: <http://energy.ua/grid#>
+
+SELECT DISTINCT ?plantName ?substationName
+WHERE {
+  ?p a grid:PowerPlant ;
+     grid:type "Nuclear" ;
+     grid:name ?plantName .
+  ?p (grid:suppliesPowerTo|grid:connectsTo)* ?s .
+  ?s a grid:Substation ;
+     grid:name ?substationName .
+}
+LIMIT 25

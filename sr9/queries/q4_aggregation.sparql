@@ -1,0 +1,11 @@
+# Q4: Агрегація встановленої потужності генерації за типами станцій
+PREFIX grid: <http://energy.ua/grid#>
+
+SELECT ?genType (COUNT(?p) AS ?plantCount) (SUM(?cap) AS ?totalCapacityMW) (AVG(?cap) AS ?avgCapacityMW)
+WHERE {
+  ?p a grid:PowerPlant ;
+     grid:type ?genType ;
+     grid:capacityMW ?cap .
+}
+GROUP BY ?genType
+ORDER BY DESC(?totalCapacityMW)
