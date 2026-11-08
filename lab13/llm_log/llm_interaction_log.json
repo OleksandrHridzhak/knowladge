@@ -1,0 +1,202 @@
+[
+  {
+    "doc_id": "DISP-2026-01-12-01",
+    "model": "gemini-2.5-pro",
+    "temperature": 0.1,
+    "seed": 42,
+    "input_tokens": 98,
+    "output_facts_count": 10,
+    "latency_sec": 0.122,
+    "human_decision": "approved"
+  },
+  {
+    "doc_id": "DISP-2026-01-14-02",
+    "model": "gemini-2.5-pro",
+    "temperature": 0.1,
+    "seed": 42,
+    "input_tokens": 86,
+    "output_facts_count": 9,
+    "latency_sec": 0.123,
+    "human_decision": "approved"
+  },
+  {
+    "doc_id": "DISP-2026-01-18-03",
+    "model": "gemini-2.5-pro",
+    "temperature": 0.1,
+    "seed": 42,
+    "input_tokens": 90,
+    "output_facts_count": 9,
+    "latency_sec": 0.123,
+    "human_decision": "approved"
+  },
+  {
+    "doc_id": "DISP-2026-01-22-04",
+    "model": "gemini-2.5-pro",
+    "temperature": 0.1,
+    "seed": 42,
+    "input_tokens": 86,
+    "output_facts_count": 9,
+    "latency_sec": 0.122,
+    "human_decision": "approved"
+  },
+  {
+    "doc_id": "DISP-2026-01-25-05",
+    "model": "gemini-2.5-pro",
+    "temperature": 0.1,
+    "seed": 42,
+    "input_tokens": 90,
+    "output_facts_count": 8,
+    "latency_sec": 0.123,
+    "human_decision": "approved"
+  },
+  {
+    "doc_id": "DISP-2026-02-02-06",
+    "model": "gemini-2.5-pro",
+    "temperature": 0.1,
+    "seed": 42,
+    "input_tokens": 84,
+    "output_facts_count": 8,
+    "latency_sec": 0.123,
+    "human_decision": "approved"
+  },
+  {
+    "doc_id": "DISP-2026-02-05-07",
+    "model": "gemini-2.5-pro",
+    "temperature": 0.1,
+    "seed": 42,
+    "input_tokens": 80,
+    "output_facts_count": 7,
+    "latency_sec": 0.122,
+    "human_decision": "approved"
+  },
+  {
+    "doc_id": "DISP-2026-02-10-08",
+    "model": "gemini-2.5-pro",
+    "temperature": 0.1,
+    "seed": 42,
+    "input_tokens": 82,
+    "output_facts_count": 9,
+    "latency_sec": 0.123,
+    "human_decision": "approved"
+  },
+  {
+    "doc_id": "DISP-2026-02-14-09",
+    "model": "gemini-2.5-pro",
+    "temperature": 0.1,
+    "seed": 42,
+    "input_tokens": 76,
+    "output_facts_count": 8,
+    "latency_sec": 0.122,
+    "human_decision": "approved"
+  },
+  {
+    "doc_id": "DISP-2026-02-18-10",
+    "model": "gemini-2.5-pro",
+    "temperature": 0.1,
+    "seed": 42,
+    "input_tokens": 86,
+    "output_facts_count": 8,
+    "latency_sec": 0.123,
+    "human_decision": "approved"
+  },
+  {
+    "doc_id": "DISP-2026-02-22-11",
+    "model": "gemini-2.5-pro",
+    "temperature": 0.1,
+    "seed": 42,
+    "input_tokens": 82,
+    "output_facts_count": 8,
+    "latency_sec": 0.122,
+    "human_decision": "approved"
+  },
+  {
+    "doc_id": "DISP-2026-02-27-12",
+    "model": "gemini-2.5-pro",
+    "temperature": 0.1,
+    "seed": 42,
+    "input_tokens": 78,
+    "output_facts_count": 7,
+    "latency_sec": 0.123,
+    "human_decision": "approved"
+  },
+  {
+    "doc_id": "DISP-2026-03-02-13",
+    "model": "gemini-2.5-pro",
+    "temperature": 0.1,
+    "seed": 42,
+    "input_tokens": 72,
+    "output_facts_count": 7,
+    "latency_sec": 0.122,
+    "human_decision": "approved"
+  },
+  {
+    "doc_id": "DISP-2026-03-05-14",
+    "model": "gemini-2.5-pro",
+    "temperature": 0.1,
+    "seed": 42,
+    "input_tokens": 76,
+    "output_facts_count": 7,
+    "latency_sec": 0.122,
+    "human_decision": "approved"
+  },
+  {
+    "doc_id": "DISP-2026-03-10-15",
+    "model": "gemini-2.5-pro",
+    "temperature": 0.1,
+    "seed": 42,
+    "input_tokens": 72,
+    "output_facts_count": 7,
+    "latency_sec": 0.123,
+    "human_decision": "approved"
+  },
+  {
+    "doc_id": "DISP-2026-03-14-16",
+    "model": "gemini-2.5-pro",
+    "temperature": 0.1,
+    "seed": 42,
+    "input_tokens": 88,
+    "output_facts_count": 8,
+    "latency_sec": 0.122,
+    "human_decision": "approved"
+  },
+  {
+    "doc_id": "DISP-2026-03-18-17",
+    "model": "gemini-2.5-pro",
+    "temperature": 0.1,
+    "seed": 42,
+    "input_tokens": 80,
+    "output_facts_count": 7,
+    "latency_sec": 0.122,
+    "human_decision": "approved"
+  },
+  {
+    "doc_id": "DISP-2026-03-22-18",
+    "model": "gemini-2.5-pro",
+    "temperature": 0.1,
+    "seed": 42,
+    "input_tokens": 82,
+    "output_facts_count": 8,
+    "latency_sec": 0.123,
+    "human_decision": "approved"
+  },
+  {
+    "doc_id": "DISP-2026-03-26-19",
+    "model": "gemini-2.5-pro",
+    "temperature": 0.1,
+    "seed": 42,
+    "input_tokens": 78,
+    "output_facts_count": 9,
+    "latency_sec": 0.122,
+    "human_decision": "approved"
+  },
+  {
+    "doc_id": "DISP-2026-03-30-20",
+    "model": "gemini-2.5-pro",
+    "temperature": 0.1,
+    "seed": 42,
+    "input_tokens": 82,
+    "output_facts_count": 8,
+    "latency_sec": 0.123,
+    "human_decision": "approved"
+  }
+]
