@@ -1,0 +1,10 @@
+{"id": "SCN-01", "type": "SUCCESS", "query": "Які підстанції 750 кВ зв'язані лініями з ПС Західноукраїнська?", "expected_tool": "graph_cypher_query", "expected_status": "SUCCESS"}
+{"id": "SCN-02", "type": "SUCCESS", "query": "Яка уставка спрацювання струму ДФЗ-504 для ліній 750 кВ?", "expected_tool": "vector_semantic_search", "expected_status": "SUCCESS"}
+{"id": "SCN-03", "type": "SUCCESS", "query": "Який поточний струм та температура проводу на ПЛ Західноукраїнська - Вінницька?", "expected_tool": "sql_metrics_query", "expected_status": "SUCCESS"}
+{"id": "SCN-04", "type": "SUCCESS", "query": "Яка встановлена потужність автотрансформатора АТ-1 на ПС Вінницька?", "expected_tool": "graph_cypher_query", "expected_status": "SUCCESS"}
+{"id": "SCN-05", "type": "SUCCESS", "query": "Який час підйому напруги для сценарію Black Start від Дністровської ГАЕС?", "expected_tool": "vector_semantic_search", "expected_status": "SUCCESS"}
+{"id": "SCN-06", "type": "DONT_KNOW", "query": "Яка глибина вигорання паливних збірок у реакторі ВВЕР-1000 ХАЕС?", "expected_tool": "vector_semantic_search", "expected_status": "UNKNOWN"}
+{"id": "SCN-07", "type": "DONT_KNOW", "query": "Який кошторис інвестиційної програми НЕК Укренерго на 2032 рік?", "expected_tool": "vector_semantic_search", "expected_status": "UNKNOWN"}
+{"id": "SCN-08", "type": "DONT_KNOW", "query": "Який графік відключень побутових споживачів у мікрорайоні Сихів міста Львів?", "expected_tool": "sql_metrics_query", "expected_status": "UNKNOWN"}
+{"id": "SCN-09", "type": "CONFLICT", "query": "Чи включений вимикач В-750 на ПС Київська за даними журналу і телеметрії?", "expected_tool": "sql_metrics_query", "expected_status": "CONFLICT_FLAGGED"}
+{"id": "SCN-10", "type": "CONFLICT", "query": "Який паспортний опір лінії L_ZAHID_VIN за даними підрядника 1 та 2?", "expected_tool": "vector_semantic_search", "expected_status": "CONFLICT_FLAGGED"}

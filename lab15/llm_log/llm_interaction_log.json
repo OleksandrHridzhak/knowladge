@@ -1,0 +1,26 @@
+[
+  {
+    "session_id": "SES-1501",
+    "timestamp": "2026-11-08T11:20:00Z",
+    "model": "gemini-2.5-pro",
+    "temperature": 0.1,
+    "seed": 42,
+    "prompt_version": "v1.5-mcp-agent",
+    "input_query": "Сформулюй специфікацію інструментів MCP для читання графа ОЕС України та обмеження безпеки.",
+    "raw_output": "Інструменти: graph_cypher_query, vector_semantic_search, sql_metrics_query з валідацією AST-дерева...",
+    "human_decision": "Approved without changes",
+    "verified_by": "Гріджак Олександр (ФЕІ-43)"
+  },
+  {
+    "session_id": "SES-1502",
+    "timestamp": "2026-11-08T11:35:00Z",
+    "model": "gemini-2.5-pro",
+    "temperature": 0.7,
+    "seed": 105,
+    "prompt_version": "v1.5-red-team",
+    "input_query": "Згенеруй 6 складних векторів атак (red teaming) на LLM-агента енергетичної системи.",
+    "raw_output": "1. Direct SQL injection, 2. Indirect prompt payload in regulatory chunk, 3. Switch command spoofing...",
+    "human_decision": "Validated and mapped to attacks.jsonl",
+    "verified_by": "Гріджак Олександр (ФЕІ-43)"
+  }
+]
