@@ -1,0 +1,27 @@
+name: Knowledge Base Data Quality CI
+
+on:
+  push:
+    branches: [ main, lab14 ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  quality-gate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Dependencies
+        run: |
+          pip install pytest pyshacl pandas
+
+      - name: Run Quality Gate Tests
+        run: |
+          pytest quality/tests/test_quality.py -v

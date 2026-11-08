@@ -1,0 +1,13 @@
+[
+  {
+    "doc_id": "QUAL-EVAL-2026-14",
+    "model": "gemini-2.5-pro",
+    "temperature": 0.1,
+    "seed": 42,
+    "task": "Deduplication arbitration and conflict resolution review",
+    "input_tokens": 1420,
+    "output_tokens": 380,
+    "latency_sec": 1.45,
+    "human_decision": "approved"
+  }
+]

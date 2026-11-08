@@ -1,0 +1,42 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix eg: <http://energy-grid.lnu.edu.ua/ontology#> .
+
+eg:SubstationShape a sh:NodeShape ;
+    sh:targetClass eg:Substation ;
+    sh:property [
+        sh:path eg:hasVoltageClass ;
+        sh:minCount 1 ;
+        sh:in ( "750kV" "330kV" "110kV" ) ;
+        sh:message "Підстанція повинна мати валідний клас напруги 750kV, 330kV або 110kV." ;
+    ] ;
+    sh:property [
+        sh:path eg:substationName ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+        sh:message "Підстанція обов'язково повинна містити диспетчерську назву." ;
+    ] .
+
+eg:PowerEquipmentShape a sh:NodeShape ;
+    sh:targetClass eg:PowerEquipment ;
+    sh:property [
+        sh:path eg:locatedAt ;
+        sh:minCount 1 ;
+        sh:class eg:Substation ;
+        sh:message "Кожне обладнання обов'язково повинно бути зв'язане з підстанцією через locatedAt." ;
+    ] ;
+    sh:property [
+        sh:path eg:ratedPowerMVA ;
+        sh:datatype xsd:decimal ;
+        sh:minInclusive 1.0 ;
+        sh:maxInclusive 2500.0 ;
+        sh:message "Номінальна потужність повинна бути у межах від 1 до 2500 МВА." ;
+    ] .
+
+eg:TransmissionLineShape a sh:NodeShape ;
+    sh:targetClass eg:TransmissionLine ;
+    sh:property [
+        sh:path eg:connectsSubstation ;
+        sh:minCount 2 ;
+        sh:message "Лінія електропередач повинна з'єднувати щонайменше 2 підстанції." ;
+    ] .

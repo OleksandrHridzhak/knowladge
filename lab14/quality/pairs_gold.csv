@@ -1,0 +1,101 @@
+pair_id,entity_a,entity_b,is_duplicate,class,split
+PAIR-043,ДФЗ-504 (вузол 3),Реле ДЗШ-750 (вузол 3),0,PowerEquipment,dev
+PAIR-042,ДФЗ-504 (вузол 2),Реле ДЗШ-750 (вузол 2),0,PowerEquipment,dev
+PAIR-092,Приєднання ПЛ-91 кВ,Приєднання ПЛ-92 кВ,0,TransmissionLine,dev
+PAIR-010,ПС 330 кВ Рівне,ПС Рівне 330,1,Substation,dev
+PAIR-066,Приєднання ПЛ-65 кВ,Приєднання ПЛ-66 кВ,0,TransmissionLine,dev
+PAIR-051,РГТ-80 (вузол 2),Газове реле РГТ-80 (вузол 2),1,PowerEquipment,dev
+PAIR-002,ПС 750 кВ Західноукраїнська,Західноукраїнська ПС-750,1,Substation,dev
+PAIR-071,Приєднання ПЛ-70 кВ,Приєднання ПЛ-71 кВ,0,TransmissionLine,dev
+PAIR-016,ПС 750 кВ Західноукраїнська,ПС 750 кВ Вінницька,0,Substation,dev
+PAIR-079,Приєднання ПЛ-78 кВ,Приєднання ПЛ-79 кВ,0,TransmissionLine,dev
+PAIR-074,Приєднання ПЛ-73 кВ,Приєднання ПЛ-74 кВ,0,TransmissionLine,dev
+PAIR-011,ПС 330 кВ Рівне,Рівненська ПС-330,1,Substation,dev
+PAIR-056,Приєднання ПЛ-55 кВ,Приєднання ПЛ-56 кВ,0,TransmissionLine,dev
+PAIR-057,Приєднання ПЛ-56 кВ,Приєднання ПЛ-57 кВ,0,TransmissionLine,dev
+PAIR-073,Приєднання ПЛ-72 кВ,Приєднання ПЛ-73 кВ,0,TransmissionLine,dev
+PAIR-046,SEL-421 (вузол 3),Термінал РЗА SEL-421 (вузол 3),1,PowerEquipment,dev
+PAIR-049,SEL-421 (вузол 3),Термінал REL-670 (вузол 3),0,PowerEquipment,dev
+PAIR-093,Приєднання ПЛ-92 кВ,Приєднання ПЛ-93 кВ,0,TransmissionLine,dev
+PAIR-077,Приєднання ПЛ-76 кВ,Приєднання ПЛ-77 кВ,0,TransmissionLine,dev
+PAIR-038,ДФЗ-504 (вузол 1),Диференційно-фазний захист ДФЗ-504 (вузол 1),1,PowerEquipment,dev
+PAIR-031,Автотрансформатор АТ-1 (вузол 3),Автотрансформатор АТ-2 (вузол 3),0,PowerEquipment,dev
+PAIR-022,ПС 750 кВ Вінницька,ПС 330 кВ Тернопільська,0,Substation,dev
+PAIR-033,Вимикач В-330 (вузол 2),Елегазовий вимикач В-330 кВ (вузол 2),1,PowerEquipment,dev
+PAIR-097,Приєднання ПЛ-96 кВ,Приєднання ПЛ-97 кВ,0,TransmissionLine,dev
+PAIR-081,Приєднання ПЛ-80 кВ,Приєднання ПЛ-81 кВ,0,TransmissionLine,dev
+PAIR-050,РГТ-80 (вузол 1),Газове реле РГТ-80 (вузол 1),1,PowerEquipment,dev
+PAIR-084,Приєднання ПЛ-83 кВ,Приєднання ПЛ-84 кВ,0,TransmissionLine,dev
+PAIR-027,Автотрансформатор АТ-1 (вузол 2),АТ-1 750/330 кВ (вузол 2),1,PowerEquipment,dev
+PAIR-088,Приєднання ПЛ-87 кВ,Приєднання ПЛ-88 кВ,0,TransmissionLine,dev
+PAIR-034,Вимикач В-330 (вузол 3),Елегазовий вимикач В-330 кВ (вузол 3),1,PowerEquipment,dev
+PAIR-009,ПС 750 кВ Київська,ПС-750 Північна Київ,1,Substation,dev
+PAIR-048,SEL-421 (вузол 2),Термінал REL-670 (вузол 2),0,PowerEquipment,dev
+PAIR-060,Приєднання ПЛ-59 кВ,Приєднання ПЛ-60 кВ,0,TransmissionLine,dev
+PAIR-064,Приєднання ПЛ-63 кВ,Приєднання ПЛ-64 кВ,0,TransmissionLine,dev
+PAIR-075,Приєднання ПЛ-74 кВ,Приєднання ПЛ-75 кВ,0,TransmissionLine,dev
+PAIR-045,SEL-421 (вузол 2),Термінал РЗА SEL-421 (вузол 2),1,PowerEquipment,dev
+PAIR-099,Приєднання ПЛ-98 кВ,Приєднання ПЛ-99 кВ,0,TransmissionLine,dev
+PAIR-053,РГТ-80 (вузол 1),Реле рівня КСМ-2 (вузол 1),0,PowerEquipment,dev
+PAIR-086,Приєднання ПЛ-85 кВ,Приєднання ПЛ-86 кВ,0,TransmissionLine,dev
+PAIR-013,ПС 330 кВ Тернопільська,ПС Тернопіль 330,1,Substation,dev
+PAIR-037,Вимикач В-330 (вузол 3),Вимикач В-750 (вузол 3),0,PowerEquipment,dev
+PAIR-024,ПС 750 кВ Київська,ПС 330 кВ Тернопільська,0,Substation,dev
+PAIR-040,ДФЗ-504 (вузол 3),Диференційно-фазний захист ДФЗ-504 (вузол 3),1,PowerEquipment,dev
+PAIR-041,ДФЗ-504 (вузол 1),Реле ДЗШ-750 (вузол 1),0,PowerEquipment,dev
+PAIR-019,ПС 750 кВ Західноукраїнська,ПС 330 кВ Тернопільська,0,Substation,dev
+PAIR-067,Приєднання ПЛ-66 кВ,Приєднання ПЛ-67 кВ,0,TransmissionLine,dev
+PAIR-062,Приєднання ПЛ-61 кВ,Приєднання ПЛ-62 кВ,0,TransmissionLine,dev
+PAIR-061,Приєднання ПЛ-60 кВ,Приєднання ПЛ-61 кВ,0,TransmissionLine,dev
+PAIR-008,ПС 750 кВ Київська,Київська-750,1,Substation,dev
+PAIR-035,Вимикач В-330 (вузол 1),Вимикач В-750 (вузол 1),0,PowerEquipment,dev
+PAIR-100,Приєднання ПЛ-99 кВ,Приєднання ПЛ-100 кВ,0,TransmissionLine,test
+PAIR-047,SEL-421 (вузол 1),Термінал REL-670 (вузол 1),0,PowerEquipment,test
+PAIR-003,ПС 750 кВ Західноукраїнська,ПС 750кВ ЗУ,1,Substation,test
+PAIR-052,РГТ-80 (вузол 3),Газове реле РГТ-80 (вузол 3),1,PowerEquipment,test
+PAIR-017,ПС 750 кВ Західноукраїнська,ПС 750 кВ Київська,0,Substation,test
+PAIR-039,ДФЗ-504 (вузол 2),Диференційно-фазний захист ДФЗ-504 (вузол 2),1,PowerEquipment,test
+PAIR-059,Приєднання ПЛ-58 кВ,Приєднання ПЛ-59 кВ,0,TransmissionLine,test
+PAIR-069,Приєднання ПЛ-68 кВ,Приєднання ПЛ-69 кВ,0,TransmissionLine,test
+PAIR-023,ПС 750 кВ Київська,ПС 330 кВ Рівне,0,Substation,test
+PAIR-063,Приєднання ПЛ-62 кВ,Приєднання ПЛ-63 кВ,0,TransmissionLine,test
+PAIR-025,ПС 330 кВ Рівне,ПС 330 кВ Тернопільська,0,Substation,test
+PAIR-006,ПС 750 кВ Вінницька,ПС 750 Вінницька ВРУ,1,Substation,test
+PAIR-007,ПС 750 кВ Київська,ПС Київська 750 кВ,1,Substation,test
+PAIR-068,Приєднання ПЛ-67 кВ,Приєднання ПЛ-68 кВ,0,TransmissionLine,test
+PAIR-083,Приєднання ПЛ-82 кВ,Приєднання ПЛ-83 кВ,0,TransmissionLine,test
+PAIR-020,ПС 750 кВ Вінницька,ПС 750 кВ Київська,0,Substation,test
+PAIR-080,Приєднання ПЛ-79 кВ,Приєднання ПЛ-80 кВ,0,TransmissionLine,test
+PAIR-044,SEL-421 (вузол 1),Термінал РЗА SEL-421 (вузол 1),1,PowerEquipment,test
+PAIR-091,Приєднання ПЛ-90 кВ,Приєднання ПЛ-91 кВ,0,TransmissionLine,test
+PAIR-021,ПС 750 кВ Вінницька,ПС 330 кВ Рівне,0,Substation,test
+PAIR-001,ПС 750 кВ Західноукраїнська,ПС Західноукраїнська 750,1,Substation,test
+PAIR-096,Приєднання ПЛ-95 кВ,Приєднання ПЛ-96 кВ,0,TransmissionLine,test
+PAIR-058,Приєднання ПЛ-57 кВ,Приєднання ПЛ-58 кВ,0,TransmissionLine,test
+PAIR-094,Приєднання ПЛ-93 кВ,Приєднання ПЛ-94 кВ,0,TransmissionLine,test
+PAIR-054,РГТ-80 (вузол 2),Реле рівня КСМ-2 (вузол 2),0,PowerEquipment,test
+PAIR-090,Приєднання ПЛ-89 кВ,Приєднання ПЛ-90 кВ,0,TransmissionLine,test
+PAIR-026,Автотрансформатор АТ-1 (вузол 1),АТ-1 750/330 кВ (вузол 1),1,PowerEquipment,test
+PAIR-072,Приєднання ПЛ-71 кВ,Приєднання ПЛ-72 кВ,0,TransmissionLine,test
+PAIR-085,Приєднання ПЛ-84 кВ,Приєднання ПЛ-85 кВ,0,TransmissionLine,test
+PAIR-078,Приєднання ПЛ-77 кВ,Приєднання ПЛ-78 кВ,0,TransmissionLine,test
+PAIR-065,Приєднання ПЛ-64 кВ,Приєднання ПЛ-65 кВ,0,TransmissionLine,test
+PAIR-030,Автотрансформатор АТ-1 (вузол 2),Автотрансформатор АТ-2 (вузол 2),0,PowerEquipment,test
+PAIR-028,Автотрансформатор АТ-1 (вузол 3),АТ-1 750/330 кВ (вузол 3),1,PowerEquipment,test
+PAIR-089,Приєднання ПЛ-88 кВ,Приєднання ПЛ-89 кВ,0,TransmissionLine,test
+PAIR-098,Приєднання ПЛ-97 кВ,Приєднання ПЛ-98 кВ,0,TransmissionLine,test
+PAIR-005,ПС 750 кВ Вінницька,Вінницька-750,1,Substation,test
+PAIR-055,РГТ-80 (вузол 3),Реле рівня КСМ-2 (вузол 3),0,PowerEquipment,test
+PAIR-076,Приєднання ПЛ-75 кВ,Приєднання ПЛ-76 кВ,0,TransmissionLine,test
+PAIR-012,ПС 330 кВ Рівне,ПС 330кВ Рівне-Північ,1,Substation,test
+PAIR-070,Приєднання ПЛ-69 кВ,Приєднання ПЛ-70 кВ,0,TransmissionLine,test
+PAIR-087,Приєднання ПЛ-86 кВ,Приєднання ПЛ-87 кВ,0,TransmissionLine,test
+PAIR-014,ПС 330 кВ Тернопільська,Тернопільська-330,1,Substation,test
+PAIR-018,ПС 750 кВ Західноукраїнська,ПС 330 кВ Рівне,0,Substation,test
+PAIR-029,Автотрансформатор АТ-1 (вузол 1),Автотрансформатор АТ-2 (вузол 1),0,PowerEquipment,test
+PAIR-032,Вимикач В-330 (вузол 1),Елегазовий вимикач В-330 кВ (вузол 1),1,PowerEquipment,test
+PAIR-036,Вимикач В-330 (вузол 2),Вимикач В-750 (вузол 2),0,PowerEquipment,test
+PAIR-095,Приєднання ПЛ-94 кВ,Приєднання ПЛ-95 кВ,0,TransmissionLine,test
+PAIR-004,ПС 750 кВ Вінницька,ПС Вінниця 750,1,Substation,test
+PAIR-015,ПС 330 кВ Тернопільська,ПС 330 Тернопіль,1,Substation,test
+PAIR-082,Приєднання ПЛ-81 кВ,Приєднання ПЛ-82 кВ,0,TransmissionLine,test

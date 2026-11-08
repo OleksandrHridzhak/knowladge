@@ -1,0 +1,24 @@
+[
+  {
+    "merge_id": "MRG-001",
+    "canonical_id": "SUBSTATION:ZU_750",
+    "merged_variants": [
+      "ПС Західноукраїнська 750",
+      "Західноукраїнська ПС-750"
+    ],
+    "operator": "Hridzhak_O (Knowledge Steward)",
+    "timestamp": "2026-11-08T13:15:23.421735",
+    "status": "active"
+  },
+  {
+    "merge_id": "MRG-002",
+    "canonical_id": "EQUIP:AT_1",
+    "merged_variants": [
+      "АТ-1 750/330 кВ"
+    ],
+    "operator": "Hridzhak_O (Knowledge Steward)",
+    "timestamp": "2026-11-08T13:15:23.421735",
+    "status": "unmerged",
+    "unmerged_timestamp": "2026-11-08T13:15:23.421735"
+  }
+]
